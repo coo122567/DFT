@@ -1,0 +1,221 @@
+
+                           Design Compiler Graphical 
+                                 DC Ultra (TM)
+                                  DFTMAX (TM)
+                              Power Compiler (TM)
+                                 DesignWare (R)
+                                 DC Expert (TM)
+                               Design Vision (TM)
+                               HDL Compiler (TM)
+                               VHDL Compiler (TM)
+                                  DFT Compiler
+                               Design Compiler(R)
+
+               Version R-2020.09-SP5 for linux64 - Apr 23, 2021 
+
+                    Copyright (c) 1988 - 2021 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+Initializing...
+Initializing gui preferences from file  /home/m110/m110063553/.synopsys_dc_gui/preferences.tcl
+lappend search_path .
+. /usr/cad/synopsys/synthesis/cur/libraries/syn /usr/cad/synopsys/synthesis/cur/dw/syn_ver /usr/cad/synopsys/synthesis/cur/dw/sim_ver .
+## Define the library location
+set search_path [concat ../src ../../libs/db  ${search_path}]
+../src ../../libs/db . /usr/cad/synopsys/synthesis/cur/libraries/syn /usr/cad/synopsys/synthesis/cur/dw/syn_ver /usr/cad/synopsys/synthesis/cur/dw/sim_ver .
+set target_library [list saed32rvt_tt1p05v125c.db   ]
+saed32rvt_tt1p05v125c.db
+set synthetic_library dw_foundation.sldb
+dw_foundation.sldb
+set link_library [concat {*} ${target_library} ${synthetic_library} saed32rvt_tt1p05v125c.db]
+* saed32rvt_tt1p05v125c.db dw_foundation.sldb saed32rvt_tt1p05v125c.db
+## Give the path to the verilog files and define the WORK directory
+define_design_lib WORK -path "work"
+1
+set test_stil_netlist_format  verilog
+verilog
+set test_default_bidir_delay  0
+0
+set_app_var test_default_delay 0.000000
+0.000000
+set_app_var test_default_period 100.000000
+100.000000
+set_app_var test_default_strobe 40.000000
+40.000000
+set DESIGN core
+core
+read_verilog -netlist ../output/${DESIGN}_HDL.v
+Loading db file '/home/m110/m110063553/DFT/testcase_dftmax_ultra/libs/db/saed32rvt_tt1p05v125c.db'
+Loading db file '/usr/cad/synopsys/synthesis/cur/libraries/syn/dw_foundation.sldb'
+Loading db file '/usr/cad/synopsys/synthesis/cur/libraries/syn/gtech.db'
+Loading db file '/usr/cad/synopsys/synthesis/cur/libraries/syn/standard.sldb'
+  Loading link library 'saed32rvt_tt1p05v125c'
+  Loading link library 'gtech'
+Loading verilog file '/home/m110/m110063553/DFT/testcase_dftmax_ultra/syn/output/core_HDL.v'
+Running DC verilog reader
+Performing 'read' command.
+Compiling source file /home/m110/m110063553/DFT/testcase_dftmax_ultra/syn/output/core_HDL.v
+Verilog netlist reader completed successfully.
+Current design is now '/home/m110/m110063553/DFT/testcase_dftmax_ultra/syn/output/core_core_DW_mult_uns_1_0.db:core_core_DW_mult_uns_1_0'
+Loaded 5 designs.
+Current design is 'core_core_DW_mult_uns_1_0'.
+core_core_DW_mult_uns_1_0 core_core_DW01_sub_2_0 core_core_DW01_sub_3_0 core_core_DW01_add_1_0 core
+current_design ${DESIGN}
+Current design is 'core'.
+{core}
+#Read ctl model of memory macro
+#read_test_model -design sadsls0c4l2p2048x32m8b1w0c0p0d0r1s2z1rw00 -format ctl  ../../libs/ctl/sadsls0c4l2p2048x32m8b1w0c0p0d0r1s2z1rw00.ctl
+current_design ${DESIGN}
+Current design is 'core'.
+{core}
+link
+
+  Linking design 'core'
+  Using the following designs and libraries:
+  --------------------------------------------------------------------------
+  * (5 designs)               /home/m110/m110063553/DFT/testcase_dftmax_ultra/syn/output/core.db, etc
+  saed32rvt_tt1p05v125c (library) /home/m110/m110063553/DFT/testcase_dftmax_ultra/libs/db/saed32rvt_tt1p05v125c.db
+  dw_foundation.sldb (library) /usr/cad/synopsys/synthesis/cur/libraries/syn/dw_foundation.sldb
+
+1
+set test_keep_connected_scan_en true
+true
+# DFT Constraints
+set_dft_drc_configuration -internal_pins enable
+Accepted dft drc configuration specification.
+1
+set_scan_configuration  -chain_count 3  -style multiplexed_flip_flop
+Accepted scan configuration for modes: all_dft
+1
+set_scan_compression_configuration -chain 20
+Accepted scan compression specification for design 'core'.
+1
+set_dft_configuration -scan_compression enable
+Accepted dft configuration specification.
+1
+create_port -direction in ScanEnable
+Creating port 'ScanEnable' in design 'core'.
+1
+create_port -direction in COMP_MODE
+Creating port 'COMP_MODE' in design 'core'.
+1
+create_port -direction in SI0
+Creating port 'SI0' in design 'core'.
+1
+create_port -direction in SI1
+Creating port 'SI1' in design 'core'.
+1
+create_port -direction in SI2
+Creating port 'SI2' in design 'core'.
+1
+create_port -direction out SO0
+Creating port 'SO0' in design 'core'.
+1
+create_port -direction out SO1
+Creating port 'SO1' in design 'core'.
+1
+create_port -direction out SO2
+Creating port 'SO2' in design 'core'.
+1
+set_dft_signal -view existing_dft -type ScanClock -timing {45 55} -port CLK
+Accepted dft signal specification for modes: all_dft
+1
+set_dft_signal -type Reset -view exiting_dft -port RST -active_state 0
+Invalid View specified: exiting_dft -- use ( spec/existing_dft )
+Discarded dft signal specification
+0
+set_dft_signal -view existing -type ScanEnable  -port ScanEnable
+Accepted dft signal specification for modes: all_dft
+1
+set_dft_signal -view spec -type ScanEnable      -port ScanEnable
+Accepted dft signal specification for modes: all_dft
+1
+set_dft_signal -view spec -type ScanDataIn -port SI0 
+Accepted dft signal specification for modes: all_dft
+1
+set_dft_signal -view spec -type ScanDataIn -port SI1 
+Accepted dft signal specification for modes: all_dft
+1
+set_dft_signal -view spec -type ScanDataIn -port SI2 
+Accepted dft signal specification for modes: all_dft
+1
+set_dft_signal -view spec -type ScanDataOut -port SO0
+Accepted dft signal specification for modes: all_dft
+1
+set_dft_signal -view spec -type ScanDataOut -port SO1
+Accepted dft signal specification for modes: all_dft
+1
+set_dft_signal -view spec -type ScanDataOut -port SO2
+Accepted dft signal specification for modes: all_dft
+1
+######################################################################
+###        TESTPOINT INSERTION DEFINITION ############################
+######################################################################
+#set_dft_configuration -testability enable
+#set_dft_signal -view spec -type TestMode -port test_mode -test_mode all
+#
+#set_testability_configuration -target { random_resistant }   #                              -control_signal test_mode #                              -effort high
+#set_testability_configuration -target { untestable_logic } #                              -control_signal test_mode #                              -max_test_points 1000
+######################################################################
+create_test_protocol -infer_clock
+In mode: all_dft...
+
+Information: Starting test protocol creation. (TEST-219)
+Warning: No internal pins were found in the model.
+  ...inferring clock signals...
+Information: Inferred system/test clock port CLK (45.0,55.0). (TEST-260)
+  ...reading user specified asynchronous signals...
+1
+dft_drc -pre_dft      > ../reports/predft_drc.rpt
+# run advisor to get test report for preview_dft & insert_dft 
+#run_test_point_analysis
+preview_dft -show all > ../reports/preview_dft.rpt
+insert_dft            > ../reports/insert_dft.rpt
+dft_drc               > ../reports/postdft_drc.rpt
+report_scan_path -view existing -chain all > ../reports/scan_path.rpt
+report_scan_chain                          > ../reports/scan_chain.rpt
+change_names -rules verilog -hierarchy
+Warning: The specified replacement character (_) is conflicting with the specified allowed or restricted character.   (UCN-4)
+Warning: In the design core_SCCOMP_DECOMPRESSOR, net 'din[1]' is connecting multiple ports. (UCN-1)
+Warning: In the design core_SCCOMP_DECOMPRESSOR, net 'din[0]' is connecting multiple ports. (UCN-1)
+Warning: In the design core_SCCOMP_DECOMPRESSOR, net 'dout[19]' is connecting multiple ports. (UCN-1)
+Warning: In the design core_SCCOMP_DECOMPRESSOR, net 'dout[18]' is connecting multiple ports. (UCN-1)
+Warning: In the design core_DW01_decode_width1, net 'A[0]' is connecting multiple ports. (UCN-1)
+1
+write -format verilog -hierarchy -output ../output/${DESIGN}_scan.v
+Writing verilog file '/home/m110/m110063553/DFT/testcase_dftmax_ultra/syn/output/core_scan.v'.
+Warning: Verilog 'assign' or 'tran' statements are written out. (VO-4)
+1
+write -format ddc -hierarchy -output ../output/${DESIGN}_scan.ddc
+Writing ddc file '../output/core_scan.ddc'.
+1
+write_test_protocol -output ../output/${DESIGN}_comp.spf -test_mode ScanCompression_mode
+Writing test protocol file '/home/m110/m110063553/DFT/testcase_dftmax_ultra/syn/output/core_comp.spf' for mode 'ScanCompression_mode'...
+Warning: Test protocols written out with the internal pins flow enabled are not accurate and cannot be used. (TESTXG-53)
+1
+write_test_protocol -output ../output/${DESIGN}_scan.spf -test_mode Internal_scan
+Writing test protocol file '/home/m110/m110063553/DFT/testcase_dftmax_ultra/syn/output/core_scan.spf' for mode 'Internal_scan'...
+Warning: Test protocols written out with the internal pins flow enabled are not accurate and cannot be used. (TESTXG-53)
+1
+write_scan_def -output ../output/${DESIGN}_scan.scandef
+1
+exit
+
+Memory usage for this session 210 Mbytes.
+Memory usage for this session including child processes 210 Mbytes.
+CPU usage for this session 13 seconds ( 0.00 hours ).
+Elapsed time for this session 568 seconds ( 0.16 hours ).
+
+Thank you...
