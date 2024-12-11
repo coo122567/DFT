@@ -1,0 +1,1801 @@
+Notice: timing checks disabled with +notimingcheck at compile-time
+Chronologic VCS simulator copyright 1991-2022
+Contains Synopsys proprietary information.
+Compiler version T-2022.06_Full64; Runtime version T-2022.06_Full64;  Dec 10 17:44 2024
+#############################################################################
+ MAX TB Version R-2020.09-SP5
+ Test Protocol File generated from original file "core_SAF_comp_parallel.stil"
+ STIL file version: 1.0
+ Enhanced Runtime Version: use <sim_exec> +tmax_help for available runtime options
+#############################################################################
+
+XTB: Reading test data file "/home/m110/m110063553/DFT/testcase_dftmax_ultra/atpg/patterns/core_SAF_comp_parallel.dat" 
+XTB: Total number of patterns  171
+XTB: Setting compile-time option "tmax_msg" to 4.
+XTB: Starting parallel simulation of 171 patterns
+XTB: Using 0 serial shifts
+XTB: Processed statement: WFTStmt
+XTB: Processed statement: ConditionStmt
+XTB: Starting macro test_setup..., T=0.00 ns, V=1
+XTB: Starting V# 1 at time 0.00 ns
+XTB: Starting V# 2 at time 100.00 ns
+XTB: Processed statement: test_setupStmt
+XTB: Processed statement: SetForceSI
+XTB: Processed statement: SetPat
+XTB: Starting proc load_unload..., T=200.00 ns, V=3
+XTB: Begin parallel scan load for pattern 0 (T=200.00 ns, V=3)
+XTB: Starting V# 3 at time 200.00 ns
+XTB: (parallel) shift, at 300.00 ns  
+XTB: Starting V# 4 at time 300.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=400.00 ns, V=5
+XTB: Starting V# 5 at time 400.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=500.00 ns, V=6
+XTB: Starting V# 6 at time 500.00 ns
+XTB: (parallel) shift, at 600.00 ns  
+XTB: Starting V# 7 at time 600.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=700.00 ns, V=8
+XTB: Starting V# 8 at time 700.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: SetForceSI
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=800.00 ns, V=9
+XTB: Starting V# 9 at time 800.00 ns
+XTB: (parallel) shift, at 900.00 ns  
+XTB: Starting V# 10 at time 900.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=1000.00 ns, V=11
+XTB: Starting V# 11 at time 1000.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=1100.00 ns, V=12
+XTB: Starting V# 12 at time 1100.00 ns
+XTB: (parallel) shift, at 1200.00 ns  
+XTB: Starting V# 13 at time 1200.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=1300.00 ns, V=14
+XTB: Starting V# 14 at time 1300.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=1400.00 ns, V=15
+XTB: Starting V# 15 at time 1400.00 ns
+XTB: (parallel) shift, at 1500.00 ns  
+XTB: Starting V# 16 at time 1500.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=1600.00 ns, V=17
+XTB: Starting V# 17 at time 1600.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=1700.00 ns, V=18
+XTB: Begin parallel scan load for pattern 5 (T=1700.00 ns, V=18)
+XTB: Starting V# 18 at time 1700.00 ns
+XTB: (parallel) shift, at 1800.00 ns  
+XTB: Starting V# 19 at time 1800.00 ns
+>>>  Error during scan pattern 5 (detected from parallel unload of pattern 4)
+>>>  	At T=1840.00 ns, V=19, exp=1, got=0, pin SO0, scan cell 51
+>>>  Error during scan pattern 5 (detected from parallel unload of pattern 4)
+>>>  	At T=1840.00 ns, V=19, exp=1, got=0, pin SO1, scan cell 51
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=1900.00 ns, V=20
+XTB: Starting V# 20 at time 1900.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=2000.00 ns, V=21
+XTB: Starting V# 21 at time 2000.00 ns
+XTB: (parallel) shift, at 2100.00 ns  
+XTB: Starting V# 22 at time 2100.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=2200.00 ns, V=23
+XTB: Starting V# 23 at time 2200.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=2300.00 ns, V=24
+XTB: Starting V# 24 at time 2300.00 ns
+XTB: (parallel) shift, at 2400.00 ns  
+XTB: Starting V# 25 at time 2400.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=2500.00 ns, V=26
+XTB: Starting V# 26 at time 2500.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=2600.00 ns, V=27
+XTB: Starting V# 27 at time 2600.00 ns
+XTB: (parallel) shift, at 2700.00 ns  
+XTB: Starting V# 28 at time 2700.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=2800.00 ns, V=29
+XTB: Starting V# 29 at time 2800.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=2900.00 ns, V=30
+XTB: Starting V# 30 at time 2900.00 ns
+XTB: (parallel) shift, at 3000.00 ns  
+XTB: Starting V# 31 at time 3000.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=3100.00 ns, V=32
+XTB: Starting V# 32 at time 3100.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=3200.00 ns, V=33
+XTB: Begin parallel scan load for pattern 10 (T=3200.00 ns, V=33)
+XTB: Starting V# 33 at time 3200.00 ns
+XTB: (parallel) shift, at 3300.00 ns  
+XTB: Starting V# 34 at time 3300.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=3400.00 ns, V=35
+XTB: Starting V# 35 at time 3400.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=3500.00 ns, V=36
+XTB: Starting V# 36 at time 3500.00 ns
+XTB: (parallel) shift, at 3600.00 ns  
+XTB: Starting V# 37 at time 3600.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=3700.00 ns, V=38
+XTB: Starting V# 38 at time 3700.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=3800.00 ns, V=39
+XTB: Starting V# 39 at time 3800.00 ns
+XTB: (parallel) shift, at 3900.00 ns  
+XTB: Starting V# 40 at time 3900.00 ns
+>>>  Error during scan pattern 12 (detected from parallel unload of pattern 11)
+>>>  	At T=3940.00 ns, V=40, exp=0, got=1, pin SO0, scan cell 51
+>>>  Error during scan pattern 12 (detected from parallel unload of pattern 11)
+>>>  	At T=3940.00 ns, V=40, exp=0, got=1, pin SO1, scan cell 51
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=4000.00 ns, V=41
+XTB: Starting V# 41 at time 4000.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=4100.00 ns, V=42
+XTB: Starting V# 42 at time 4100.00 ns
+XTB: (parallel) shift, at 4200.00 ns  
+XTB: Starting V# 43 at time 4200.00 ns
+>>>  Error during scan pattern 13 (detected from parallel unload of pattern 12)
+>>>  	At T=4240.00 ns, V=43, exp=1, got=0, pin SO0, scan cell 51
+>>>  Error during scan pattern 13 (detected from parallel unload of pattern 12)
+>>>  	At T=4240.00 ns, V=43, exp=1, got=0, pin SO1, scan cell 51
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=4300.00 ns, V=44
+XTB: Starting V# 44 at time 4300.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=4400.00 ns, V=45
+XTB: Starting V# 45 at time 4400.00 ns
+XTB: (parallel) shift, at 4500.00 ns  
+XTB: Starting V# 46 at time 4500.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=4600.00 ns, V=47
+XTB: Starting V# 47 at time 4600.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=4700.00 ns, V=48
+XTB: Begin parallel scan load for pattern 15 (T=4700.00 ns, V=48)
+XTB: Starting V# 48 at time 4700.00 ns
+XTB: (parallel) shift, at 4800.00 ns  
+XTB: Starting V# 49 at time 4800.00 ns
+>>>  Error during scan pattern 15 (detected from parallel unload of pattern 14)
+>>>  	At T=4840.00 ns, V=49, exp=1, got=0, pin SO0, scan cell 51
+>>>  Error during scan pattern 15 (detected from parallel unload of pattern 14)
+>>>  	At T=4840.00 ns, V=49, exp=0, got=1, pin SO1, scan cell 51
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=4900.00 ns, V=50
+XTB: Starting V# 50 at time 4900.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=5000.00 ns, V=51
+XTB: Starting V# 51 at time 5000.00 ns
+XTB: (parallel) shift, at 5100.00 ns  
+XTB: Starting V# 52 at time 5100.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=5200.00 ns, V=53
+XTB: Starting V# 53 at time 5200.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=5300.00 ns, V=54
+XTB: Starting V# 54 at time 5300.00 ns
+XTB: (parallel) shift, at 5400.00 ns  
+XTB: Starting V# 55 at time 5400.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=5500.00 ns, V=56
+XTB: Starting V# 56 at time 5500.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=5600.00 ns, V=57
+XTB: Starting V# 57 at time 5600.00 ns
+XTB: (parallel) shift, at 5700.00 ns  
+XTB: Starting V# 58 at time 5700.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=5800.00 ns, V=59
+XTB: Starting V# 59 at time 5800.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=5900.00 ns, V=60
+XTB: Starting V# 60 at time 5900.00 ns
+XTB: (parallel) shift, at 6000.00 ns  
+XTB: Starting V# 61 at time 6000.00 ns
+>>>  Error during scan pattern 19 (detected from parallel unload of pattern 18)
+>>>  	At T=6040.00 ns, V=61, exp=0, got=1, pin SO0, scan cell 51
+>>>  Error during scan pattern 19 (detected from parallel unload of pattern 18)
+>>>  	At T=6040.00 ns, V=61, exp=1, got=0, pin SO1, scan cell 51
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=6100.00 ns, V=62
+XTB: Starting V# 62 at time 6100.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=6200.00 ns, V=63
+XTB: Begin parallel scan load for pattern 20 (T=6200.00 ns, V=63)
+XTB: Starting V# 63 at time 6200.00 ns
+XTB: (parallel) shift, at 6300.00 ns  
+XTB: Starting V# 64 at time 6300.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=6400.00 ns, V=65
+XTB: Starting V# 65 at time 6400.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=6500.00 ns, V=66
+XTB: Starting V# 66 at time 6500.00 ns
+XTB: (parallel) shift, at 6600.00 ns  
+XTB: Starting V# 67 at time 6600.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=6700.00 ns, V=68
+XTB: Starting V# 68 at time 6700.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=6800.00 ns, V=69
+XTB: Starting V# 69 at time 6800.00 ns
+XTB: (parallel) shift, at 6900.00 ns  
+XTB: Starting V# 70 at time 6900.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=7000.00 ns, V=71
+XTB: Starting V# 71 at time 7000.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=7100.00 ns, V=72
+XTB: Starting V# 72 at time 7100.00 ns
+XTB: (parallel) shift, at 7200.00 ns  
+XTB: Starting V# 73 at time 7200.00 ns
+>>>  Error during scan pattern 23 (detected from parallel unload of pattern 22)
+>>>  	At T=7240.00 ns, V=73, exp=0, got=1, pin SO0, scan cell 51
+>>>  Error during scan pattern 23 (detected from parallel unload of pattern 22)
+>>>  	At T=7240.00 ns, V=73, exp=1, got=0, pin SO1, scan cell 51
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=7300.00 ns, V=74
+XTB: Starting V# 74 at time 7300.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=7400.00 ns, V=75
+XTB: Starting V# 75 at time 7400.00 ns
+XTB: (parallel) shift, at 7500.00 ns  
+XTB: Starting V# 76 at time 7500.00 ns
+>>>  Error during scan pattern 24 (detected from parallel unload of pattern 23)
+>>>  	At T=7540.00 ns, V=76, exp=1, got=0, pin SO0, scan cell 51
+>>>  Error during scan pattern 24 (detected from parallel unload of pattern 23)
+>>>  	At T=7540.00 ns, V=76, exp=1, got=0, pin SO1, scan cell 51
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=7600.00 ns, V=77
+XTB: Starting V# 77 at time 7600.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=7700.00 ns, V=78
+XTB: Begin parallel scan load for pattern 25 (T=7700.00 ns, V=78)
+XTB: Starting V# 78 at time 7700.00 ns
+XTB: (parallel) shift, at 7800.00 ns  
+XTB: Starting V# 79 at time 7800.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=7900.00 ns, V=80
+XTB: Starting V# 80 at time 7900.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=8000.00 ns, V=81
+XTB: Starting V# 81 at time 8000.00 ns
+XTB: (parallel) shift, at 8100.00 ns  
+XTB: Starting V# 82 at time 8100.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=8200.00 ns, V=83
+XTB: Starting V# 83 at time 8200.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=8300.00 ns, V=84
+XTB: Starting V# 84 at time 8300.00 ns
+XTB: (parallel) shift, at 8400.00 ns  
+XTB: Starting V# 85 at time 8400.00 ns
+>>>  Error during scan pattern 27 (detected from parallel unload of pattern 26)
+>>>  	At T=8440.00 ns, V=85, exp=1, got=0, pin SO0, scan cell 51
+>>>  Error during scan pattern 27 (detected from parallel unload of pattern 26)
+>>>  	At T=8440.00 ns, V=85, exp=1, got=0, pin SO1, scan cell 51
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=8500.00 ns, V=86
+XTB: Starting V# 86 at time 8500.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=8600.00 ns, V=87
+XTB: Starting V# 87 at time 8600.00 ns
+XTB: (parallel) shift, at 8700.00 ns  
+XTB: Starting V# 88 at time 8700.00 ns
+>>>  Error during scan pattern 28 (detected from parallel unload of pattern 27)
+>>>  	At T=8740.00 ns, V=88, exp=0, got=1, pin SO0, scan cell 51
+>>>  Error during scan pattern 28 (detected from parallel unload of pattern 27)
+>>>  	At T=8740.00 ns, V=88, exp=0, got=1, pin SO1, scan cell 51
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=8800.00 ns, V=89
+XTB: Starting V# 89 at time 8800.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=8900.00 ns, V=90
+XTB: Starting V# 90 at time 8900.00 ns
+XTB: (parallel) shift, at 9000.00 ns  
+XTB: Starting V# 91 at time 9000.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=9100.00 ns, V=92
+XTB: Starting V# 92 at time 9100.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=9200.00 ns, V=93
+XTB: Begin parallel scan load for pattern 30 (T=9200.00 ns, V=93)
+XTB: Starting V# 93 at time 9200.00 ns
+XTB: (parallel) shift, at 9300.00 ns  
+XTB: Starting V# 94 at time 9300.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=9400.00 ns, V=95
+XTB: Starting V# 95 at time 9400.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=9500.00 ns, V=96
+XTB: Starting V# 96 at time 9500.00 ns
+XTB: (parallel) shift, at 9600.00 ns  
+XTB: Starting V# 97 at time 9600.00 ns
+>>>  Error during scan pattern 31 (detected from parallel unload of pattern 30)
+>>>  	At T=9640.00 ns, V=97, exp=1, got=0, pin SO0, scan cell 51
+>>>  Error during scan pattern 31 (detected from parallel unload of pattern 30)
+>>>  	At T=9640.00 ns, V=97, exp=0, got=1, pin SO1, scan cell 51
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=9700.00 ns, V=98
+XTB: Starting V# 98 at time 9700.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=9800.00 ns, V=99
+XTB: Starting V# 99 at time 9800.00 ns
+XTB: (parallel) shift, at 9900.00 ns  
+XTB: Starting V# 100 at time 9900.00 ns
+>>>  Error during scan pattern 32 (detected from parallel unload of pattern 31)
+>>>  	At T=9940.00 ns, V=100, exp=0, got=1, pin SO0, scan cell 51
+>>>  Error during scan pattern 32 (detected from parallel unload of pattern 31)
+>>>  	At T=9940.00 ns, V=100, exp=0, got=1, pin SO1, scan cell 51
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=10000.00 ns, V=101
+XTB: Starting V# 101 at time 10000.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=10100.00 ns, V=102
+XTB: Starting V# 102 at time 10100.00 ns
+XTB: (parallel) shift, at 10200.00 ns  
+XTB: Starting V# 103 at time 10200.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=10300.00 ns, V=104
+XTB: Starting V# 104 at time 10300.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=10400.00 ns, V=105
+XTB: Starting V# 105 at time 10400.00 ns
+XTB: (parallel) shift, at 10500.00 ns  
+XTB: Starting V# 106 at time 10500.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=10600.00 ns, V=107
+XTB: Starting V# 107 at time 10600.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=10700.00 ns, V=108
+XTB: Begin parallel scan load for pattern 35 (T=10700.00 ns, V=108)
+XTB: Starting V# 108 at time 10700.00 ns
+XTB: (parallel) shift, at 10800.00 ns  
+XTB: Starting V# 109 at time 10800.00 ns
+>>>  Error during scan pattern 35 (detected from parallel unload of pattern 34)
+>>>  	At T=10840.00 ns, V=109, exp=1, got=0, pin SO0, scan cell 51
+>>>  Error during scan pattern 35 (detected from parallel unload of pattern 34)
+>>>  	At T=10840.00 ns, V=109, exp=0, got=1, pin SO1, scan cell 51
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=10900.00 ns, V=110
+XTB: Starting V# 110 at time 10900.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=11000.00 ns, V=111
+XTB: Starting V# 111 at time 11000.00 ns
+XTB: (parallel) shift, at 11100.00 ns  
+XTB: Starting V# 112 at time 11100.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=11200.00 ns, V=113
+XTB: Starting V# 113 at time 11200.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=11300.00 ns, V=114
+XTB: Starting V# 114 at time 11300.00 ns
+XTB: (parallel) shift, at 11400.00 ns  
+XTB: Starting V# 115 at time 11400.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=11500.00 ns, V=116
+XTB: Starting V# 116 at time 11500.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=11600.00 ns, V=117
+XTB: Starting V# 117 at time 11600.00 ns
+XTB: (parallel) shift, at 11700.00 ns  
+XTB: Starting V# 118 at time 11700.00 ns
+>>>  Error during scan pattern 38 (detected from parallel unload of pattern 37)
+>>>  	At T=11740.00 ns, V=118, exp=0, got=1, pin SO0, scan cell 51
+>>>  Error during scan pattern 38 (detected from parallel unload of pattern 37)
+>>>  	At T=11740.00 ns, V=118, exp=0, got=1, pin SO1, scan cell 51
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=11800.00 ns, V=119
+XTB: Starting V# 119 at time 11800.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=11900.00 ns, V=120
+XTB: Starting V# 120 at time 11900.00 ns
+XTB: (parallel) shift, at 12000.00 ns  
+XTB: Starting V# 121 at time 12000.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=12100.00 ns, V=122
+XTB: Starting V# 122 at time 12100.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=12200.00 ns, V=123
+XTB: Begin parallel scan load for pattern 40 (T=12200.00 ns, V=123)
+XTB: Starting V# 123 at time 12200.00 ns
+XTB: (parallel) shift, at 12300.00 ns  
+XTB: Starting V# 124 at time 12300.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=12400.00 ns, V=125
+XTB: Starting V# 125 at time 12400.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=12500.00 ns, V=126
+XTB: Starting V# 126 at time 12500.00 ns
+XTB: (parallel) shift, at 12600.00 ns  
+XTB: Starting V# 127 at time 12600.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=12700.00 ns, V=128
+XTB: Starting V# 128 at time 12700.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=12800.00 ns, V=129
+XTB: Starting V# 129 at time 12800.00 ns
+XTB: (parallel) shift, at 12900.00 ns  
+XTB: Starting V# 130 at time 12900.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=13000.00 ns, V=131
+XTB: Starting V# 131 at time 13000.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=13100.00 ns, V=132
+XTB: Starting V# 132 at time 13100.00 ns
+XTB: (parallel) shift, at 13200.00 ns  
+XTB: Starting V# 133 at time 13200.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=13300.00 ns, V=134
+XTB: Starting V# 134 at time 13300.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=13400.00 ns, V=135
+XTB: Starting V# 135 at time 13400.00 ns
+XTB: (parallel) shift, at 13500.00 ns  
+XTB: Starting V# 136 at time 13500.00 ns
+>>>  Error during scan pattern 44 (detected from parallel unload of pattern 43)
+>>>  	At T=13540.00 ns, V=136, exp=0, got=1, pin SO0, scan cell 51
+>>>  Error during scan pattern 44 (detected from parallel unload of pattern 43)
+>>>  	At T=13540.00 ns, V=136, exp=0, got=1, pin SO1, scan cell 51
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=13600.00 ns, V=137
+XTB: Starting V# 137 at time 13600.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=13700.00 ns, V=138
+XTB: Begin parallel scan load for pattern 45 (T=13700.00 ns, V=138)
+XTB: Starting V# 138 at time 13700.00 ns
+XTB: (parallel) shift, at 13800.00 ns  
+XTB: Starting V# 139 at time 13800.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=13900.00 ns, V=140
+XTB: Starting V# 140 at time 13900.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=14000.00 ns, V=141
+XTB: Starting V# 141 at time 14000.00 ns
+XTB: (parallel) shift, at 14100.00 ns  
+XTB: Starting V# 142 at time 14100.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=14200.00 ns, V=143
+XTB: Starting V# 143 at time 14200.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=14300.00 ns, V=144
+XTB: Starting V# 144 at time 14300.00 ns
+XTB: (parallel) shift, at 14400.00 ns  
+XTB: Starting V# 145 at time 14400.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=14500.00 ns, V=146
+XTB: Starting V# 146 at time 14500.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=14600.00 ns, V=147
+XTB: Starting V# 147 at time 14600.00 ns
+XTB: (parallel) shift, at 14700.00 ns  
+XTB: Starting V# 148 at time 14700.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=14800.00 ns, V=149
+XTB: Starting V# 149 at time 14800.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=14900.00 ns, V=150
+XTB: Starting V# 150 at time 14900.00 ns
+XTB: (parallel) shift, at 15000.00 ns  
+XTB: Starting V# 151 at time 15000.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=15100.00 ns, V=152
+XTB: Starting V# 152 at time 15100.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=15200.00 ns, V=153
+XTB: Begin parallel scan load for pattern 50 (T=15200.00 ns, V=153)
+XTB: Starting V# 153 at time 15200.00 ns
+XTB: (parallel) shift, at 15300.00 ns  
+XTB: Starting V# 154 at time 15300.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=15400.00 ns, V=155
+XTB: Starting V# 155 at time 15400.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=15500.00 ns, V=156
+XTB: Starting V# 156 at time 15500.00 ns
+XTB: (parallel) shift, at 15600.00 ns  
+XTB: Starting V# 157 at time 15600.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=15700.00 ns, V=158
+XTB: Starting V# 158 at time 15700.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=15800.00 ns, V=159
+XTB: Starting V# 159 at time 15800.00 ns
+XTB: (parallel) shift, at 15900.00 ns  
+XTB: Starting V# 160 at time 15900.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=16000.00 ns, V=161
+XTB: Starting V# 161 at time 16000.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=16100.00 ns, V=162
+XTB: Starting V# 162 at time 16100.00 ns
+XTB: (parallel) shift, at 16200.00 ns  
+XTB: Starting V# 163 at time 16200.00 ns
+>>>  Error during scan pattern 53 (detected from parallel unload of pattern 52)
+>>>  	At T=16240.00 ns, V=163, exp=0, got=1, pin SO0, scan cell 51
+>>>  Error during scan pattern 53 (detected from parallel unload of pattern 52)
+>>>  	At T=16240.00 ns, V=163, exp=0, got=1, pin SO1, scan cell 51
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=16300.00 ns, V=164
+XTB: Starting V# 164 at time 16300.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=16400.00 ns, V=165
+XTB: Starting V# 165 at time 16400.00 ns
+XTB: (parallel) shift, at 16500.00 ns  
+XTB: Starting V# 166 at time 16500.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=16600.00 ns, V=167
+XTB: Starting V# 167 at time 16600.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=16700.00 ns, V=168
+XTB: Begin parallel scan load for pattern 55 (T=16700.00 ns, V=168)
+XTB: Starting V# 168 at time 16700.00 ns
+XTB: (parallel) shift, at 16800.00 ns  
+XTB: Starting V# 169 at time 16800.00 ns
+>>>  Error during scan pattern 55 (detected from parallel unload of pattern 54)
+>>>  	At T=16840.00 ns, V=169, exp=0, got=1, pin SO0, scan cell 51
+>>>  Error during scan pattern 55 (detected from parallel unload of pattern 54)
+>>>  	At T=16840.00 ns, V=169, exp=1, got=0, pin SO1, scan cell 51
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=16900.00 ns, V=170
+XTB: Starting V# 170 at time 16900.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=17000.00 ns, V=171
+XTB: Starting V# 171 at time 17000.00 ns
+XTB: (parallel) shift, at 17100.00 ns  
+XTB: Starting V# 172 at time 17100.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=17200.00 ns, V=173
+XTB: Starting V# 173 at time 17200.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=17300.00 ns, V=174
+XTB: Starting V# 174 at time 17300.00 ns
+XTB: (parallel) shift, at 17400.00 ns  
+XTB: Starting V# 175 at time 17400.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=17500.00 ns, V=176
+XTB: Starting V# 176 at time 17500.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=17600.00 ns, V=177
+XTB: Starting V# 177 at time 17600.00 ns
+XTB: (parallel) shift, at 17700.00 ns  
+XTB: Starting V# 178 at time 17700.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=17800.00 ns, V=179
+XTB: Starting V# 179 at time 17800.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=17900.00 ns, V=180
+XTB: Starting V# 180 at time 17900.00 ns
+XTB: (parallel) shift, at 18000.00 ns  
+XTB: Starting V# 181 at time 18000.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=18100.00 ns, V=182
+XTB: Starting V# 182 at time 18100.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=18200.00 ns, V=183
+XTB: Begin parallel scan load for pattern 60 (T=18200.00 ns, V=183)
+XTB: Starting V# 183 at time 18200.00 ns
+XTB: (parallel) shift, at 18300.00 ns  
+XTB: Starting V# 184 at time 18300.00 ns
+>>>  Error during scan pattern 60 (detected from parallel unload of pattern 59)
+>>>  	At T=18340.00 ns, V=184, exp=1, got=0, pin SO0, scan cell 51
+>>>  Error during scan pattern 60 (detected from parallel unload of pattern 59)
+>>>  	At T=18340.00 ns, V=184, exp=1, got=0, pin SO1, scan cell 51
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=18400.00 ns, V=185
+XTB: Starting V# 185 at time 18400.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=18500.00 ns, V=186
+XTB: Starting V# 186 at time 18500.00 ns
+XTB: (parallel) shift, at 18600.00 ns  
+XTB: Starting V# 187 at time 18600.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=18700.00 ns, V=188
+XTB: Starting V# 188 at time 18700.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=18800.00 ns, V=189
+XTB: Starting V# 189 at time 18800.00 ns
+XTB: (parallel) shift, at 18900.00 ns  
+XTB: Starting V# 190 at time 18900.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=19000.00 ns, V=191
+XTB: Starting V# 191 at time 19000.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=19100.00 ns, V=192
+XTB: Starting V# 192 at time 19100.00 ns
+XTB: (parallel) shift, at 19200.00 ns  
+XTB: Starting V# 193 at time 19200.00 ns
+>>>  Error during scan pattern 63 (detected from parallel unload of pattern 62)
+>>>  	At T=19240.00 ns, V=193, exp=1, got=0, pin SO0, scan cell 51
+>>>  Error during scan pattern 63 (detected from parallel unload of pattern 62)
+>>>  	At T=19240.00 ns, V=193, exp=1, got=0, pin SO1, scan cell 51
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=19300.00 ns, V=194
+XTB: Starting V# 194 at time 19300.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=19400.00 ns, V=195
+XTB: Starting V# 195 at time 19400.00 ns
+XTB: (parallel) shift, at 19500.00 ns  
+XTB: Starting V# 196 at time 19500.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=19600.00 ns, V=197
+XTB: Starting V# 197 at time 19600.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=19700.00 ns, V=198
+XTB: Begin parallel scan load for pattern 65 (T=19700.00 ns, V=198)
+XTB: Starting V# 198 at time 19700.00 ns
+XTB: (parallel) shift, at 19800.00 ns  
+XTB: Starting V# 199 at time 19800.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=19900.00 ns, V=200
+XTB: Starting V# 200 at time 19900.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=20000.00 ns, V=201
+XTB: Starting V# 201 at time 20000.00 ns
+XTB: (parallel) shift, at 20100.00 ns  
+XTB: Starting V# 202 at time 20100.00 ns
+>>>  Error during scan pattern 66 (detected from parallel unload of pattern 65)
+>>>  	At T=20140.00 ns, V=202, exp=0, got=1, pin SO0, scan cell 51
+>>>  Error during scan pattern 66 (detected from parallel unload of pattern 65)
+>>>  	At T=20140.00 ns, V=202, exp=0, got=1, pin SO1, scan cell 51
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=20200.00 ns, V=203
+XTB: Starting V# 203 at time 20200.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=20300.00 ns, V=204
+XTB: Starting V# 204 at time 20300.00 ns
+XTB: (parallel) shift, at 20400.00 ns  
+XTB: Starting V# 205 at time 20400.00 ns
+>>>  Error during scan pattern 67 (detected from parallel unload of pattern 66)
+>>>  	At T=20440.00 ns, V=205, exp=1, got=0, pin SO0, scan cell 51
+>>>  Error during scan pattern 67 (detected from parallel unload of pattern 66)
+>>>  	At T=20440.00 ns, V=205, exp=0, got=1, pin SO1, scan cell 51
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=20500.00 ns, V=206
+XTB: Starting V# 206 at time 20500.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=20600.00 ns, V=207
+XTB: Starting V# 207 at time 20600.00 ns
+XTB: (parallel) shift, at 20700.00 ns  
+XTB: Starting V# 208 at time 20700.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=20800.00 ns, V=209
+XTB: Starting V# 209 at time 20800.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=20900.00 ns, V=210
+XTB: Starting V# 210 at time 20900.00 ns
+XTB: (parallel) shift, at 21000.00 ns  
+XTB: Starting V# 211 at time 21000.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=21100.00 ns, V=212
+XTB: Starting V# 212 at time 21100.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=21200.00 ns, V=213
+XTB: Begin parallel scan load for pattern 70 (T=21200.00 ns, V=213)
+XTB: Starting V# 213 at time 21200.00 ns
+XTB: (parallel) shift, at 21300.00 ns  
+XTB: Starting V# 214 at time 21300.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=21400.00 ns, V=215
+XTB: Starting V# 215 at time 21400.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=21500.00 ns, V=216
+XTB: Starting V# 216 at time 21500.00 ns
+XTB: (parallel) shift, at 21600.00 ns  
+XTB: Starting V# 217 at time 21600.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=21700.00 ns, V=218
+XTB: Starting V# 218 at time 21700.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=21800.00 ns, V=219
+XTB: Starting V# 219 at time 21800.00 ns
+XTB: (parallel) shift, at 21900.00 ns  
+XTB: Starting V# 220 at time 21900.00 ns
+>>>  Error during scan pattern 72 (detected from parallel unload of pattern 71)
+>>>  	At T=21940.00 ns, V=220, exp=0, got=1, pin SO0, scan cell 51
+>>>  Error during scan pattern 72 (detected from parallel unload of pattern 71)
+>>>  	At T=21940.00 ns, V=220, exp=0, got=1, pin SO1, scan cell 51
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=22000.00 ns, V=221
+XTB: Starting V# 221 at time 22000.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=22100.00 ns, V=222
+XTB: Starting V# 222 at time 22100.00 ns
+XTB: (parallel) shift, at 22200.00 ns  
+XTB: Starting V# 223 at time 22200.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=22300.00 ns, V=224
+XTB: Starting V# 224 at time 22300.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=22400.00 ns, V=225
+XTB: Starting V# 225 at time 22400.00 ns
+XTB: (parallel) shift, at 22500.00 ns  
+XTB: Starting V# 226 at time 22500.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=22600.00 ns, V=227
+XTB: Starting V# 227 at time 22600.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=22700.00 ns, V=228
+XTB: Begin parallel scan load for pattern 75 (T=22700.00 ns, V=228)
+XTB: Starting V# 228 at time 22700.00 ns
+XTB: (parallel) shift, at 22800.00 ns  
+XTB: Starting V# 229 at time 22800.00 ns
+>>>  Error during scan pattern 75 (detected from parallel unload of pattern 74)
+>>>  	At T=22840.00 ns, V=229, exp=0, got=1, pin SO0, scan cell 51
+>>>  Error during scan pattern 75 (detected from parallel unload of pattern 74)
+>>>  	At T=22840.00 ns, V=229, exp=1, got=0, pin SO1, scan cell 51
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=22900.00 ns, V=230
+XTB: Starting V# 230 at time 22900.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=23000.00 ns, V=231
+XTB: Starting V# 231 at time 23000.00 ns
+XTB: (parallel) shift, at 23100.00 ns  
+XTB: Starting V# 232 at time 23100.00 ns
+>>>  Error during scan pattern 76 (detected from parallel unload of pattern 75)
+>>>  	At T=23140.00 ns, V=232, exp=1, got=0, pin SO0, scan cell 51
+>>>  Error during scan pattern 76 (detected from parallel unload of pattern 75)
+>>>  	At T=23140.00 ns, V=232, exp=1, got=0, pin SO1, scan cell 51
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=23200.00 ns, V=233
+XTB: Starting V# 233 at time 23200.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=23300.00 ns, V=234
+XTB: Starting V# 234 at time 23300.00 ns
+XTB: (parallel) shift, at 23400.00 ns  
+XTB: Starting V# 235 at time 23400.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=23500.00 ns, V=236
+XTB: Starting V# 236 at time 23500.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=23600.00 ns, V=237
+XTB: Starting V# 237 at time 23600.00 ns
+XTB: (parallel) shift, at 23700.00 ns  
+XTB: Starting V# 238 at time 23700.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=23800.00 ns, V=239
+XTB: Starting V# 239 at time 23800.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=23900.00 ns, V=240
+XTB: Starting V# 240 at time 23900.00 ns
+XTB: (parallel) shift, at 24000.00 ns  
+XTB: Starting V# 241 at time 24000.00 ns
+>>>  Error during scan pattern 79 (detected from parallel unload of pattern 78)
+>>>  	At T=24040.00 ns, V=241, exp=0, got=1, pin SO0, scan cell 51
+>>>  Error during scan pattern 79 (detected from parallel unload of pattern 78)
+>>>  	At T=24040.00 ns, V=241, exp=0, got=1, pin SO1, scan cell 51
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=24100.00 ns, V=242
+XTB: Starting V# 242 at time 24100.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=24200.00 ns, V=243
+XTB: Begin parallel scan load for pattern 80 (T=24200.00 ns, V=243)
+XTB: Starting V# 243 at time 24200.00 ns
+XTB: (parallel) shift, at 24300.00 ns  
+XTB: Starting V# 244 at time 24300.00 ns
+>>>  Error during scan pattern 80 (detected from parallel unload of pattern 79)
+>>>  	At T=24340.00 ns, V=244, exp=1, got=0, pin SO0, scan cell 51
+>>>  Error during scan pattern 80 (detected from parallel unload of pattern 79)
+>>>  	At T=24340.00 ns, V=244, exp=0, got=1, pin SO1, scan cell 51
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=24400.00 ns, V=245
+XTB: Starting V# 245 at time 24400.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=24500.00 ns, V=246
+XTB: Starting V# 246 at time 24500.00 ns
+XTB: (parallel) shift, at 24600.00 ns  
+XTB: Starting V# 247 at time 24600.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=24700.00 ns, V=248
+XTB: Starting V# 248 at time 24700.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=24800.00 ns, V=249
+XTB: Starting V# 249 at time 24800.00 ns
+XTB: (parallel) shift, at 24900.00 ns  
+XTB: Starting V# 250 at time 24900.00 ns
+>>>  Error during scan pattern 82 (detected from parallel unload of pattern 81)
+>>>  	At T=24940.00 ns, V=250, exp=0, got=1, pin SO0, scan cell 51
+>>>  Error during scan pattern 82 (detected from parallel unload of pattern 81)
+>>>  	At T=24940.00 ns, V=250, exp=1, got=0, pin SO1, scan cell 51
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=25000.00 ns, V=251
+XTB: Starting V# 251 at time 25000.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=25100.00 ns, V=252
+XTB: Starting V# 252 at time 25100.00 ns
+XTB: (parallel) shift, at 25200.00 ns  
+XTB: Starting V# 253 at time 25200.00 ns
+>>>  Error during scan pattern 83 (detected from parallel unload of pattern 82)
+>>>  	At T=25240.00 ns, V=253, exp=0, got=1, pin SO0, scan cell 51
+>>>  Error during scan pattern 83 (detected from parallel unload of pattern 82)
+>>>  	At T=25240.00 ns, V=253, exp=0, got=1, pin SO1, scan cell 51
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=25300.00 ns, V=254
+XTB: Starting V# 254 at time 25300.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=25400.00 ns, V=255
+XTB: Starting V# 255 at time 25400.00 ns
+XTB: (parallel) shift, at 25500.00 ns  
+XTB: Starting V# 256 at time 25500.00 ns
+>>>  Error during scan pattern 84 (detected from parallel unload of pattern 83)
+>>>  	At T=25540.00 ns, V=256, exp=0, got=1, pin SO0, scan cell 51
+>>>  Error during scan pattern 84 (detected from parallel unload of pattern 83)
+>>>  	At T=25540.00 ns, V=256, exp=1, got=0, pin SO1, scan cell 51
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=25600.00 ns, V=257
+XTB: Starting V# 257 at time 25600.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=25700.00 ns, V=258
+XTB: Begin parallel scan load for pattern 85 (T=25700.00 ns, V=258)
+XTB: Starting V# 258 at time 25700.00 ns
+XTB: (parallel) shift, at 25800.00 ns  
+XTB: Starting V# 259 at time 25800.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=25900.00 ns, V=260
+XTB: Starting V# 260 at time 25900.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=26000.00 ns, V=261
+XTB: Starting V# 261 at time 26000.00 ns
+XTB: (parallel) shift, at 26100.00 ns  
+XTB: Starting V# 262 at time 26100.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=26200.00 ns, V=263
+XTB: Starting V# 263 at time 26200.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=26300.00 ns, V=264
+XTB: Starting V# 264 at time 26300.00 ns
+XTB: (parallel) shift, at 26400.00 ns  
+XTB: Starting V# 265 at time 26400.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=26500.00 ns, V=266
+XTB: Starting V# 266 at time 26500.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=26600.00 ns, V=267
+XTB: Starting V# 267 at time 26600.00 ns
+XTB: (parallel) shift, at 26700.00 ns  
+XTB: Starting V# 268 at time 26700.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=26800.00 ns, V=269
+XTB: Starting V# 269 at time 26800.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=26900.00 ns, V=270
+XTB: Starting V# 270 at time 26900.00 ns
+XTB: (parallel) shift, at 27000.00 ns  
+XTB: Starting V# 271 at time 27000.00 ns
+>>>  Error during scan pattern 89 (detected from parallel unload of pattern 88)
+>>>  	At T=27040.00 ns, V=271, exp=0, got=1, pin SO0, scan cell 51
+>>>  Error during scan pattern 89 (detected from parallel unload of pattern 88)
+>>>  	At T=27040.00 ns, V=271, exp=0, got=1, pin SO1, scan cell 51
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=27100.00 ns, V=272
+XTB: Starting V# 272 at time 27100.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=27200.00 ns, V=273
+XTB: Begin parallel scan load for pattern 90 (T=27200.00 ns, V=273)
+XTB: Starting V# 273 at time 27200.00 ns
+XTB: (parallel) shift, at 27300.00 ns  
+XTB: Starting V# 274 at time 27300.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=27400.00 ns, V=275
+XTB: Starting V# 275 at time 27400.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=27500.00 ns, V=276
+XTB: Starting V# 276 at time 27500.00 ns
+XTB: (parallel) shift, at 27600.00 ns  
+XTB: Starting V# 277 at time 27600.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=27700.00 ns, V=278
+XTB: Starting V# 278 at time 27700.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=27800.00 ns, V=279
+XTB: Starting V# 279 at time 27800.00 ns
+XTB: (parallel) shift, at 27900.00 ns  
+XTB: Starting V# 280 at time 27900.00 ns
+>>>  Error during scan pattern 92 (detected from parallel unload of pattern 91)
+>>>  	At T=27940.00 ns, V=280, exp=0, got=1, pin SO0, scan cell 51
+>>>  Error during scan pattern 92 (detected from parallel unload of pattern 91)
+>>>  	At T=27940.00 ns, V=280, exp=1, got=0, pin SO1, scan cell 51
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=28000.00 ns, V=281
+XTB: Starting V# 281 at time 28000.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=28100.00 ns, V=282
+XTB: Starting V# 282 at time 28100.00 ns
+XTB: (parallel) shift, at 28200.00 ns  
+XTB: Starting V# 283 at time 28200.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=28300.00 ns, V=284
+XTB: Starting V# 284 at time 28300.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=28400.00 ns, V=285
+XTB: Starting V# 285 at time 28400.00 ns
+XTB: (parallel) shift, at 28500.00 ns  
+XTB: Starting V# 286 at time 28500.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=28600.00 ns, V=287
+XTB: Starting V# 287 at time 28600.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=28700.00 ns, V=288
+XTB: Begin parallel scan load for pattern 95 (T=28700.00 ns, V=288)
+XTB: Starting V# 288 at time 28700.00 ns
+XTB: (parallel) shift, at 28800.00 ns  
+XTB: Starting V# 289 at time 28800.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=28900.00 ns, V=290
+XTB: Starting V# 290 at time 28900.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=29000.00 ns, V=291
+XTB: Starting V# 291 at time 29000.00 ns
+XTB: (parallel) shift, at 29100.00 ns  
+XTB: Starting V# 292 at time 29100.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=29200.00 ns, V=293
+XTB: Starting V# 293 at time 29200.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=29300.00 ns, V=294
+XTB: Starting V# 294 at time 29300.00 ns
+XTB: (parallel) shift, at 29400.00 ns  
+XTB: Starting V# 295 at time 29400.00 ns
+>>>  Error during scan pattern 97 (detected from parallel unload of pattern 96)
+>>>  	At T=29440.00 ns, V=295, exp=0, got=1, pin SO0, scan cell 51
+>>>  Error during scan pattern 97 (detected from parallel unload of pattern 96)
+>>>  	At T=29440.00 ns, V=295, exp=0, got=1, pin SO1, scan cell 51
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=29500.00 ns, V=296
+XTB: Starting V# 296 at time 29500.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=29600.00 ns, V=297
+XTB: Starting V# 297 at time 29600.00 ns
+XTB: (parallel) shift, at 29700.00 ns  
+XTB: Starting V# 298 at time 29700.00 ns
+>>>  Error during scan pattern 98 (detected from parallel unload of pattern 97)
+>>>  	At T=29740.00 ns, V=298, exp=1, got=0, pin SO0, scan cell 51
+>>>  Error during scan pattern 98 (detected from parallel unload of pattern 97)
+>>>  	At T=29740.00 ns, V=298, exp=1, got=0, pin SO1, scan cell 51
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=29800.00 ns, V=299
+XTB: Starting V# 299 at time 29800.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=29900.00 ns, V=300
+XTB: Starting V# 300 at time 29900.00 ns
+XTB: (parallel) shift, at 30000.00 ns  
+XTB: Starting V# 301 at time 30000.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=30100.00 ns, V=302
+XTB: Starting V# 302 at time 30100.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=30200.00 ns, V=303
+XTB: Begin parallel scan load for pattern 100 (T=30200.00 ns, V=303)
+XTB: Starting V# 303 at time 30200.00 ns
+XTB: (parallel) shift, at 30300.00 ns  
+XTB: Starting V# 304 at time 30300.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=30400.00 ns, V=305
+XTB: Starting V# 305 at time 30400.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=30500.00 ns, V=306
+XTB: Starting V# 306 at time 30500.00 ns
+XTB: (parallel) shift, at 30600.00 ns  
+XTB: Starting V# 307 at time 30600.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=30700.00 ns, V=308
+XTB: Starting V# 308 at time 30700.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=30800.00 ns, V=309
+XTB: Starting V# 309 at time 30800.00 ns
+XTB: (parallel) shift, at 30900.00 ns  
+XTB: Starting V# 310 at time 30900.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=31000.00 ns, V=311
+XTB: Starting V# 311 at time 31000.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=31100.00 ns, V=312
+XTB: Starting V# 312 at time 31100.00 ns
+XTB: (parallel) shift, at 31200.00 ns  
+XTB: Starting V# 313 at time 31200.00 ns
+>>>  Error during scan pattern 103 (detected from parallel unload of pattern 102)
+>>>  	At T=31240.00 ns, V=313, exp=1, got=0, pin SO0, scan cell 51
+>>>  Error during scan pattern 103 (detected from parallel unload of pattern 102)
+>>>  	At T=31240.00 ns, V=313, exp=1, got=0, pin SO1, scan cell 51
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=31300.00 ns, V=314
+XTB: Starting V# 314 at time 31300.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=31400.00 ns, V=315
+XTB: Starting V# 315 at time 31400.00 ns
+XTB: (parallel) shift, at 31500.00 ns  
+XTB: Starting V# 316 at time 31500.00 ns
+>>>  Error during scan pattern 104 (detected from parallel unload of pattern 103)
+>>>  	At T=31540.00 ns, V=316, exp=0, got=1, pin SO0, scan cell 51
+>>>  Error during scan pattern 104 (detected from parallel unload of pattern 103)
+>>>  	At T=31540.00 ns, V=316, exp=1, got=0, pin SO1, scan cell 51
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=31600.00 ns, V=317
+XTB: Starting V# 317 at time 31600.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=31700.00 ns, V=318
+XTB: Begin parallel scan load for pattern 105 (T=31700.00 ns, V=318)
+XTB: Starting V# 318 at time 31700.00 ns
+XTB: (parallel) shift, at 31800.00 ns  
+XTB: Starting V# 319 at time 31800.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=31900.00 ns, V=320
+XTB: Starting V# 320 at time 31900.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=32000.00 ns, V=321
+XTB: Starting V# 321 at time 32000.00 ns
+XTB: (parallel) shift, at 32100.00 ns  
+XTB: Starting V# 322 at time 32100.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=32200.00 ns, V=323
+XTB: Starting V# 323 at time 32200.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=32300.00 ns, V=324
+XTB: Starting V# 324 at time 32300.00 ns
+XTB: (parallel) shift, at 32400.00 ns  
+XTB: Starting V# 325 at time 32400.00 ns
+>>>  Error during scan pattern 107 (detected from parallel unload of pattern 106)
+>>>  	At T=32440.00 ns, V=325, exp=0, got=1, pin SO0, scan cell 51
+>>>  Error during scan pattern 107 (detected from parallel unload of pattern 106)
+>>>  	At T=32440.00 ns, V=325, exp=0, got=1, pin SO1, scan cell 51
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=32500.00 ns, V=326
+XTB: Starting V# 326 at time 32500.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=32600.00 ns, V=327
+XTB: Starting V# 327 at time 32600.00 ns
+XTB: (parallel) shift, at 32700.00 ns  
+XTB: Starting V# 328 at time 32700.00 ns
+>>>  Error during scan pattern 108 (detected from parallel unload of pattern 107)
+>>>  	At T=32740.00 ns, V=328, exp=0, got=1, pin SO0, scan cell 51
+>>>  Error during scan pattern 108 (detected from parallel unload of pattern 107)
+>>>  	At T=32740.00 ns, V=328, exp=0, got=1, pin SO1, scan cell 51
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=32800.00 ns, V=329
+XTB: Starting V# 329 at time 32800.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=32900.00 ns, V=330
+XTB: Starting V# 330 at time 32900.00 ns
+XTB: (parallel) shift, at 33000.00 ns  
+XTB: Starting V# 331 at time 33000.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=33100.00 ns, V=332
+XTB: Starting V# 332 at time 33100.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=33200.00 ns, V=333
+XTB: Begin parallel scan load for pattern 110 (T=33200.00 ns, V=333)
+XTB: Starting V# 333 at time 33200.00 ns
+XTB: (parallel) shift, at 33300.00 ns  
+XTB: Starting V# 334 at time 33300.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=33400.00 ns, V=335
+XTB: Starting V# 335 at time 33400.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=33500.00 ns, V=336
+XTB: Starting V# 336 at time 33500.00 ns
+XTB: (parallel) shift, at 33600.00 ns  
+XTB: Starting V# 337 at time 33600.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=33700.00 ns, V=338
+XTB: Starting V# 338 at time 33700.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=33800.00 ns, V=339
+XTB: Starting V# 339 at time 33800.00 ns
+XTB: (parallel) shift, at 33900.00 ns  
+XTB: Starting V# 340 at time 33900.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=34000.00 ns, V=341
+XTB: Starting V# 341 at time 34000.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=34100.00 ns, V=342
+XTB: Starting V# 342 at time 34100.00 ns
+XTB: (parallel) shift, at 34200.00 ns  
+XTB: Starting V# 343 at time 34200.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=34300.00 ns, V=344
+XTB: Starting V# 344 at time 34300.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=34400.00 ns, V=345
+XTB: Starting V# 345 at time 34400.00 ns
+XTB: (parallel) shift, at 34500.00 ns  
+XTB: Starting V# 346 at time 34500.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=34600.00 ns, V=347
+XTB: Starting V# 347 at time 34600.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=34700.00 ns, V=348
+XTB: Begin parallel scan load for pattern 115 (T=34700.00 ns, V=348)
+XTB: Starting V# 348 at time 34700.00 ns
+XTB: (parallel) shift, at 34800.00 ns  
+XTB: Starting V# 349 at time 34800.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=34900.00 ns, V=350
+XTB: Starting V# 350 at time 34900.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=35000.00 ns, V=351
+XTB: Starting V# 351 at time 35000.00 ns
+XTB: (parallel) shift, at 35100.00 ns  
+XTB: Starting V# 352 at time 35100.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=35200.00 ns, V=353
+XTB: Starting V# 353 at time 35200.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=35300.00 ns, V=354
+XTB: Starting V# 354 at time 35300.00 ns
+XTB: (parallel) shift, at 35400.00 ns  
+XTB: Starting V# 355 at time 35400.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=35500.00 ns, V=356
+XTB: Starting V# 356 at time 35500.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=35600.00 ns, V=357
+XTB: Starting V# 357 at time 35600.00 ns
+XTB: (parallel) shift, at 35700.00 ns  
+XTB: Starting V# 358 at time 35700.00 ns
+>>>  Error during scan pattern 118 (detected from parallel unload of pattern 117)
+>>>  	At T=35740.00 ns, V=358, exp=1, got=0, pin SO0, scan cell 51
+>>>  Error during scan pattern 118 (detected from parallel unload of pattern 117)
+>>>  	At T=35740.00 ns, V=358, exp=0, got=1, pin SO1, scan cell 51
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=35800.00 ns, V=359
+XTB: Starting V# 359 at time 35800.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=35900.00 ns, V=360
+XTB: Starting V# 360 at time 35900.00 ns
+XTB: (parallel) shift, at 36000.00 ns  
+XTB: Starting V# 361 at time 36000.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=36100.00 ns, V=362
+XTB: Starting V# 362 at time 36100.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=36200.00 ns, V=363
+XTB: Begin parallel scan load for pattern 120 (T=36200.00 ns, V=363)
+XTB: Starting V# 363 at time 36200.00 ns
+XTB: (parallel) shift, at 36300.00 ns  
+XTB: Starting V# 364 at time 36300.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=36400.00 ns, V=365
+XTB: Starting V# 365 at time 36400.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=36500.00 ns, V=366
+XTB: Starting V# 366 at time 36500.00 ns
+XTB: (parallel) shift, at 36600.00 ns  
+XTB: Starting V# 367 at time 36600.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=36700.00 ns, V=368
+XTB: Starting V# 368 at time 36700.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=36800.00 ns, V=369
+XTB: Starting V# 369 at time 36800.00 ns
+XTB: (parallel) shift, at 36900.00 ns  
+XTB: Starting V# 370 at time 36900.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=37000.00 ns, V=371
+XTB: Starting V# 371 at time 37000.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=37100.00 ns, V=372
+XTB: Starting V# 372 at time 37100.00 ns
+XTB: (parallel) shift, at 37200.00 ns  
+XTB: Starting V# 373 at time 37200.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=37300.00 ns, V=374
+XTB: Starting V# 374 at time 37300.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=37400.00 ns, V=375
+XTB: Starting V# 375 at time 37400.00 ns
+XTB: (parallel) shift, at 37500.00 ns  
+XTB: Starting V# 376 at time 37500.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=37600.00 ns, V=377
+XTB: Starting V# 377 at time 37600.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=37700.00 ns, V=378
+XTB: Begin parallel scan load for pattern 125 (T=37700.00 ns, V=378)
+XTB: Starting V# 378 at time 37700.00 ns
+XTB: (parallel) shift, at 37800.00 ns  
+XTB: Starting V# 379 at time 37800.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=37900.00 ns, V=380
+XTB: Starting V# 380 at time 37900.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=38000.00 ns, V=381
+XTB: Starting V# 381 at time 38000.00 ns
+XTB: (parallel) shift, at 38100.00 ns  
+XTB: Starting V# 382 at time 38100.00 ns
+>>>  Error during scan pattern 126 (detected from parallel unload of pattern 125)
+>>>  	At T=38140.00 ns, V=382, exp=1, got=0, pin SO0, scan cell 51
+>>>  Error during scan pattern 126 (detected from parallel unload of pattern 125)
+>>>  	At T=38140.00 ns, V=382, exp=0, got=1, pin SO1, scan cell 51
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=38200.00 ns, V=383
+XTB: Starting V# 383 at time 38200.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=38300.00 ns, V=384
+XTB: Starting V# 384 at time 38300.00 ns
+XTB: (parallel) shift, at 38400.00 ns  
+XTB: Starting V# 385 at time 38400.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=38500.00 ns, V=386
+XTB: Starting V# 386 at time 38500.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=38600.00 ns, V=387
+XTB: Starting V# 387 at time 38600.00 ns
+XTB: (parallel) shift, at 38700.00 ns  
+XTB: Starting V# 388 at time 38700.00 ns
+>>>  Error during scan pattern 128 (detected from parallel unload of pattern 127)
+>>>  	At T=38740.00 ns, V=388, exp=0, got=1, pin SO0, scan cell 51
+>>>  Error during scan pattern 128 (detected from parallel unload of pattern 127)
+>>>  	At T=38740.00 ns, V=388, exp=1, got=0, pin SO1, scan cell 51
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=38800.00 ns, V=389
+XTB: Starting V# 389 at time 38800.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=38900.00 ns, V=390
+XTB: Starting V# 390 at time 38900.00 ns
+XTB: (parallel) shift, at 39000.00 ns  
+XTB: Starting V# 391 at time 39000.00 ns
+>>>  Error during scan pattern 129 (detected from parallel unload of pattern 128)
+>>>  	At T=39040.00 ns, V=391, exp=0, got=1, pin SO0, scan cell 51
+>>>  Error during scan pattern 129 (detected from parallel unload of pattern 128)
+>>>  	At T=39040.00 ns, V=391, exp=0, got=1, pin SO1, scan cell 51
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=39100.00 ns, V=392
+XTB: Starting V# 392 at time 39100.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=39200.00 ns, V=393
+XTB: Begin parallel scan load for pattern 130 (T=39200.00 ns, V=393)
+XTB: Starting V# 393 at time 39200.00 ns
+XTB: (parallel) shift, at 39300.00 ns  
+XTB: Starting V# 394 at time 39300.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=39400.00 ns, V=395
+XTB: Starting V# 395 at time 39400.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=39500.00 ns, V=396
+XTB: Starting V# 396 at time 39500.00 ns
+XTB: (parallel) shift, at 39600.00 ns  
+XTB: Starting V# 397 at time 39600.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=39700.00 ns, V=398
+XTB: Starting V# 398 at time 39700.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=39800.00 ns, V=399
+XTB: Starting V# 399 at time 39800.00 ns
+XTB: (parallel) shift, at 39900.00 ns  
+XTB: Starting V# 400 at time 39900.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=40000.00 ns, V=401
+XTB: Starting V# 401 at time 40000.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=40100.00 ns, V=402
+XTB: Starting V# 402 at time 40100.00 ns
+XTB: (parallel) shift, at 40200.00 ns  
+XTB: Starting V# 403 at time 40200.00 ns
+>>>  Error during scan pattern 133 (detected from parallel unload of pattern 132)
+>>>  	At T=40240.00 ns, V=403, exp=1, got=0, pin SO0, scan cell 51
+>>>  Error during scan pattern 133 (detected from parallel unload of pattern 132)
+>>>  	At T=40240.00 ns, V=403, exp=0, got=1, pin SO1, scan cell 51
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=40300.00 ns, V=404
+XTB: Starting V# 404 at time 40300.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=40400.00 ns, V=405
+XTB: Starting V# 405 at time 40400.00 ns
+XTB: (parallel) shift, at 40500.00 ns  
+XTB: Starting V# 406 at time 40500.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=40600.00 ns, V=407
+XTB: Starting V# 407 at time 40600.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=40700.00 ns, V=408
+XTB: Begin parallel scan load for pattern 135 (T=40700.00 ns, V=408)
+XTB: Starting V# 408 at time 40700.00 ns
+XTB: (parallel) shift, at 40800.00 ns  
+XTB: Starting V# 409 at time 40800.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=40900.00 ns, V=410
+XTB: Starting V# 410 at time 40900.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=41000.00 ns, V=411
+XTB: Starting V# 411 at time 41000.00 ns
+XTB: (parallel) shift, at 41100.00 ns  
+XTB: Starting V# 412 at time 41100.00 ns
+>>>  Error during scan pattern 136 (detected from parallel unload of pattern 135)
+>>>  	At T=41140.00 ns, V=412, exp=1, got=0, pin SO0, scan cell 51
+>>>  Error during scan pattern 136 (detected from parallel unload of pattern 135)
+>>>  	At T=41140.00 ns, V=412, exp=0, got=1, pin SO1, scan cell 51
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=41200.00 ns, V=413
+XTB: Starting V# 413 at time 41200.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=41300.00 ns, V=414
+XTB: Starting V# 414 at time 41300.00 ns
+XTB: (parallel) shift, at 41400.00 ns  
+XTB: Starting V# 415 at time 41400.00 ns
+>>>  Error during scan pattern 137 (detected from parallel unload of pattern 136)
+>>>  	At T=41440.00 ns, V=415, exp=0, got=1, pin SO0, scan cell 51
+>>>  Error during scan pattern 137 (detected from parallel unload of pattern 136)
+>>>  	At T=41440.00 ns, V=415, exp=0, got=1, pin SO1, scan cell 51
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=41500.00 ns, V=416
+XTB: Starting V# 416 at time 41500.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=41600.00 ns, V=417
+XTB: Starting V# 417 at time 41600.00 ns
+XTB: (parallel) shift, at 41700.00 ns  
+XTB: Starting V# 418 at time 41700.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=41800.00 ns, V=419
+XTB: Starting V# 419 at time 41800.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=41900.00 ns, V=420
+XTB: Starting V# 420 at time 41900.00 ns
+XTB: (parallel) shift, at 42000.00 ns  
+XTB: Starting V# 421 at time 42000.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=42100.00 ns, V=422
+XTB: Starting V# 422 at time 42100.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=42200.00 ns, V=423
+XTB: Begin parallel scan load for pattern 140 (T=42200.00 ns, V=423)
+XTB: Starting V# 423 at time 42200.00 ns
+XTB: (parallel) shift, at 42300.00 ns  
+XTB: Starting V# 424 at time 42300.00 ns
+>>>  Error during scan pattern 140 (detected from parallel unload of pattern 139)
+>>>  	At T=42340.00 ns, V=424, exp=0, got=1, pin SO0, scan cell 51
+>>>  Error during scan pattern 140 (detected from parallel unload of pattern 139)
+>>>  	At T=42340.00 ns, V=424, exp=1, got=0, pin SO1, scan cell 51
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=42400.00 ns, V=425
+XTB: Starting V# 425 at time 42400.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=42500.00 ns, V=426
+XTB: Starting V# 426 at time 42500.00 ns
+XTB: (parallel) shift, at 42600.00 ns  
+XTB: Starting V# 427 at time 42600.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=42700.00 ns, V=428
+XTB: Starting V# 428 at time 42700.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=42800.00 ns, V=429
+XTB: Starting V# 429 at time 42800.00 ns
+XTB: (parallel) shift, at 42900.00 ns  
+XTB: Starting V# 430 at time 42900.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=43000.00 ns, V=431
+XTB: Starting V# 431 at time 43000.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=43100.00 ns, V=432
+XTB: Starting V# 432 at time 43100.00 ns
+XTB: (parallel) shift, at 43200.00 ns  
+XTB: Starting V# 433 at time 43200.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=43300.00 ns, V=434
+XTB: Starting V# 434 at time 43300.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=43400.00 ns, V=435
+XTB: Starting V# 435 at time 43400.00 ns
+XTB: (parallel) shift, at 43500.00 ns  
+XTB: Starting V# 436 at time 43500.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=43600.00 ns, V=437
+XTB: Starting V# 437 at time 43600.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=43700.00 ns, V=438
+XTB: Begin parallel scan load for pattern 145 (T=43700.00 ns, V=438)
+XTB: Starting V# 438 at time 43700.00 ns
+XTB: (parallel) shift, at 43800.00 ns  
+XTB: Starting V# 439 at time 43800.00 ns
+>>>  Error during scan pattern 145 (detected from parallel unload of pattern 144)
+>>>  	At T=43840.00 ns, V=439, exp=1, got=0, pin SO0, scan cell 51
+>>>  Error during scan pattern 145 (detected from parallel unload of pattern 144)
+>>>  	At T=43840.00 ns, V=439, exp=1, got=0, pin SO1, scan cell 51
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=43900.00 ns, V=440
+XTB: Starting V# 440 at time 43900.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=44000.00 ns, V=441
+XTB: Starting V# 441 at time 44000.00 ns
+XTB: (parallel) shift, at 44100.00 ns  
+XTB: Starting V# 442 at time 44100.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=44200.00 ns, V=443
+XTB: Starting V# 443 at time 44200.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=44300.00 ns, V=444
+XTB: Starting V# 444 at time 44300.00 ns
+XTB: (parallel) shift, at 44400.00 ns  
+XTB: Starting V# 445 at time 44400.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=44500.00 ns, V=446
+XTB: Starting V# 446 at time 44500.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=44600.00 ns, V=447
+XTB: Starting V# 447 at time 44600.00 ns
+XTB: (parallel) shift, at 44700.00 ns  
+XTB: Starting V# 448 at time 44700.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=44800.00 ns, V=449
+XTB: Starting V# 449 at time 44800.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=44900.00 ns, V=450
+XTB: Starting V# 450 at time 44900.00 ns
+XTB: (parallel) shift, at 45000.00 ns  
+XTB: Starting V# 451 at time 45000.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=45100.00 ns, V=452
+XTB: Starting V# 452 at time 45100.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=45200.00 ns, V=453
+XTB: Begin parallel scan load for pattern 150 (T=45200.00 ns, V=453)
+XTB: Starting V# 453 at time 45200.00 ns
+XTB: (parallel) shift, at 45300.00 ns  
+XTB: Starting V# 454 at time 45300.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=45400.00 ns, V=455
+XTB: Starting V# 455 at time 45400.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=45500.00 ns, V=456
+XTB: Starting V# 456 at time 45500.00 ns
+XTB: (parallel) shift, at 45600.00 ns  
+XTB: Starting V# 457 at time 45600.00 ns
+>>>  Error during scan pattern 151 (detected from parallel unload of pattern 150)
+>>>  	At T=45640.00 ns, V=457, exp=1, got=0, pin SO0, scan cell 51
+>>>  Error during scan pattern 151 (detected from parallel unload of pattern 150)
+>>>  	At T=45640.00 ns, V=457, exp=0, got=1, pin SO1, scan cell 51
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=45700.00 ns, V=458
+XTB: Starting V# 458 at time 45700.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=45800.00 ns, V=459
+XTB: Starting V# 459 at time 45800.00 ns
+XTB: (parallel) shift, at 45900.00 ns  
+XTB: Starting V# 460 at time 45900.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=46000.00 ns, V=461
+XTB: Starting V# 461 at time 46000.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=46100.00 ns, V=462
+XTB: Starting V# 462 at time 46100.00 ns
+XTB: (parallel) shift, at 46200.00 ns  
+XTB: Starting V# 463 at time 46200.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=46300.00 ns, V=464
+XTB: Starting V# 464 at time 46300.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=46400.00 ns, V=465
+XTB: Starting V# 465 at time 46400.00 ns
+XTB: (parallel) shift, at 46500.00 ns  
+XTB: Starting V# 466 at time 46500.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=46600.00 ns, V=467
+XTB: Starting V# 467 at time 46600.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=46700.00 ns, V=468
+XTB: Begin parallel scan load for pattern 155 (T=46700.00 ns, V=468)
+XTB: Starting V# 468 at time 46700.00 ns
+XTB: (parallel) shift, at 46800.00 ns  
+XTB: Starting V# 469 at time 46800.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=46900.00 ns, V=470
+XTB: Starting V# 470 at time 46900.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=47000.00 ns, V=471
+XTB: Starting V# 471 at time 47000.00 ns
+XTB: (parallel) shift, at 47100.00 ns  
+XTB: Starting V# 472 at time 47100.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=47200.00 ns, V=473
+XTB: Starting V# 473 at time 47200.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=47300.00 ns, V=474
+XTB: Starting V# 474 at time 47300.00 ns
+XTB: (parallel) shift, at 47400.00 ns  
+XTB: Starting V# 475 at time 47400.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=47500.00 ns, V=476
+XTB: Starting V# 476 at time 47500.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=47600.00 ns, V=477
+XTB: Starting V# 477 at time 47600.00 ns
+XTB: (parallel) shift, at 47700.00 ns  
+XTB: Starting V# 478 at time 47700.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=47800.00 ns, V=479
+XTB: Starting V# 479 at time 47800.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=47900.00 ns, V=480
+XTB: Starting V# 480 at time 47900.00 ns
+XTB: (parallel) shift, at 48000.00 ns  
+XTB: Starting V# 481 at time 48000.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=48100.00 ns, V=482
+XTB: Starting V# 482 at time 48100.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=48200.00 ns, V=483
+XTB: Begin parallel scan load for pattern 160 (T=48200.00 ns, V=483)
+XTB: Starting V# 483 at time 48200.00 ns
+XTB: (parallel) shift, at 48300.00 ns  
+XTB: Starting V# 484 at time 48300.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=48400.00 ns, V=485
+XTB: Starting V# 485 at time 48400.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=48500.00 ns, V=486
+XTB: Starting V# 486 at time 48500.00 ns
+XTB: (parallel) shift, at 48600.00 ns  
+XTB: Starting V# 487 at time 48600.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=48700.00 ns, V=488
+XTB: Starting V# 488 at time 48700.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=48800.00 ns, V=489
+XTB: Starting V# 489 at time 48800.00 ns
+XTB: (parallel) shift, at 48900.00 ns  
+XTB: Starting V# 490 at time 48900.00 ns
+>>>  Error during scan pattern 162 (detected from parallel unload of pattern 161)
+>>>  	At T=48940.00 ns, V=490, exp=0, got=1, pin SO0, scan cell 51
+>>>  Error during scan pattern 162 (detected from parallel unload of pattern 161)
+>>>  	At T=48940.00 ns, V=490, exp=0, got=1, pin SO1, scan cell 51
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=49000.00 ns, V=491
+XTB: Starting V# 491 at time 49000.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=49100.00 ns, V=492
+XTB: Starting V# 492 at time 49100.00 ns
+XTB: (parallel) shift, at 49200.00 ns  
+XTB: Starting V# 493 at time 49200.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=49300.00 ns, V=494
+XTB: Starting V# 494 at time 49300.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=49400.00 ns, V=495
+XTB: Starting V# 495 at time 49400.00 ns
+XTB: (parallel) shift, at 49500.00 ns  
+XTB: Starting V# 496 at time 49500.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=49600.00 ns, V=497
+XTB: Starting V# 497 at time 49600.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=49700.00 ns, V=498
+XTB: Begin parallel scan load for pattern 165 (T=49700.00 ns, V=498)
+XTB: Starting V# 498 at time 49700.00 ns
+XTB: (parallel) shift, at 49800.00 ns  
+XTB: Starting V# 499 at time 49800.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=49900.00 ns, V=500
+XTB: Starting V# 500 at time 49900.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=50000.00 ns, V=501
+XTB: Starting V# 501 at time 50000.00 ns
+XTB: (parallel) shift, at 50100.00 ns  
+XTB: Starting V# 502 at time 50100.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=50200.00 ns, V=503
+XTB: Starting V# 503 at time 50200.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=50300.00 ns, V=504
+XTB: Starting V# 504 at time 50300.00 ns
+XTB: (parallel) shift, at 50400.00 ns  
+XTB: Starting V# 505 at time 50400.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=50500.00 ns, V=506
+XTB: Starting V# 506 at time 50500.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=50600.00 ns, V=507
+XTB: Starting V# 507 at time 50600.00 ns
+XTB: (parallel) shift, at 50700.00 ns  
+XTB: Starting V# 508 at time 50700.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=50800.00 ns, V=509
+XTB: Starting V# 509 at time 50800.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=50900.00 ns, V=510
+XTB: Starting V# 510 at time 50900.00 ns
+XTB: (parallel) shift, at 51000.00 ns  
+XTB: Starting V# 511 at time 51000.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=51100.00 ns, V=512
+XTB: Starting V# 512 at time 51100.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Processed statement: IncPat
+XTB: Starting proc load_unload..., T=51200.00 ns, V=513
+XTB: Begin parallel scan load for pattern 170 (T=51200.00 ns, V=513)
+XTB: Starting V# 513 at time 51200.00 ns
+XTB: (parallel) shift, at 51300.00 ns  
+XTB: Starting V# 514 at time 51300.00 ns
+>>>  Error during scan pattern 170 (detected from parallel unload of pattern 169)
+>>>  	At T=51340.00 ns, V=514, exp=1, got=0, pin SO0, scan cell 51
+>>>  Error during scan pattern 170 (detected from parallel unload of pattern 169)
+>>>  	At T=51340.00 ns, V=514, exp=1, got=0, pin SO1, scan cell 51
+XTB: Processed statement: load_unloadStmt
+XTB: Starting proc multiclock_capture..., T=51400.00 ns, V=515
+XTB: Starting V# 515 at time 51400.00 ns
+XTB: Processed statement: multiclock_captureStmt
+XTB: Starting proc load_unload..., T=51500.00 ns, V=516
+XTB: Begin parallel scan load for pattern 170, unload 2 (T=51500.00 ns, V=516)
+XTB: Starting V# 516 at time 51500.00 ns
+XTB: (parallel) shift, at 51600.00 ns  
+XTB: Starting V# 517 at time 51600.00 ns
+XTB: Processed statement: load_unloadStmt
+XTB: Processed statement: EndPat
+XTB: Simulation of 171 patterns completed with 96 mismatches (time: 51700.00 ns, cycles: 517)
+
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 51700000 ps
