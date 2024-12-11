@@ -1,0 +1,1300 @@
+STIL 1.0 {
+    Design 2005;
+}
+Header {
+    Title "Minimal STIL for design `core'";
+    Date "Wed Dec  4 15:36:23 2024";
+    Source "DFT Compiler R-2020.09-SP5";
+}
+Signals {
+    "CLK" In;
+    "IN_1[0]" In;
+    "IN_1[100]" In;
+    "IN_1[101]" In;
+    "IN_1[102]" In;
+    "IN_1[103]" In;
+    "IN_1[104]" In;
+    "IN_1[105]" In;
+    "IN_1[106]" In;
+    "IN_1[107]" In;
+    "IN_1[108]" In;
+    "IN_1[109]" In;
+    "IN_1[10]" In;
+    "IN_1[110]" In;
+    "IN_1[111]" In;
+    "IN_1[112]" In;
+    "IN_1[113]" In;
+    "IN_1[114]" In;
+    "IN_1[115]" In;
+    "IN_1[116]" In;
+    "IN_1[117]" In;
+    "IN_1[118]" In;
+    "IN_1[119]" In;
+    "IN_1[11]" In;
+    "IN_1[120]" In;
+    "IN_1[121]" In;
+    "IN_1[122]" In;
+    "IN_1[123]" In;
+    "IN_1[124]" In;
+    "IN_1[125]" In;
+    "IN_1[126]" In;
+    "IN_1[127]" In;
+    "IN_1[12]" In;
+    "IN_1[13]" In;
+    "IN_1[14]" In;
+    "IN_1[15]" In;
+    "IN_1[16]" In;
+    "IN_1[17]" In;
+    "IN_1[18]" In;
+    "IN_1[19]" In;
+    "IN_1[1]" In;
+    "IN_1[20]" In;
+    "IN_1[21]" In;
+    "IN_1[22]" In;
+    "IN_1[23]" In;
+    "IN_1[24]" In;
+    "IN_1[25]" In;
+    "IN_1[26]" In;
+    "IN_1[27]" In;
+    "IN_1[28]" In;
+    "IN_1[29]" In;
+    "IN_1[2]" In;
+    "IN_1[30]" In;
+    "IN_1[31]" In;
+    "IN_1[32]" In;
+    "IN_1[33]" In;
+    "IN_1[34]" In;
+    "IN_1[35]" In;
+    "IN_1[36]" In;
+    "IN_1[37]" In;
+    "IN_1[38]" In;
+    "IN_1[39]" In;
+    "IN_1[3]" In;
+    "IN_1[40]" In;
+    "IN_1[41]" In;
+    "IN_1[42]" In;
+    "IN_1[43]" In;
+    "IN_1[44]" In;
+    "IN_1[45]" In;
+    "IN_1[46]" In;
+    "IN_1[47]" In;
+    "IN_1[48]" In;
+    "IN_1[49]" In;
+    "IN_1[4]" In;
+    "IN_1[50]" In;
+    "IN_1[51]" In;
+    "IN_1[52]" In;
+    "IN_1[53]" In;
+    "IN_1[54]" In;
+    "IN_1[55]" In;
+    "IN_1[56]" In;
+    "IN_1[57]" In;
+    "IN_1[58]" In;
+    "IN_1[59]" In;
+    "IN_1[5]" In;
+    "IN_1[60]" In;
+    "IN_1[61]" In;
+    "IN_1[62]" In;
+    "IN_1[63]" In;
+    "IN_1[64]" In;
+    "IN_1[65]" In;
+    "IN_1[66]" In;
+    "IN_1[67]" In;
+    "IN_1[68]" In;
+    "IN_1[69]" In;
+    "IN_1[6]" In;
+    "IN_1[70]" In;
+    "IN_1[71]" In;
+    "IN_1[72]" In;
+    "IN_1[73]" In;
+    "IN_1[74]" In;
+    "IN_1[75]" In;
+    "IN_1[76]" In;
+    "IN_1[77]" In;
+    "IN_1[78]" In;
+    "IN_1[79]" In;
+    "IN_1[7]" In;
+    "IN_1[80]" In;
+    "IN_1[81]" In;
+    "IN_1[82]" In;
+    "IN_1[83]" In;
+    "IN_1[84]" In;
+    "IN_1[85]" In;
+    "IN_1[86]" In;
+    "IN_1[87]" In;
+    "IN_1[88]" In;
+    "IN_1[89]" In;
+    "IN_1[8]" In;
+    "IN_1[90]" In;
+    "IN_1[91]" In;
+    "IN_1[92]" In;
+    "IN_1[93]" In;
+    "IN_1[94]" In;
+    "IN_1[95]" In;
+    "IN_1[96]" In;
+    "IN_1[97]" In;
+    "IN_1[98]" In;
+    "IN_1[99]" In;
+    "IN_1[9]" In;
+    "IN_2[0]" In;
+    "IN_2[100]" In;
+    "IN_2[101]" In;
+    "IN_2[102]" In;
+    "IN_2[103]" In;
+    "IN_2[104]" In;
+    "IN_2[105]" In;
+    "IN_2[106]" In;
+    "IN_2[107]" In;
+    "IN_2[108]" In;
+    "IN_2[109]" In;
+    "IN_2[10]" In;
+    "IN_2[110]" In;
+    "IN_2[111]" In;
+    "IN_2[112]" In;
+    "IN_2[113]" In;
+    "IN_2[114]" In;
+    "IN_2[115]" In;
+    "IN_2[116]" In;
+    "IN_2[117]" In;
+    "IN_2[118]" In;
+    "IN_2[119]" In;
+    "IN_2[11]" In;
+    "IN_2[120]" In;
+    "IN_2[121]" In;
+    "IN_2[122]" In;
+    "IN_2[123]" In;
+    "IN_2[124]" In;
+    "IN_2[125]" In;
+    "IN_2[126]" In;
+    "IN_2[127]" In;
+    "IN_2[12]" In;
+    "IN_2[13]" In;
+    "IN_2[14]" In;
+    "IN_2[15]" In;
+    "IN_2[16]" In;
+    "IN_2[17]" In;
+    "IN_2[18]" In;
+    "IN_2[19]" In;
+    "IN_2[1]" In;
+    "IN_2[20]" In;
+    "IN_2[21]" In;
+    "IN_2[22]" In;
+    "IN_2[23]" In;
+    "IN_2[24]" In;
+    "IN_2[25]" In;
+    "IN_2[26]" In;
+    "IN_2[27]" In;
+    "IN_2[28]" In;
+    "IN_2[29]" In;
+    "IN_2[2]" In;
+    "IN_2[30]" In;
+    "IN_2[31]" In;
+    "IN_2[32]" In;
+    "IN_2[33]" In;
+    "IN_2[34]" In;
+    "IN_2[35]" In;
+    "IN_2[36]" In;
+    "IN_2[37]" In;
+    "IN_2[38]" In;
+    "IN_2[39]" In;
+    "IN_2[3]" In;
+    "IN_2[40]" In;
+    "IN_2[41]" In;
+    "IN_2[42]" In;
+    "IN_2[43]" In;
+    "IN_2[44]" In;
+    "IN_2[45]" In;
+    "IN_2[46]" In;
+    "IN_2[47]" In;
+    "IN_2[48]" In;
+    "IN_2[49]" In;
+    "IN_2[4]" In;
+    "IN_2[50]" In;
+    "IN_2[51]" In;
+    "IN_2[52]" In;
+    "IN_2[53]" In;
+    "IN_2[54]" In;
+    "IN_2[55]" In;
+    "IN_2[56]" In;
+    "IN_2[57]" In;
+    "IN_2[58]" In;
+    "IN_2[59]" In;
+    "IN_2[5]" In;
+    "IN_2[60]" In;
+    "IN_2[61]" In;
+    "IN_2[62]" In;
+    "IN_2[63]" In;
+    "IN_2[64]" In;
+    "IN_2[65]" In;
+    "IN_2[66]" In;
+    "IN_2[67]" In;
+    "IN_2[68]" In;
+    "IN_2[69]" In;
+    "IN_2[6]" In;
+    "IN_2[70]" In;
+    "IN_2[71]" In;
+    "IN_2[72]" In;
+    "IN_2[73]" In;
+    "IN_2[74]" In;
+    "IN_2[75]" In;
+    "IN_2[76]" In;
+    "IN_2[77]" In;
+    "IN_2[78]" In;
+    "IN_2[79]" In;
+    "IN_2[7]" In;
+    "IN_2[80]" In;
+    "IN_2[81]" In;
+    "IN_2[82]" In;
+    "IN_2[83]" In;
+    "IN_2[84]" In;
+    "IN_2[85]" In;
+    "IN_2[86]" In;
+    "IN_2[87]" In;
+    "IN_2[88]" In;
+    "IN_2[89]" In;
+    "IN_2[8]" In;
+    "IN_2[90]" In;
+    "IN_2[91]" In;
+    "IN_2[92]" In;
+    "IN_2[93]" In;
+    "IN_2[94]" In;
+    "IN_2[95]" In;
+    "IN_2[96]" In;
+    "IN_2[97]" In;
+    "IN_2[98]" In;
+    "IN_2[99]" In;
+    "IN_2[9]" In;
+    "Port8" In;
+    "RST" In;
+    "test_mode" In;
+    "O1[0]" Out;
+    "O1[100]" Out;
+    "O1[101]" Out;
+    "O1[102]" Out;
+    "O1[103]" Out;
+    "O1[104]" Out;
+    "O1[105]" Out;
+    "O1[106]" Out;
+    "O1[107]" Out;
+    "O1[108]" Out;
+    "O1[109]" Out;
+    "O1[10]" Out;
+    "O1[110]" Out;
+    "O1[111]" Out;
+    "O1[112]" Out;
+    "O1[113]" Out;
+    "O1[114]" Out;
+    "O1[115]" Out;
+    "O1[116]" Out;
+    "O1[117]" Out;
+    "O1[118]" Out;
+    "O1[119]" Out;
+    "O1[11]" Out;
+    "O1[120]" Out;
+    "O1[121]" Out;
+    "O1[122]" Out;
+    "O1[123]" Out;
+    "O1[124]" Out;
+    "O1[125]" Out;
+    "O1[126]" Out;
+    "O1[127]" Out;
+    "O1[12]" Out;
+    "O1[13]" Out;
+    "O1[14]" Out;
+    "O1[15]" Out;
+    "O1[16]" Out;
+    "O1[17]" Out;
+    "O1[18]" Out;
+    "O1[19]" Out;
+    "O1[1]" Out;
+    "O1[20]" Out;
+    "O1[21]" Out;
+    "O1[22]" Out;
+    "O1[23]" Out;
+    "O1[24]" Out;
+    "O1[25]" Out;
+    "O1[26]" Out;
+    "O1[27]" Out;
+    "O1[28]" Out;
+    "O1[29]" Out;
+    "O1[2]" Out;
+    "O1[30]" Out;
+    "O1[31]" Out;
+    "O1[32]" Out;
+    "O1[33]" Out;
+    "O1[34]" Out;
+    "O1[35]" Out;
+    "O1[36]" Out;
+    "O1[37]" Out;
+    "O1[38]" Out;
+    "O1[39]" Out;
+    "O1[3]" Out;
+    "O1[40]" Out;
+    "O1[41]" Out;
+    "O1[42]" Out;
+    "O1[43]" Out;
+    "O1[44]" Out;
+    "O1[45]" Out;
+    "O1[46]" Out;
+    "O1[47]" Out;
+    "O1[48]" Out;
+    "O1[49]" Out;
+    "O1[4]" Out;
+    "O1[50]" Out;
+    "O1[51]" Out;
+    "O1[52]" Out;
+    "O1[53]" Out;
+    "O1[54]" Out;
+    "O1[55]" Out;
+    "O1[56]" Out;
+    "O1[57]" Out;
+    "O1[58]" Out;
+    "O1[59]" Out;
+    "O1[5]" Out;
+    "O1[60]" Out;
+    "O1[61]" Out;
+    "O1[62]" Out;
+    "O1[63]" Out;
+    "O1[64]" Out;
+    "O1[65]" Out;
+    "O1[66]" Out;
+    "O1[67]" Out;
+    "O1[68]" Out;
+    "O1[69]" Out;
+    "O1[6]" Out;
+    "O1[70]" Out;
+    "O1[71]" Out;
+    "O1[72]" Out;
+    "O1[73]" Out;
+    "O1[74]" Out;
+    "O1[75]" Out;
+    "O1[76]" Out;
+    "O1[77]" Out;
+    "O1[78]" Out;
+    "O1[79]" Out;
+    "O1[7]" Out;
+    "O1[80]" Out;
+    "O1[81]" Out;
+    "O1[82]" Out;
+    "O1[83]" Out;
+    "O1[84]" Out;
+    "O1[85]" Out;
+    "O1[86]" Out;
+    "O1[87]" Out;
+    "O1[88]" Out;
+    "O1[89]" Out;
+    "O1[8]" Out;
+    "O1[90]" Out;
+    "O1[91]" Out;
+    "O1[92]" Out;
+    "O1[93]" Out;
+    "O1[94]" Out;
+    "O1[95]" Out;
+    "O1[96]" Out;
+    "O1[97]" Out;
+    "O1[98]" Out;
+    "O1[99]" Out;
+    "O1[9]" Out;
+    "O2[0]" Out;
+    "O2[100]" Out;
+    "O2[101]" Out;
+    "O2[102]" Out;
+    "O2[103]" Out;
+    "O2[104]" Out;
+    "O2[105]" Out;
+    "O2[106]" Out;
+    "O2[107]" Out;
+    "O2[108]" Out;
+    "O2[109]" Out;
+    "O2[10]" Out;
+    "O2[110]" Out;
+    "O2[111]" Out;
+    "O2[112]" Out;
+    "O2[113]" Out;
+    "O2[114]" Out;
+    "O2[115]" Out;
+    "O2[116]" Out;
+    "O2[117]" Out;
+    "O2[118]" Out;
+    "O2[119]" Out;
+    "O2[11]" Out;
+    "O2[120]" Out;
+    "O2[121]" Out;
+    "O2[122]" Out;
+    "O2[123]" Out;
+    "O2[124]" Out;
+    "O2[125]" Out;
+    "O2[126]" Out;
+    "O2[127]" Out;
+    "O2[12]" Out;
+    "O2[13]" Out;
+    "O2[14]" Out;
+    "O2[15]" Out;
+    "O2[16]" Out;
+    "O2[17]" Out;
+    "O2[18]" Out;
+    "O2[19]" Out;
+    "O2[1]" Out;
+    "O2[20]" Out;
+    "O2[21]" Out;
+    "O2[22]" Out;
+    "O2[23]" Out;
+    "O2[24]" Out;
+    "O2[25]" Out;
+    "O2[26]" Out;
+    "O2[27]" Out;
+    "O2[28]" Out;
+    "O2[29]" Out;
+    "O2[2]" Out;
+    "O2[30]" Out;
+    "O2[31]" Out;
+    "O2[32]" Out;
+    "O2[33]" Out;
+    "O2[34]" Out;
+    "O2[35]" Out;
+    "O2[36]" Out;
+    "O2[37]" Out;
+    "O2[38]" Out;
+    "O2[39]" Out;
+    "O2[3]" Out;
+    "O2[40]" Out;
+    "O2[41]" Out;
+    "O2[42]" Out;
+    "O2[43]" Out;
+    "O2[44]" Out;
+    "O2[45]" Out;
+    "O2[46]" Out;
+    "O2[47]" Out;
+    "O2[48]" Out;
+    "O2[49]" Out;
+    "O2[4]" Out;
+    "O2[50]" Out;
+    "O2[51]" Out;
+    "O2[52]" Out;
+    "O2[53]" Out;
+    "O2[54]" Out;
+    "O2[55]" Out;
+    "O2[56]" Out;
+    "O2[57]" Out;
+    "O2[58]" Out;
+    "O2[59]" Out;
+    "O2[5]" Out;
+    "O2[60]" Out;
+    "O2[61]" Out;
+    "O2[62]" Out;
+    "O2[63]" Out;
+    "O2[64]" Out;
+    "O2[65]" Out;
+    "O2[66]" Out;
+    "O2[67]" Out;
+    "O2[68]" Out;
+    "O2[69]" Out;
+    "O2[6]" Out;
+    "O2[70]" Out;
+    "O2[71]" Out;
+    "O2[72]" Out;
+    "O2[73]" Out;
+    "O2[74]" Out;
+    "O2[75]" Out;
+    "O2[76]" Out;
+    "O2[77]" Out;
+    "O2[78]" Out;
+    "O2[79]" Out;
+    "O2[7]" Out;
+    "O2[80]" Out;
+    "O2[81]" Out;
+    "O2[82]" Out;
+    "O2[83]" Out;
+    "O2[84]" Out;
+    "O2[85]" Out;
+    "O2[86]" Out;
+    "O2[87]" Out;
+    "O2[88]" Out;
+    "O2[89]" Out;
+    "O2[8]" Out;
+    "O2[90]" Out;
+    "O2[91]" Out;
+    "O2[92]" Out;
+    "O2[93]" Out;
+    "O2[94]" Out;
+    "O2[95]" Out;
+    "O2[96]" Out;
+    "O2[97]" Out;
+    "O2[98]" Out;
+    "O2[99]" Out;
+    "O2[9]" Out;
+    "ScanEnable" In;
+    "COMP_MODE" In;
+    "SI0" In;
+    "SI1" In;
+    "SI2" In;
+    "SO0" Out;
+    "SO1" Out;
+    "SO2" Out;
+    "test_modea" In;
+}
+SignalGroups {
+    "_si" = '"SI0" + "SI1" + "SI2"' {
+        ScanIn;
+    }
+    "_so" = '"SO0" + "SO1" + "SO2"' {
+        ScanOut;
+    }
+    "_clk" = '"CLK"';
+    "all_inputs" = '"CLK" + "IN_1[0]" + "IN_1[100]" + "IN_1[101]" + "IN_1[102]" 
+    + "IN_1[103]" + "IN_1[104]" + "IN_1[105]" + "IN_1[106]" + "IN_1[107]" + 
+    "IN_1[108]" + "IN_1[109]" + "IN_1[10]" + "IN_1[110]" + "IN_1[111]" + 
+    "IN_1[112]" + "IN_1[113]" + "IN_1[114]" + "IN_1[115]" + "IN_1[116]" + 
+    "IN_1[117]" + "IN_1[118]" + "IN_1[119]" + "IN_1[11]" + "IN_1[120]" + 
+    "IN_1[121]" + "IN_1[122]" + "IN_1[123]" + "IN_1[124]" + "IN_1[125]" + 
+    "IN_1[126]" + "IN_1[127]" + "IN_1[12]" + "IN_1[13]" + "IN_1[14]" + 
+    "IN_1[15]" + "IN_1[16]" + "IN_1[17]" + "IN_1[18]" + "IN_1[19]" + "IN_1[1]" + 
+    "IN_1[20]" + "IN_1[21]" + "IN_1[22]" + "IN_1[23]" + "IN_1[24]" + "IN_1[25]" 
+    + "IN_1[26]" + "IN_1[27]" + "IN_1[28]" + "IN_1[29]" + "IN_1[2]" + "IN_1[30]" 
+    + "IN_1[31]" + "IN_1[32]" + "IN_1[33]" + "IN_1[34]" + "IN_1[35]" + 
+    "IN_1[36]" + "IN_1[37]" + "IN_1[38]" + "IN_1[39]" + "IN_1[3]" + "IN_1[40]" + 
+    "IN_1[41]" + "IN_1[42]" + "IN_1[43]" + "IN_1[44]" + "IN_1[45]" + "IN_1[46]" 
+    + "IN_1[47]" + "IN_1[48]" + "IN_1[49]" + "IN_1[4]" + "IN_1[50]" + "IN_1[51]" 
+    + "IN_1[52]" + "IN_1[53]" + "IN_1[54]" + "IN_1[55]" + "IN_1[56]" + 
+    "IN_1[57]" + "IN_1[58]" + "IN_1[59]" + "IN_1[5]" + "IN_1[60]" + "IN_1[61]" + 
+    "IN_1[62]" + "IN_1[63]" + "IN_1[64]" + "IN_1[65]" + "IN_1[66]" + "IN_1[67]" 
+    + "IN_1[68]" + "IN_1[69]" + "IN_1[6]" + "IN_1[70]" + "IN_1[71]" + "IN_1[72]" 
+    + "IN_1[73]" + "IN_1[74]" + "IN_1[75]" + "IN_1[76]" + "IN_1[77]" + 
+    "IN_1[78]" + "IN_1[79]" + "IN_1[7]" + "IN_1[80]" + "IN_1[81]" + "IN_1[82]" + 
+    "IN_1[83]" + "IN_1[84]" + "IN_1[85]" + "IN_1[86]" + "IN_1[87]" + "IN_1[88]" 
+    + "IN_1[89]" + "IN_1[8]" + "IN_1[90]" + "IN_1[91]" + "IN_1[92]" + "IN_1[93]" 
+    + "IN_1[94]" + "IN_1[95]" + "IN_1[96]" + "IN_1[97]" + "IN_1[98]" + 
+    "IN_1[99]" + "IN_1[9]" + "IN_2[0]" + "IN_2[100]" + "IN_2[101]" + "IN_2[102]" 
+    + "IN_2[103]" + "IN_2[104]" + "IN_2[105]" + "IN_2[106]" + "IN_2[107]" + 
+    "IN_2[108]" + "IN_2[109]" + "IN_2[10]" + "IN_2[110]" + "IN_2[111]" + 
+    "IN_2[112]" + "IN_2[113]" + "IN_2[114]" + "IN_2[115]" + "IN_2[116]" + 
+    "IN_2[117]" + "IN_2[118]" + "IN_2[119]" + "IN_2[11]" + "IN_2[120]" + 
+    "IN_2[121]" + "IN_2[122]" + "IN_2[123]" + "IN_2[124]" + "IN_2[125]" + 
+    "IN_2[126]" + "IN_2[127]" + "IN_2[12]" + "IN_2[13]" + "IN_2[14]" + 
+    "IN_2[15]" + "IN_2[16]" + "IN_2[17]" + "IN_2[18]" + "IN_2[19]" + "IN_2[1]" + 
+    "IN_2[20]" + "IN_2[21]" + "IN_2[22]" + "IN_2[23]" + "IN_2[24]" + "IN_2[25]" 
+    + "IN_2[26]" + "IN_2[27]" + "IN_2[28]" + "IN_2[29]" + "IN_2[2]" + "IN_2[30]" 
+    + "IN_2[31]" + "IN_2[32]" + "IN_2[33]" + "IN_2[34]" + "IN_2[35]" + 
+    "IN_2[36]" + "IN_2[37]" + "IN_2[38]" + "IN_2[39]" + "IN_2[3]" + "IN_2[40]" + 
+    "IN_2[41]" + "IN_2[42]" + "IN_2[43]" + "IN_2[44]" + "IN_2[45]" + "IN_2[46]" 
+    + "IN_2[47]" + "IN_2[48]" + "IN_2[49]" + "IN_2[4]" + "IN_2[50]" + "IN_2[51]" 
+    + "IN_2[52]" + "IN_2[53]" + "IN_2[54]" + "IN_2[55]" + "IN_2[56]" + 
+    "IN_2[57]" + "IN_2[58]" + "IN_2[59]" + "IN_2[5]" + "IN_2[60]" + "IN_2[61]" + 
+    "IN_2[62]" + "IN_2[63]" + "IN_2[64]" + "IN_2[65]" + "IN_2[66]" + "IN_2[67]" 
+    + "IN_2[68]" + "IN_2[69]" + "IN_2[6]" + "IN_2[70]" + "IN_2[71]" + "IN_2[72]" 
+    + "IN_2[73]" + "IN_2[74]" + "IN_2[75]" + "IN_2[76]" + "IN_2[77]" + 
+    "IN_2[78]" + "IN_2[79]" + "IN_2[7]" + "IN_2[80]" + "IN_2[81]" + "IN_2[82]" + 
+    "IN_2[83]" + "IN_2[84]" + "IN_2[85]" + "IN_2[86]" + "IN_2[87]" + "IN_2[88]" 
+    + "IN_2[89]" + "IN_2[8]" + "IN_2[90]" + "IN_2[91]" + "IN_2[92]" + "IN_2[93]" 
+    + "IN_2[94]" + "IN_2[95]" + "IN_2[96]" + "IN_2[97]" + "IN_2[98]" + 
+    "IN_2[99]" + "IN_2[9]" + "Port8" + "RST" + "test_mode" + "ScanEnable" + 
+    "COMP_MODE" + "SI0" + "SI1" + "SI2" + "test_modea"';
+    "all_outputs" = '"O1[0]" + "O1[100]" + "O1[101]" + "O1[102]" + "O1[103]" + 
+    "O1[104]" + "O1[105]" + "O1[106]" + "O1[107]" + "O1[108]" + "O1[109]" + 
+    "O1[10]" + "O1[110]" + "O1[111]" + "O1[112]" + "O1[113]" + "O1[114]" + 
+    "O1[115]" + "O1[116]" + "O1[117]" + "O1[118]" + "O1[119]" + "O1[11]" + 
+    "O1[120]" + "O1[121]" + "O1[122]" + "O1[123]" + "O1[124]" + "O1[125]" + 
+    "O1[126]" + "O1[127]" + "O1[12]" + "O1[13]" + "O1[14]" + "O1[15]" + "O1[16]" 
+    + "O1[17]" + "O1[18]" + "O1[19]" + "O1[1]" + "O1[20]" + "O1[21]" + "O1[22]" 
+    + "O1[23]" + "O1[24]" + "O1[25]" + "O1[26]" + "O1[27]" + "O1[28]" + "O1[29]" 
+    + "O1[2]" + "O1[30]" + "O1[31]" + "O1[32]" + "O1[33]" + "O1[34]" + "O1[35]" 
+    + "O1[36]" + "O1[37]" + "O1[38]" + "O1[39]" + "O1[3]" + "O1[40]" + "O1[41]" 
+    + "O1[42]" + "O1[43]" + "O1[44]" + "O1[45]" + "O1[46]" + "O1[47]" + "O1[48]" 
+    + "O1[49]" + "O1[4]" + "O1[50]" + "O1[51]" + "O1[52]" + "O1[53]" + "O1[54]" 
+    + "O1[55]" + "O1[56]" + "O1[57]" + "O1[58]" + "O1[59]" + "O1[5]" + "O1[60]" 
+    + "O1[61]" + "O1[62]" + "O1[63]" + "O1[64]" + "O1[65]" + "O1[66]" + "O1[67]" 
+    + "O1[68]" + "O1[69]" + "O1[6]" + "O1[70]" + "O1[71]" + "O1[72]" + "O1[73]" 
+    + "O1[74]" + "O1[75]" + "O1[76]" + "O1[77]" + "O1[78]" + "O1[79]" + "O1[7]" 
+    + "O1[80]" + "O1[81]" + "O1[82]" + "O1[83]" + "O1[84]" + "O1[85]" + "O1[86]" 
+    + "O1[87]" + "O1[88]" + "O1[89]" + "O1[8]" + "O1[90]" + "O1[91]" + "O1[92]" 
+    + "O1[93]" + "O1[94]" + "O1[95]" + "O1[96]" + "O1[97]" + "O1[98]" + "O1[99]" 
+    + "O1[9]" + "O2[0]" + "O2[100]" + "O2[101]" + "O2[102]" + "O2[103]" + 
+    "O2[104]" + "O2[105]" + "O2[106]" + "O2[107]" + "O2[108]" + "O2[109]" + 
+    "O2[10]" + "O2[110]" + "O2[111]" + "O2[112]" + "O2[113]" + "O2[114]" + 
+    "O2[115]" + "O2[116]" + "O2[117]" + "O2[118]" + "O2[119]" + "O2[11]" + 
+    "O2[120]" + "O2[121]" + "O2[122]" + "O2[123]" + "O2[124]" + "O2[125]" + 
+    "O2[126]" + "O2[127]" + "O2[12]" + "O2[13]" + "O2[14]" + "O2[15]" + "O2[16]" 
+    + "O2[17]" + "O2[18]" + "O2[19]" + "O2[1]" + "O2[20]" + "O2[21]" + "O2[22]" 
+    + "O2[23]" + "O2[24]" + "O2[25]" + "O2[26]" + "O2[27]" + "O2[28]" + "O2[29]" 
+    + "O2[2]" + "O2[30]" + "O2[31]" + "O2[32]" + "O2[33]" + "O2[34]" + "O2[35]" 
+    + "O2[36]" + "O2[37]" + "O2[38]" + "O2[39]" + "O2[3]" + "O2[40]" + "O2[41]" 
+    + "O2[42]" + "O2[43]" + "O2[44]" + "O2[45]" + "O2[46]" + "O2[47]" + "O2[48]" 
+    + "O2[49]" + "O2[4]" + "O2[50]" + "O2[51]" + "O2[52]" + "O2[53]" + "O2[54]" 
+    + "O2[55]" + "O2[56]" + "O2[57]" + "O2[58]" + "O2[59]" + "O2[5]" + "O2[60]" 
+    + "O2[61]" + "O2[62]" + "O2[63]" + "O2[64]" + "O2[65]" + "O2[66]" + "O2[67]" 
+    + "O2[68]" + "O2[69]" + "O2[6]" + "O2[70]" + "O2[71]" + "O2[72]" + "O2[73]" 
+    + "O2[74]" + "O2[75]" + "O2[76]" + "O2[77]" + "O2[78]" + "O2[79]" + "O2[7]" 
+    + "O2[80]" + "O2[81]" + "O2[82]" + "O2[83]" + "O2[84]" + "O2[85]" + "O2[86]" 
+    + "O2[87]" + "O2[88]" + "O2[89]" + "O2[8]" + "O2[90]" + "O2[91]" + "O2[92]" 
+    + "O2[93]" + "O2[94]" + "O2[95]" + "O2[96]" + "O2[97]" + "O2[98]" + "O2[99]" 
+    + "O2[9]" + "SO0" + "SO1" + "SO2"';
+    "all_ports" = '"all_inputs" + "all_outputs"';
+    "_pi" = '"CLK" + "IN_1[0]" + "IN_1[100]" + "IN_1[101]" + "IN_1[102]" + 
+    "IN_1[103]" + "IN_1[104]" + "IN_1[105]" + "IN_1[106]" + "IN_1[107]" + 
+    "IN_1[108]" + "IN_1[109]" + "IN_1[10]" + "IN_1[110]" + "IN_1[111]" + 
+    "IN_1[112]" + "IN_1[113]" + "IN_1[114]" + "IN_1[115]" + "IN_1[116]" + 
+    "IN_1[117]" + "IN_1[118]" + "IN_1[119]" + "IN_1[11]" + "IN_1[120]" + 
+    "IN_1[121]" + "IN_1[122]" + "IN_1[123]" + "IN_1[124]" + "IN_1[125]" + 
+    "IN_1[126]" + "IN_1[127]" + "IN_1[12]" + "IN_1[13]" + "IN_1[14]" + 
+    "IN_1[15]" + "IN_1[16]" + "IN_1[17]" + "IN_1[18]" + "IN_1[19]" + "IN_1[1]" + 
+    "IN_1[20]" + "IN_1[21]" + "IN_1[22]" + "IN_1[23]" + "IN_1[24]" + "IN_1[25]" 
+    + "IN_1[26]" + "IN_1[27]" + "IN_1[28]" + "IN_1[29]" + "IN_1[2]" + "IN_1[30]" 
+    + "IN_1[31]" + "IN_1[32]" + "IN_1[33]" + "IN_1[34]" + "IN_1[35]" + 
+    "IN_1[36]" + "IN_1[37]" + "IN_1[38]" + "IN_1[39]" + "IN_1[3]" + "IN_1[40]" + 
+    "IN_1[41]" + "IN_1[42]" + "IN_1[43]" + "IN_1[44]" + "IN_1[45]" + "IN_1[46]" 
+    + "IN_1[47]" + "IN_1[48]" + "IN_1[49]" + "IN_1[4]" + "IN_1[50]" + "IN_1[51]" 
+    + "IN_1[52]" + "IN_1[53]" + "IN_1[54]" + "IN_1[55]" + "IN_1[56]" + 
+    "IN_1[57]" + "IN_1[58]" + "IN_1[59]" + "IN_1[5]" + "IN_1[60]" + "IN_1[61]" + 
+    "IN_1[62]" + "IN_1[63]" + "IN_1[64]" + "IN_1[65]" + "IN_1[66]" + "IN_1[67]" 
+    + "IN_1[68]" + "IN_1[69]" + "IN_1[6]" + "IN_1[70]" + "IN_1[71]" + "IN_1[72]" 
+    + "IN_1[73]" + "IN_1[74]" + "IN_1[75]" + "IN_1[76]" + "IN_1[77]" + 
+    "IN_1[78]" + "IN_1[79]" + "IN_1[7]" + "IN_1[80]" + "IN_1[81]" + "IN_1[82]" + 
+    "IN_1[83]" + "IN_1[84]" + "IN_1[85]" + "IN_1[86]" + "IN_1[87]" + "IN_1[88]" 
+    + "IN_1[89]" + "IN_1[8]" + "IN_1[90]" + "IN_1[91]" + "IN_1[92]" + "IN_1[93]" 
+    + "IN_1[94]" + "IN_1[95]" + "IN_1[96]" + "IN_1[97]" + "IN_1[98]" + 
+    "IN_1[99]" + "IN_1[9]" + "IN_2[0]" + "IN_2[100]" + "IN_2[101]" + "IN_2[102]" 
+    + "IN_2[103]" + "IN_2[104]" + "IN_2[105]" + "IN_2[106]" + "IN_2[107]" + 
+    "IN_2[108]" + "IN_2[109]" + "IN_2[10]" + "IN_2[110]" + "IN_2[111]" + 
+    "IN_2[112]" + "IN_2[113]" + "IN_2[114]" + "IN_2[115]" + "IN_2[116]" + 
+    "IN_2[117]" + "IN_2[118]" + "IN_2[119]" + "IN_2[11]" + "IN_2[120]" + 
+    "IN_2[121]" + "IN_2[122]" + "IN_2[123]" + "IN_2[124]" + "IN_2[125]" + 
+    "IN_2[126]" + "IN_2[127]" + "IN_2[12]" + "IN_2[13]" + "IN_2[14]" + 
+    "IN_2[15]" + "IN_2[16]" + "IN_2[17]" + "IN_2[18]" + "IN_2[19]" + "IN_2[1]" + 
+    "IN_2[20]" + "IN_2[21]" + "IN_2[22]" + "IN_2[23]" + "IN_2[24]" + "IN_2[25]" 
+    + "IN_2[26]" + "IN_2[27]" + "IN_2[28]" + "IN_2[29]" + "IN_2[2]" + "IN_2[30]" 
+    + "IN_2[31]" + "IN_2[32]" + "IN_2[33]" + "IN_2[34]" + "IN_2[35]" + 
+    "IN_2[36]" + "IN_2[37]" + "IN_2[38]" + "IN_2[39]" + "IN_2[3]" + "IN_2[40]" + 
+    "IN_2[41]" + "IN_2[42]" + "IN_2[43]" + "IN_2[44]" + "IN_2[45]" + "IN_2[46]" 
+    + "IN_2[47]" + "IN_2[48]" + "IN_2[49]" + "IN_2[4]" + "IN_2[50]" + "IN_2[51]" 
+    + "IN_2[52]" + "IN_2[53]" + "IN_2[54]" + "IN_2[55]" + "IN_2[56]" + 
+    "IN_2[57]" + "IN_2[58]" + "IN_2[59]" + "IN_2[5]" + "IN_2[60]" + "IN_2[61]" + 
+    "IN_2[62]" + "IN_2[63]" + "IN_2[64]" + "IN_2[65]" + "IN_2[66]" + "IN_2[67]" 
+    + "IN_2[68]" + "IN_2[69]" + "IN_2[6]" + "IN_2[70]" + "IN_2[71]" + "IN_2[72]" 
+    + "IN_2[73]" + "IN_2[74]" + "IN_2[75]" + "IN_2[76]" + "IN_2[77]" + 
+    "IN_2[78]" + "IN_2[79]" + "IN_2[7]" + "IN_2[80]" + "IN_2[81]" + "IN_2[82]" + 
+    "IN_2[83]" + "IN_2[84]" + "IN_2[85]" + "IN_2[86]" + "IN_2[87]" + "IN_2[88]" 
+    + "IN_2[89]" + "IN_2[8]" + "IN_2[90]" + "IN_2[91]" + "IN_2[92]" + "IN_2[93]" 
+    + "IN_2[94]" + "IN_2[95]" + "IN_2[96]" + "IN_2[97]" + "IN_2[98]" + 
+    "IN_2[99]" + "IN_2[9]" + "Port8" + "RST" + "test_mode" + "ScanEnable" + 
+    "COMP_MODE" + "SI0" + "SI1" + "SI2" + "test_modea"';
+    "_po" = '"O1[0]" + "O1[100]" + "O1[101]" + "O1[102]" + "O1[103]" + "O1[104]" 
+    + "O1[105]" + "O1[106]" + "O1[107]" + "O1[108]" + "O1[109]" + "O1[10]" + 
+    "O1[110]" + "O1[111]" + "O1[112]" + "O1[113]" + "O1[114]" + "O1[115]" + 
+    "O1[116]" + "O1[117]" + "O1[118]" + "O1[119]" + "O1[11]" + "O1[120]" + 
+    "O1[121]" + "O1[122]" + "O1[123]" + "O1[124]" + "O1[125]" + "O1[126]" + 
+    "O1[127]" + "O1[12]" + "O1[13]" + "O1[14]" + "O1[15]" + "O1[16]" + "O1[17]" 
+    + "O1[18]" + "O1[19]" + "O1[1]" + "O1[20]" + "O1[21]" + "O1[22]" + "O1[23]" 
+    + "O1[24]" + "O1[25]" + "O1[26]" + "O1[27]" + "O1[28]" + "O1[29]" + "O1[2]" 
+    + "O1[30]" + "O1[31]" + "O1[32]" + "O1[33]" + "O1[34]" + "O1[35]" + "O1[36]" 
+    + "O1[37]" + "O1[38]" + "O1[39]" + "O1[3]" + "O1[40]" + "O1[41]" + "O1[42]" 
+    + "O1[43]" + "O1[44]" + "O1[45]" + "O1[46]" + "O1[47]" + "O1[48]" + "O1[49]" 
+    + "O1[4]" + "O1[50]" + "O1[51]" + "O1[52]" + "O1[53]" + "O1[54]" + "O1[55]" 
+    + "O1[56]" + "O1[57]" + "O1[58]" + "O1[59]" + "O1[5]" + "O1[60]" + "O1[61]" 
+    + "O1[62]" + "O1[63]" + "O1[64]" + "O1[65]" + "O1[66]" + "O1[67]" + "O1[68]" 
+    + "O1[69]" + "O1[6]" + "O1[70]" + "O1[71]" + "O1[72]" + "O1[73]" + "O1[74]" 
+    + "O1[75]" + "O1[76]" + "O1[77]" + "O1[78]" + "O1[79]" + "O1[7]" + "O1[80]" 
+    + "O1[81]" + "O1[82]" + "O1[83]" + "O1[84]" + "O1[85]" + "O1[86]" + "O1[87]" 
+    + "O1[88]" + "O1[89]" + "O1[8]" + "O1[90]" + "O1[91]" + "O1[92]" + "O1[93]" 
+    + "O1[94]" + "O1[95]" + "O1[96]" + "O1[97]" + "O1[98]" + "O1[99]" + "O1[9]" 
+    + "O2[0]" + "O2[100]" + "O2[101]" + "O2[102]" + "O2[103]" + "O2[104]" + 
+    "O2[105]" + "O2[106]" + "O2[107]" + "O2[108]" + "O2[109]" + "O2[10]" + 
+    "O2[110]" + "O2[111]" + "O2[112]" + "O2[113]" + "O2[114]" + "O2[115]" + 
+    "O2[116]" + "O2[117]" + "O2[118]" + "O2[119]" + "O2[11]" + "O2[120]" + 
+    "O2[121]" + "O2[122]" + "O2[123]" + "O2[124]" + "O2[125]" + "O2[126]" + 
+    "O2[127]" + "O2[12]" + "O2[13]" + "O2[14]" + "O2[15]" + "O2[16]" + "O2[17]" 
+    + "O2[18]" + "O2[19]" + "O2[1]" + "O2[20]" + "O2[21]" + "O2[22]" + "O2[23]" 
+    + "O2[24]" + "O2[25]" + "O2[26]" + "O2[27]" + "O2[28]" + "O2[29]" + "O2[2]" 
+    + "O2[30]" + "O2[31]" + "O2[32]" + "O2[33]" + "O2[34]" + "O2[35]" + "O2[36]" 
+    + "O2[37]" + "O2[38]" + "O2[39]" + "O2[3]" + "O2[40]" + "O2[41]" + "O2[42]" 
+    + "O2[43]" + "O2[44]" + "O2[45]" + "O2[46]" + "O2[47]" + "O2[48]" + "O2[49]" 
+    + "O2[4]" + "O2[50]" + "O2[51]" + "O2[52]" + "O2[53]" + "O2[54]" + "O2[55]" 
+    + "O2[56]" + "O2[57]" + "O2[58]" + "O2[59]" + "O2[5]" + "O2[60]" + "O2[61]" 
+    + "O2[62]" + "O2[63]" + "O2[64]" + "O2[65]" + "O2[66]" + "O2[67]" + "O2[68]" 
+    + "O2[69]" + "O2[6]" + "O2[70]" + "O2[71]" + "O2[72]" + "O2[73]" + "O2[74]" 
+    + "O2[75]" + "O2[76]" + "O2[77]" + "O2[78]" + "O2[79]" + "O2[7]" + "O2[80]" 
+    + "O2[81]" + "O2[82]" + "O2[83]" + "O2[84]" + "O2[85]" + "O2[86]" + "O2[87]" 
+    + "O2[88]" + "O2[89]" + "O2[8]" + "O2[90]" + "O2[91]" + "O2[92]" + "O2[93]" 
+    + "O2[94]" + "O2[95]" + "O2[96]" + "O2[97]" + "O2[98]" + "O2[99]" + "O2[9]" 
+    + "SO0" + "SO1" + "SO2"';
+}
+ScanStructures {
+    ScanChain "1" {
+        ScanLength 52;
+        ScanEnable "ScanEnable";
+        ScanMasterClock "CLK";
+    }
+    ScanChain "2" {
+        ScanLength 52;
+        ScanEnable "ScanEnable";
+        ScanMasterClock "CLK";
+    }
+    ScanChain "3" {
+        ScanLength 52;
+        ScanEnable "ScanEnable";
+        ScanMasterClock "CLK";
+    }
+    ScanChain "4" {
+        ScanLength 52;
+        ScanEnable "ScanEnable";
+        ScanMasterClock "CLK";
+    }
+    ScanChain "5" {
+        ScanLength 51;
+        ScanEnable "ScanEnable";
+        ScanMasterClock "CLK";
+    }
+    ScanChain "6" {
+        ScanLength 51;
+        ScanEnable "ScanEnable";
+        ScanMasterClock "CLK";
+    }
+    ScanChain "7" {
+        ScanLength 51;
+        ScanEnable "ScanEnable";
+        ScanMasterClock "CLK";
+    }
+    ScanChain "8" {
+        ScanLength 51;
+        ScanEnable "ScanEnable";
+        ScanMasterClock "CLK";
+    }
+    ScanChain "9" {
+        ScanLength 51;
+        ScanEnable "ScanEnable";
+        ScanMasterClock "CLK";
+    }
+    ScanChain "10" {
+        ScanLength 51;
+        ScanEnable "ScanEnable";
+        ScanMasterClock "CLK";
+    }
+    ScanChain "11" {
+        ScanLength 51;
+        ScanEnable "ScanEnable";
+        ScanMasterClock "CLK";
+    }
+    ScanChain "12" {
+        ScanLength 51;
+        ScanEnable "ScanEnable";
+        ScanMasterClock "CLK";
+    }
+    ScanChain "13" {
+        ScanLength 51;
+        ScanEnable "ScanEnable";
+        ScanMasterClock "CLK";
+    }
+    ScanChain "14" {
+        ScanLength 51;
+        ScanEnable "ScanEnable";
+        ScanMasterClock "CLK";
+    }
+    ScanChain "15" {
+        ScanLength 51;
+        ScanEnable "ScanEnable";
+        ScanMasterClock "CLK";
+    }
+    ScanChain "16" {
+        ScanLength 51;
+        ScanEnable "ScanEnable";
+        ScanMasterClock "CLK";
+    }
+    ScanChain "17" {
+        ScanLength 51;
+        ScanEnable "ScanEnable";
+        ScanMasterClock "CLK";
+    }
+    ScanChain "18" {
+        ScanLength 51;
+        ScanEnable "ScanEnable";
+        ScanMasterClock "CLK";
+    }
+    ScanChain "19" {
+        ScanLength 51;
+        ScanEnable "ScanEnable";
+        ScanMasterClock "CLK";
+    }
+    ScanChain "20" {
+        ScanLength 51;
+        ScanEnable "ScanEnable";
+        ScanMasterClock "CLK";
+    }
+    ScanChain "sccompin0" {
+        ScanIn "SI0";
+    }
+    ScanChain "sccompin1" {
+        ScanIn "SI1";
+    }
+    ScanChain "sccompin2" {
+        ScanIn "SI2";
+    }
+    ScanChain "sccompout0" {
+        ScanOut "SO0";
+    }
+    ScanChain "sccompout1" {
+        ScanOut "SO1";
+    }
+    ScanChain "sccompout2" {
+        ScanOut "SO2";
+    }
+    ScanChainGroups {
+        core_group {
+            "1";
+            "2";
+            "3";
+            "4";
+            "5";
+            "6";
+            "7";
+            "8";
+            "9";
+            "10";
+            "11";
+            "12";
+            "13";
+            "14";
+            "15";
+            "16";
+            "17";
+            "18";
+            "19";
+            "20";
+        }
+        load_group {
+            "sccompin0";
+            "sccompin1";
+        }
+        unload_group {
+            "sccompout0";
+            "sccompout1";
+            "sccompout2";
+        }
+        mode_group {
+            "sccompin2";
+        }
+    }
+}
+Timing {
+    WaveformTable "_default_WFT_" {
+        Period '100ns';
+        Waveforms {
+            "all_inputs" {
+                0 {
+                    '0ns' D;
+                }
+            }
+            "all_inputs" {
+                1 {
+                    '0ns' U;
+                }
+            }
+            "all_inputs" {
+                Z {
+                    '0ns' Z;
+                }
+            }
+            "all_inputs" {
+                N {
+                    '0ns' N;
+                }
+            }
+            "all_outputs" {
+                X {
+                    '0ns' X;
+                    '40ns' X;
+                }
+            }
+            "all_outputs" {
+                H {
+                    '0ns' X;
+                    '40ns' H;
+                }
+            }
+            "all_outputs" {
+                T {
+                    '0ns' X;
+                    '40ns' T;
+                }
+            }
+            "all_outputs" {
+                L {
+                    '0ns' X;
+                    '40ns' L;
+                }
+            }
+            "CLK" {
+                P {
+                    '0ns' D;
+                    '45ns' U;
+                    '55ns' D;
+                }
+            }
+        }
+    }
+    WaveformTable "_multiclock_capture_WFT_" {
+        Period '100ns';
+        Waveforms {
+            "all_inputs" {
+                0 {
+                    '0ns' D;
+                }
+            }
+            "all_inputs" {
+                1 {
+                    '0ns' U;
+                }
+            }
+            "all_inputs" {
+                Z {
+                    '0ns' Z;
+                }
+            }
+            "all_inputs" {
+                N {
+                    '0ns' N;
+                }
+            }
+            "all_outputs" {
+                X {
+                    '0ns' X;
+                    '40ns' X;
+                }
+            }
+            "all_outputs" {
+                H {
+                    '0ns' X;
+                    '40ns' H;
+                }
+            }
+            "all_outputs" {
+                T {
+                    '0ns' X;
+                    '40ns' T;
+                }
+            }
+            "all_outputs" {
+                L {
+                    '0ns' X;
+                    '40ns' L;
+                }
+            }
+            "CLK" {
+                P {
+                    '0ns' D;
+                    '45ns' U;
+                    '55ns' D;
+                }
+            }
+        }
+    }
+    WaveformTable "_allclock_capture_WFT_" {
+        Period '100ns';
+        Waveforms {
+            "all_inputs" {
+                0 {
+                    '0ns' D;
+                }
+            }
+            "all_inputs" {
+                1 {
+                    '0ns' U;
+                }
+            }
+            "all_inputs" {
+                Z {
+                    '0ns' Z;
+                }
+            }
+            "all_inputs" {
+                N {
+                    '0ns' N;
+                }
+            }
+            "all_outputs" {
+                X {
+                    '0ns' X;
+                    '40ns' X;
+                }
+            }
+            "all_outputs" {
+                H {
+                    '0ns' X;
+                    '40ns' H;
+                }
+            }
+            "all_outputs" {
+                T {
+                    '0ns' X;
+                    '40ns' T;
+                }
+            }
+            "all_outputs" {
+                L {
+                    '0ns' X;
+                    '40ns' L;
+                }
+            }
+            "CLK" {
+                P {
+                    '0ns' D;
+                    '45ns' U;
+                    '55ns' D;
+                }
+            }
+        }
+    }
+    WaveformTable "_allclock_launch_WFT_" {
+        Period '100ns';
+        Waveforms {
+            "all_inputs" {
+                0 {
+                    '0ns' D;
+                }
+            }
+            "all_inputs" {
+                1 {
+                    '0ns' U;
+                }
+            }
+            "all_inputs" {
+                Z {
+                    '0ns' Z;
+                }
+            }
+            "all_inputs" {
+                N {
+                    '0ns' N;
+                }
+            }
+            "all_outputs" {
+                X {
+                    '0ns' X;
+                    '40ns' X;
+                }
+            }
+            "all_outputs" {
+                H {
+                    '0ns' X;
+                    '40ns' H;
+                }
+            }
+            "all_outputs" {
+                T {
+                    '0ns' X;
+                    '40ns' T;
+                }
+            }
+            "all_outputs" {
+                L {
+                    '0ns' X;
+                    '40ns' L;
+                }
+            }
+            "CLK" {
+                P {
+                    '0ns' D;
+                    '45ns' U;
+                    '55ns' D;
+                }
+            }
+        }
+    }
+    WaveformTable "_allclock_launch_capture_WFT_" {
+        Period '100ns';
+        Waveforms {
+            "all_inputs" {
+                0 {
+                    '0ns' D;
+                }
+            }
+            "all_inputs" {
+                1 {
+                    '0ns' U;
+                }
+            }
+            "all_inputs" {
+                Z {
+                    '0ns' Z;
+                }
+            }
+            "all_inputs" {
+                N {
+                    '0ns' N;
+                }
+            }
+            "all_outputs" {
+                X {
+                    '0ns' X;
+                    '40ns' X;
+                }
+            }
+            "all_outputs" {
+                H {
+                    '0ns' X;
+                    '40ns' H;
+                }
+            }
+            "all_outputs" {
+                T {
+                    '0ns' X;
+                    '40ns' T;
+                }
+            }
+            "all_outputs" {
+                L {
+                    '0ns' X;
+                    '40ns' L;
+                }
+            }
+            "CLK" {
+                P {
+                    '0ns' D;
+                    '45ns' U;
+                    '55ns' D;
+                }
+            }
+        }
+    }
+}
+UserKeywords CompressorStructures;
+CompressorStructures {
+    Compressor "core_U_decompressor_ScanCompression_mode" {
+        ModeGroup mode_group;
+        LoadGroup load_group;
+        CoreGroup core_group;
+        Modes 2;
+        Mode 0 {
+            ModeControls {
+                "SI2" = 0;
+            }
+            Connection 0 "1" "4" "6" "7" "9" "12" "14" "15" "17" "20";
+            Connection 1 "2" "3" "5" "8" "10" "11" "13" "16" "18" "19";
+        }
+        Mode 1 {
+            ModeControls {
+                "SI2" = 1;
+            }
+            Connection 0 "1" "3" "5" "7" "9" "11" "13" "15" "17" "19";
+            Connection 1 "2" "4" "6" "8" "10" "12" "14" "16" "18" "20";
+        }
+    }
+    Compressor "core_U_compressor_ScanCompression_mode" {
+        ModeGroup mode_group;
+        UnloadGroup unload_group;
+        CoreGroup core_group;
+        Modes 1;
+        Mode 0 {
+            Connection "1" 0 1;
+            Connection "2" 2;
+            Connection "3" 0;
+            Connection "4" 1;
+            Connection "5" 2;
+            Connection "6" 0;
+            Connection "7" 1;
+            Connection "8" 2;
+            Connection "9" 0;
+            Connection "10" 1;
+            Connection "11" 2;
+            Connection "12" 0;
+            Connection "13" 1;
+            Connection "14" 0 2;
+            Connection "15" 1 2;
+            Connection "16" 0 1;
+            Connection "17" 0 2;
+            Connection "18" 1 2;
+            Connection "19" 0 1;
+            Connection "20" 0 2;
+        }
+    }
+}
+Procedures {
+    "multiclock_capture" {
+        W "_multiclock_capture_WFT_";
+        C {
+            "all_inputs" = 0 \r264 N 1;
+            "all_outputs" = \r259 X;
+        }
+        F {
+            "test_modea" = 1;
+        }
+        V {
+            "_pi" = \r266 #;
+            "_po" = \r259 #;
+        }
+    }
+    "allclock_capture" {
+        W "_allclock_capture_WFT_";
+        C {
+            "all_inputs" = 0 \r264 N 1;
+            "all_outputs" = \r259 X;
+        }
+        F {
+            "test_modea" = 1;
+        }
+        V {
+            "_pi" = \r266 #;
+            "_po" = \r259 #;
+        }
+    }
+    "allclock_launch" {
+        W "_allclock_launch_WFT_";
+        C {
+            "all_inputs" = 0 \r264 N 1;
+            "all_outputs" = \r259 X;
+        }
+        F {
+            "test_modea" = 1;
+        }
+        V {
+            "_pi" = \r266 #;
+            "_po" = \r259 #;
+        }
+    }
+    "allclock_launch_capture" {
+        W "_allclock_launch_capture_WFT_";
+        C {
+            "all_inputs" = 0 \r264 N 1;
+            "all_outputs" = \r259 X;
+        }
+        F {
+            "test_modea" = 1;
+        }
+        V {
+            "_pi" = \r266 #;
+            "_po" = \r259 #;
+        }
+    }
+    "load_unload" {
+        W "_default_WFT_";
+        ActiveScanChains core_group;
+        C {
+            "all_inputs" = 0 \r264 N 1;
+            "all_outputs" = \r259 X;
+        }
+        "ScanCompression_mode_pre_shift" : V {
+            "ScanEnable" = 1;
+        }
+        Shift {
+            V {
+                "_clk" = P;
+                "_si" = ###;
+                "_so" = ###;
+            }
+        }
+    }
+}
+MacroDefs {
+    "test_setup" {
+        W "_default_WFT_";
+        C {
+            "all_inputs" = \r266 N;
+            "all_outputs" = \r259 X;
+        }
+        V {
+            "CLK" = 0;
+            "test_modea" = 1;
+        }
+        V {
+        }
+    }
+}
+
