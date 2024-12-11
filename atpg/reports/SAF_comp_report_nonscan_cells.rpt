@@ -1,0 +1,10 @@
+ rule  severity  #fails  description
+ ----  --------  ------  ---------------------------------
+ N20   warning        2  underspecified UDP
+ B7    warning      131  undriven module output pin
+ B8    warning        7  unconnected module input pin
+ B9    warning        1  undriven module internal net
+ B10   warning      153  unconnected module internal net
+ R9    warning       40  two chains always have the same load value
+ R10   warning       25  two chains always have the same unload signature
+ R11   warning      114  X on chain affects observability of other chains

@@ -1,0 +1,11 @@
+ simulation =      basic_scan=yes, bidi_fill=off, data=(0:-1), measure=pat,
+                   analyze_x_sources=no, analyze_x_effects=no,
+                   xclock_gives_xout=no, xfill_out_of_range_write=no,
+                   pipeline_cells=no, timing_exceptions_for_stuck_at=no, check_padding_patterns=no
+                   use_timing_exceptions=yes
+                   oscillation=(10,2), store_memory_contents=no,
+                   shift_cycles=0,
+                   progress_message=0,
+                   words_per_pass=32, verbose=no,
+                   dominance_use=off, two_clock_resim=no, num_processes=0;
+                   num_threads=8;
