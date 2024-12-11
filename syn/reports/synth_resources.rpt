@@ -1,0 +1,35 @@
+ 
+****************************************
+Report : resources
+Design : core
+Version: R-2020.09-SP5
+Date   : Wed Dec  4 15:33:17 2024
+****************************************
+
+Resource Sharing Report for design core in file ../../design/core_rtl.v
+
+===============================================================================
+|          |              |            | Contained     |                      |
+| Resource | Module       | Parameters | Resources     | Contained Operations |
+===============================================================================
+| r371     | DW01_sub     | width=128  |               | sub_24_S2            |
+| r373     | DW01_add     | width=128  |               | add_25_S2            |
+| r375     | DW01_sub     | width=128  |               | sub_27_S2            |
+| r1091    | DW_mult_uns  | a_width=128 |              | mult_23_S2           |
+|          |              | b_width=128 |              |                      |
+===============================================================================
+
+
+Implementation Report
+===============================================================================
+|                    |                  | Current            | Set            |
+| Cell               | Module           | Implementation     | Implementation |
+===============================================================================
+| add_25_S2          | DW01_add         | pparch (area,speed)                 |
+| sub_24_S2          | DW01_sub         | pparch (area,speed)                 |
+| sub_27_S2          | DW01_sub         | pparch (area,speed)                 |
+| mult_23_S2         | DW_mult_uns      | pparch (area,speed)                 |
+|                    |                  | mult_arch: benc_radix8              |
+===============================================================================
+
+1

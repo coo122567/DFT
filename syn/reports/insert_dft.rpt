@@ -1,0 +1,70 @@
+Warning: Design 'core' contains 2 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+  Information: Using test design rule information from previous dft_drc run.
+Architecting Scan Compression structures
+  Architecting Scan Chains
+Architecting scan compression mode ScanCompression_mode with base mode Internal_scan
+Warning: The compressor generated might have lower diagnostics precision. (TEST-1603)
+Architecting Load Decompressor (version 5.8)
+  Number of inputs/chains/internal modes = 3/20/2
+Architecting Unload compressor (version 5.8)
+  Number of outputs/chains = 3/20
+  Warning: Compressor will have default x-tolerance
+* "/home/m110/m110063553/DFT/testcase_dftmax_ultra/syn/WORK/core_SCCOMP_DECOMPRESSOR.v" file correctly generated *
+Writing test model file '/home/m110/m110063553/DFT/testcase_dftmax_ultra/syn/WORK/core_SCCOMP_DECOMPRESSOR.ctl'...
+Loading verilog file '/home/m110/m110063553/DFT/testcase_dftmax_ultra/syn/WORK/core_SCCOMP_DECOMPRESSOR.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /home/m110/m110063553/DFT/testcase_dftmax_ultra/syn/WORK/core_SCCOMP_DECOMPRESSOR.v
+
+Statistics for case statements in always block at line 27 in file
+	'/home/m110/m110063553/DFT/testcase_dftmax_ultra/syn/WORK/core_SCCOMP_DECOMPRESSOR.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            29            |    auto/auto     |
+===============================================
+Presto compilation completed successfully.
+Removing netlist file '/home/m110/m110063553/DFT/testcase_dftmax_ultra/syn/WORK/core_SCCOMP_DECOMPRESSOR.v'...
+Removing test model file '/home/m110/m110063553/DFT/testcase_dftmax_ultra/syn/WORK/core_SCCOMP_DECOMPRESSOR.ctl'...
+  Allocating blocks in 'core_U_decompressor_ScanCompression_mode_0_dummy'
+  Building model 'DW01_NAND2'
+  Building model 'DW01_NOT'
+* "/home/m110/m110063553/DFT/testcase_dftmax_ultra/syn/WORK/core_SCCOMP_COMPRESSOR.v" file correctly generated *
+Writing test model file '/home/m110/m110063553/DFT/testcase_dftmax_ultra/syn/WORK/core_SCCOMP_COMPRESSOR.ctl'...
+Loading verilog file '/home/m110/m110063553/DFT/testcase_dftmax_ultra/syn/WORK/core_SCCOMP_COMPRESSOR.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /home/m110/m110063553/DFT/testcase_dftmax_ultra/syn/WORK/core_SCCOMP_COMPRESSOR.v
+Presto compilation completed successfully.
+Removing netlist file '/home/m110/m110063553/DFT/testcase_dftmax_ultra/syn/WORK/core_SCCOMP_COMPRESSOR.v'...
+Removing test model file '/home/m110/m110063553/DFT/testcase_dftmax_ultra/syn/WORK/core_SCCOMP_COMPRESSOR.ctl'...
+  Inserting Scan Cells
+  Routing Scan Chains
+  Routing Global Signals
+  Generating TCM logic ...
+    Generating decode logic for TCM...
+    Generating mode logic for TCM...
+  Mapping New Logic
+Warning: Test protocols written out with the internal pins flow enabled are not accurate and cannot be used. (TESTXG-53)
+Resetting current test mode
+  Processing 'core_SCCOMP_DECOMPRESSOR'
+  Processing 'core_SCCOMP_COMPRESSOR'
+  Processing 'core_DW01_decode_width1'
+Information: Updating design information... (UID-85)
+Warning: Design 'core' contains 2 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+Warning: Design 'core' contains 2 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+
+
+  Beginning Phase 1 Design Rule Fixing  (max_transition)  (max_capacitance)
+  ------------------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:02  100280.0      0.00       0.0       0.1 core_DW_decoder_inst/B[0]
+    0:00:02  100277.6      0.00       0.0       0.0 mult_23_S2/b[118]        
+
+1

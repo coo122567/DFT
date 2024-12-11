@@ -1,0 +1,2396 @@
+Warning: Design 'core' contains 2 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+  Information: Using test design rule information from previous dft_drc run.
+Architecting Scan Compression structures
+  Architecting Scan Chains
+Architecting scan compression mode ScanCompression_mode with base mode Internal_scan
+Warning: The compressor generated might have lower diagnostics precision. (TEST-1603)
+Architecting Load Decompressor (version 5.8)
+  Number of inputs/chains/internal modes = 3/20/2
+Architecting Unload compressor (version 5.8)
+  Number of outputs/chains = 3/20
+  Warning: Compressor will have default x-tolerance
+
+****************************************
+Preview_dft report
+For    : 'Insert_dft' command
+Design : core
+Version: R-2020.09-SP5
+Date   : Wed Dec  4 15:40:34 2024
+****************************************
+
+
+
+****************************************
+
+Current mode: Internal_scan
+****************************************
+
+Number of chains: 3
+Scan methodology: full_scan
+Scan style: multiplexed_flip_flop
+Clock domain: no_mix
+Scan enable: ScanEnable (no hookup pin)
+
+  (l) shows cell scan-out drives a lockup latch
+  (s) shows cell is a scan segment
+  (m) shows cell scan-out drives a multi-mode multiplexer
+  (t) shows cell has a true scan attribute
+  (w) shows cell scan-out drives a wire
+
+
+Scan chain '1' (SI0 --> SO0) contains 342 cells
+  Active in modes: Internal_scan :
+
+  DATA_A_reg_0_                 (CLK, 45.0, rising) 
+  DATA_A_reg_1_                 
+  DATA_A_reg_2_                 
+  DATA_A_reg_3_                 
+  DATA_A_reg_4_                 
+  DATA_A_reg_5_                 
+  DATA_A_reg_6_                 
+  DATA_A_reg_7_                 
+  DATA_A_reg_8_                 
+  DATA_A_reg_9_                 
+  DATA_A_reg_10_                
+  DATA_A_reg_11_                
+  DATA_A_reg_12_                
+  DATA_A_reg_13_                
+  DATA_A_reg_14_                
+  DATA_A_reg_15_                
+  DATA_A_reg_16_                
+  DATA_A_reg_17_                
+  DATA_A_reg_18_                
+  DATA_A_reg_19_                
+  DATA_A_reg_20_                
+  DATA_A_reg_21_                
+  DATA_A_reg_22_                
+  DATA_A_reg_23_                
+  DATA_A_reg_24_                
+  DATA_A_reg_25_                
+  DATA_A_reg_26_                
+  DATA_A_reg_27_                
+  DATA_A_reg_28_                
+  DATA_A_reg_29_                
+  DATA_A_reg_30_                
+  DATA_A_reg_31_                
+  DATA_A_reg_32_                
+  DATA_A_reg_33_                
+  DATA_A_reg_34_                
+  DATA_A_reg_35_                
+  DATA_A_reg_36_                
+  DATA_A_reg_37_                
+  DATA_A_reg_38_                
+  DATA_A_reg_39_                
+  DATA_A_reg_40_                
+  DATA_A_reg_41_                
+  DATA_A_reg_42_                
+  DATA_A_reg_43_                
+  DATA_A_reg_44_                
+  DATA_A_reg_45_                
+  DATA_A_reg_46_                
+  DATA_A_reg_47_                
+  DATA_A_reg_48_                
+  DATA_A_reg_49_                
+  DATA_A_reg_50_                
+  DATA_A_reg_51_ (m)            
+  DATA_A_reg_52_                
+  DATA_A_reg_53_                
+  DATA_A_reg_54_                
+  DATA_A_reg_55_                
+  DATA_A_reg_56_                
+  DATA_A_reg_57_                
+  DATA_A_reg_58_                
+  DATA_A_reg_59_                
+  DATA_A_reg_60_                
+  DATA_A_reg_61_                
+  DATA_A_reg_62_                
+  DATA_A_reg_63_                
+  DATA_A_reg_64_                
+  DATA_A_reg_65_                
+  DATA_A_reg_66_                
+  DATA_A_reg_67_                
+  DATA_A_reg_68_                
+  DATA_A_reg_69_                
+  DATA_A_reg_70_                
+  DATA_A_reg_71_                
+  DATA_A_reg_72_                
+  DATA_A_reg_73_                
+  DATA_A_reg_74_                
+  DATA_A_reg_75_                
+  DATA_A_reg_76_                
+  DATA_A_reg_77_                
+  DATA_A_reg_78_                
+  DATA_A_reg_79_                
+  DATA_A_reg_80_                
+  DATA_A_reg_81_                
+  DATA_A_reg_82_                
+  DATA_A_reg_83_                
+  DATA_A_reg_84_                
+  DATA_A_reg_85_                
+  DATA_A_reg_86_                
+  DATA_A_reg_87_                
+  DATA_A_reg_88_                
+  DATA_A_reg_89_                
+  DATA_A_reg_90_                
+  DATA_A_reg_91_                
+  DATA_A_reg_92_                
+  DATA_A_reg_93_                
+  DATA_A_reg_94_                
+  DATA_A_reg_95_                
+  DATA_A_reg_96_                
+  DATA_A_reg_97_                
+  DATA_A_reg_98_                
+  DATA_A_reg_99_                
+  DATA_A_reg_100_               
+  DATA_A_reg_101_               
+  DATA_A_reg_102_               
+  DATA_A_reg_103_ (m)           
+  DATA_A_reg_104_               
+  DATA_A_reg_105_               
+  DATA_A_reg_106_               
+  DATA_A_reg_107_               
+  DATA_A_reg_108_               
+  DATA_A_reg_109_               
+  DATA_A_reg_110_               
+  DATA_A_reg_111_               
+  DATA_A_reg_112_               
+  DATA_A_reg_113_               
+  DATA_A_reg_114_               
+  DATA_A_reg_115_               
+  DATA_A_reg_116_               
+  DATA_A_reg_117_               
+  DATA_A_reg_118_               
+  DATA_A_reg_119_               
+  DATA_A_reg_120_               
+  DATA_A_reg_121_               
+  DATA_A_reg_122_               
+  DATA_A_reg_123_               
+  DATA_A_reg_124_               
+  DATA_A_reg_125_               
+  DATA_A_reg_126_               
+  DATA_A_reg_127_               
+  DATA_B_reg_0_                 
+  DATA_B_reg_1_                 
+  DATA_B_reg_2_                 
+  DATA_B_reg_3_                 
+  DATA_B_reg_4_                 
+  DATA_B_reg_5_                 
+  DATA_B_reg_6_                 
+  DATA_B_reg_7_                 
+  DATA_B_reg_8_                 
+  DATA_B_reg_9_                 
+  DATA_B_reg_10_                
+  DATA_B_reg_11_                
+  DATA_B_reg_12_                
+  DATA_B_reg_13_                
+  DATA_B_reg_14_                
+  DATA_B_reg_15_                
+  DATA_B_reg_16_                
+  DATA_B_reg_17_                
+  DATA_B_reg_18_                
+  DATA_B_reg_19_                
+  DATA_B_reg_20_                
+  DATA_B_reg_21_                
+  DATA_B_reg_22_                
+  DATA_B_reg_23_                
+  DATA_B_reg_24_                
+  DATA_B_reg_25_                
+  DATA_B_reg_26_                
+  DATA_B_reg_27_ (m)            
+  DATA_B_reg_28_                
+  DATA_B_reg_29_                
+  DATA_B_reg_30_                
+  DATA_B_reg_31_                
+  DATA_B_reg_32_                
+  DATA_B_reg_33_                
+  DATA_B_reg_34_                
+  DATA_B_reg_35_                
+  DATA_B_reg_36_                
+  DATA_B_reg_37_                
+  DATA_B_reg_38_                
+  DATA_B_reg_39_                
+  DATA_B_reg_40_                
+  DATA_B_reg_41_                
+  DATA_B_reg_42_                
+  DATA_B_reg_43_                
+  DATA_B_reg_44_                
+  DATA_B_reg_45_                
+  DATA_B_reg_46_                
+  DATA_B_reg_47_                
+  DATA_B_reg_48_                
+  DATA_B_reg_49_                
+  DATA_B_reg_50_                
+  DATA_B_reg_51_                
+  DATA_B_reg_52_                
+  DATA_B_reg_53_                
+  DATA_B_reg_54_                
+  DATA_B_reg_55_                
+  DATA_B_reg_56_                
+  DATA_B_reg_57_                
+  DATA_B_reg_58_                
+  DATA_B_reg_59_                
+  DATA_B_reg_60_                
+  DATA_B_reg_61_                
+  DATA_B_reg_62_                
+  DATA_B_reg_63_                
+  DATA_B_reg_64_                
+  DATA_B_reg_65_                
+  DATA_B_reg_66_                
+  DATA_B_reg_67_                
+  DATA_B_reg_68_                
+  DATA_B_reg_69_                
+  DATA_B_reg_70_                
+  DATA_B_reg_71_                
+  DATA_B_reg_72_                
+  DATA_B_reg_73_                
+  DATA_B_reg_74_                
+  DATA_B_reg_75_                
+  DATA_B_reg_76_                
+  DATA_B_reg_77_                
+  DATA_B_reg_78_                
+  DATA_B_reg_79_ (m)            
+  DATA_B_reg_80_                
+  DATA_B_reg_81_                
+  DATA_B_reg_82_                
+  DATA_B_reg_83_                
+  DATA_B_reg_84_                
+  DATA_B_reg_85_                
+  DATA_B_reg_86_                
+  DATA_B_reg_87_                
+  DATA_B_reg_88_                
+  DATA_B_reg_89_                
+  DATA_B_reg_90_                
+  DATA_B_reg_91_                
+  DATA_B_reg_92_                
+  DATA_B_reg_93_                
+  DATA_B_reg_94_                
+  DATA_B_reg_95_                
+  DATA_B_reg_96_                
+  DATA_B_reg_97_                
+  DATA_B_reg_98_                
+  DATA_B_reg_99_                
+  DATA_B_reg_100_               
+  DATA_B_reg_101_               
+  DATA_B_reg_102_               
+  DATA_B_reg_103_               
+  DATA_B_reg_104_               
+  DATA_B_reg_105_               
+  DATA_B_reg_106_               
+  DATA_B_reg_107_               
+  DATA_B_reg_108_               
+  DATA_B_reg_109_               
+  DATA_B_reg_110_               
+  DATA_B_reg_111_               
+  DATA_B_reg_112_               
+  DATA_B_reg_113_               
+  DATA_B_reg_114_               
+  DATA_B_reg_115_               
+  DATA_B_reg_116_               
+  DATA_B_reg_117_               
+  DATA_B_reg_118_               
+  DATA_B_reg_119_               
+  DATA_B_reg_120_               
+  DATA_B_reg_121_               
+  DATA_B_reg_122_               
+  DATA_B_reg_123_               
+  DATA_B_reg_124_               
+  DATA_B_reg_125_               
+  DATA_B_reg_126_               
+  DATA_B_reg_127_               
+  O1_reg_0_                     
+  O1_reg_1_                     
+  O1_reg_2_ (m)                 
+  O1_reg_3_                     
+  O1_reg_4_                     
+  O1_reg_5_                     
+  O1_reg_6_                     
+  O1_reg_7_                     
+  O1_reg_8_                     
+  O1_reg_9_                     
+  O1_reg_10_                    
+  O1_reg_11_                    
+  O1_reg_12_                    
+  O1_reg_13_                    
+  O1_reg_14_                    
+  O1_reg_15_                    
+  O1_reg_16_                    
+  O1_reg_17_                    
+  O1_reg_18_                    
+  O1_reg_19_                    
+  O1_reg_20_                    
+  O1_reg_21_                    
+  O1_reg_22_                    
+  O1_reg_23_                    
+  O1_reg_24_                    
+  O1_reg_25_                    
+  O1_reg_26_                    
+  O1_reg_27_                    
+  O1_reg_28_                    
+  O1_reg_29_                    
+  O1_reg_30_                    
+  O1_reg_31_                    
+  O1_reg_32_                    
+  O1_reg_33_                    
+  O1_reg_34_                    
+  O1_reg_35_                    
+  O1_reg_36_                    
+  O1_reg_37_                    
+  O1_reg_38_                    
+  O1_reg_39_                    
+  O1_reg_40_                    
+  O1_reg_41_                    
+  O1_reg_42_                    
+  O1_reg_43_                    
+  O1_reg_44_                    
+  O1_reg_45_                    
+  O1_reg_46_                    
+  O1_reg_47_                    
+  O1_reg_48_                    
+  O1_reg_49_                    
+  O1_reg_50_                    
+  O1_reg_51_                    
+  O1_reg_52_                    
+  O1_reg_53_ (m)                
+  O1_reg_54_                    
+  O1_reg_55_                    
+  O1_reg_56_                    
+  O1_reg_57_                    
+  O1_reg_58_                    
+  O1_reg_59_                    
+  O1_reg_60_                    
+  O1_reg_61_                    
+  O1_reg_62_                    
+  O1_reg_63_                    
+  O1_reg_64_                    
+  O1_reg_65_                    
+  O1_reg_66_                    
+  O1_reg_67_                    
+  O1_reg_68_                    
+  O1_reg_69_                    
+  O1_reg_70_                    
+  O1_reg_71_                    
+  O1_reg_72_                    
+  O1_reg_73_                    
+  O1_reg_74_                    
+  O1_reg_75_                    
+  O1_reg_76_                    
+  O1_reg_77_                    
+  O1_reg_78_                    
+  O1_reg_79_                    
+  O1_reg_80_                    
+  O1_reg_81_                    
+  O1_reg_82_                    
+  O1_reg_83_                    
+  O1_reg_84_                    
+  O1_reg_85_ (m)                
+
+  Scan signals:
+    test_scan_in: SI0 (no hookup pin)
+    test_scan_out: SO0 (no hookup pin)
+
+
+Scan chain '2' (SI1 --> SO1) contains 341 cells
+  Active in modes: Internal_scan :
+
+  O1_reg_86_                    (CLK, 45.0, rising) 
+  O1_reg_87_                    
+  O1_reg_88_                    
+  O1_reg_89_                    
+  O1_reg_90_                    
+  O1_reg_91_                    
+  O1_reg_92_                    
+  O1_reg_93_                    
+  O1_reg_94_                    
+  O1_reg_95_                    
+  O1_reg_96_                    
+  O1_reg_97_                    
+  O1_reg_98_                    
+  O1_reg_99_                    
+  O1_reg_100_                   
+  O1_reg_101_                   
+  O1_reg_102_                   
+  O1_reg_103_                   
+  O1_reg_104_ (m)               
+  O1_reg_105_                   
+  O1_reg_106_                   
+  O1_reg_107_                   
+  O1_reg_108_                   
+  O1_reg_109_                   
+  O1_reg_110_                   
+  O1_reg_111_                   
+  O1_reg_112_                   
+  O1_reg_113_                   
+  O1_reg_114_                   
+  O1_reg_115_                   
+  O1_reg_116_                   
+  O1_reg_117_                   
+  O1_reg_118_                   
+  O1_reg_119_                   
+  O1_reg_120_                   
+  O1_reg_121_                   
+  O1_reg_122_                   
+  O1_reg_123_                   
+  O1_reg_124_                   
+  O1_reg_125_                   
+  O1_reg_126_                   
+  O1_reg_127_                   
+  O2_reg_0_                     
+  O2_reg_1_                     
+  O2_reg_2_                     
+  O2_reg_3_                     
+  O2_reg_4_                     
+  O2_reg_5_                     
+  O2_reg_6_                     
+  O2_reg_7_                     
+  O2_reg_8_                     
+  O2_reg_9_                     
+  O2_reg_10_                    
+  O2_reg_11_                    
+  O2_reg_12_                    
+  O2_reg_13_                    
+  O2_reg_14_                    
+  O2_reg_15_                    
+  O2_reg_16_                    
+  O2_reg_17_                    
+  O2_reg_18_                    
+  O2_reg_19_                    
+  O2_reg_20_                    
+  O2_reg_21_                    
+  O2_reg_22_                    
+  O2_reg_23_                    
+  O2_reg_24_                    
+  O2_reg_25_                    
+  O2_reg_26_                    
+  O2_reg_27_ (m)                
+  O2_reg_28_                    
+  O2_reg_29_                    
+  O2_reg_30_                    
+  O2_reg_31_                    
+  O2_reg_32_                    
+  O2_reg_33_                    
+  O2_reg_34_                    
+  O2_reg_35_                    
+  O2_reg_36_                    
+  O2_reg_37_                    
+  O2_reg_38_                    
+  O2_reg_39_                    
+  O2_reg_40_                    
+  O2_reg_41_                    
+  O2_reg_42_                    
+  O2_reg_43_                    
+  O2_reg_44_                    
+  O2_reg_45_                    
+  O2_reg_46_                    
+  O2_reg_47_                    
+  O2_reg_48_                    
+  O2_reg_49_                    
+  O2_reg_50_                    
+  O2_reg_51_                    
+  O2_reg_52_                    
+  O2_reg_53_                    
+  O2_reg_54_                    
+  O2_reg_55_                    
+  O2_reg_56_                    
+  O2_reg_57_                    
+  O2_reg_58_                    
+  O2_reg_59_                    
+  O2_reg_60_                    
+  O2_reg_61_                    
+  O2_reg_62_                    
+  O2_reg_63_                    
+  O2_reg_64_                    
+  O2_reg_65_                    
+  O2_reg_66_                    
+  O2_reg_67_                    
+  O2_reg_68_                    
+  O2_reg_69_                    
+  O2_reg_70_                    
+  O2_reg_71_                    
+  O2_reg_72_                    
+  O2_reg_73_                    
+  O2_reg_74_                    
+  O2_reg_75_                    
+  O2_reg_76_                    
+  O2_reg_77_                    
+  O2_reg_78_ (m)                
+  O2_reg_79_                    
+  O2_reg_80_                    
+  O2_reg_81_                    
+  O2_reg_82_                    
+  O2_reg_83_                    
+  O2_reg_84_                    
+  O2_reg_85_                    
+  O2_reg_86_                    
+  O2_reg_87_                    
+  O2_reg_88_                    
+  O2_reg_89_                    
+  O2_reg_90_                    
+  O2_reg_91_                    
+  O2_reg_92_                    
+  O2_reg_93_                    
+  O2_reg_94_                    
+  O2_reg_95_                    
+  O2_reg_96_                    
+  O2_reg_97_                    
+  O2_reg_98_                    
+  O2_reg_99_                    
+  O2_reg_100_                   
+  O2_reg_101_                   
+  O2_reg_102_                   
+  O2_reg_103_                   
+  O2_reg_104_                   
+  O2_reg_105_                   
+  O2_reg_106_                   
+  O2_reg_107_                   
+  O2_reg_108_                   
+  O2_reg_109_                   
+  O2_reg_110_                   
+  O2_reg_111_                   
+  O2_reg_112_                   
+  O2_reg_113_                   
+  O2_reg_114_                   
+  O2_reg_115_                   
+  O2_reg_116_                   
+  O2_reg_117_                   
+  O2_reg_118_                   
+  O2_reg_119_                   
+  O2_reg_120_                   
+  O2_reg_121_                   
+  O2_reg_122_                   
+  O2_reg_123_                   
+  O2_reg_124_                   
+  O2_reg_125_                   
+  O2_reg_126_                   
+  O2_reg_127_                   
+  OP_A_reg_0_                   
+  OP_A_reg_1_ (m)               
+  OP_A_reg_2_                   
+  OP_A_reg_3_                   
+  OP_A_reg_4_                   
+  OP_A_reg_5_                   
+  OP_A_reg_6_                   
+  OP_A_reg_7_                   
+  OP_A_reg_8_                   
+  OP_A_reg_9_                   
+  OP_A_reg_10_                  
+  OP_A_reg_11_                  
+  OP_A_reg_12_                  
+  OP_A_reg_13_                  
+  OP_A_reg_14_                  
+  OP_A_reg_15_                  
+  OP_A_reg_16_                  
+  OP_A_reg_17_                  
+  OP_A_reg_18_                  
+  OP_A_reg_19_                  
+  OP_A_reg_20_                  
+  OP_A_reg_21_                  
+  OP_A_reg_22_                  
+  OP_A_reg_23_                  
+  OP_A_reg_24_                  
+  OP_A_reg_25_                  
+  OP_A_reg_26_                  
+  OP_A_reg_27_                  
+  OP_A_reg_28_                  
+  OP_A_reg_29_                  
+  OP_A_reg_30_                  
+  OP_A_reg_31_                  
+  OP_A_reg_32_                  
+  OP_A_reg_33_                  
+  OP_A_reg_34_                  
+  OP_A_reg_35_                  
+  OP_A_reg_36_                  
+  OP_A_reg_37_                  
+  OP_A_reg_38_                  
+  OP_A_reg_39_                  
+  OP_A_reg_40_                  
+  OP_A_reg_41_                  
+  OP_A_reg_42_                  
+  OP_A_reg_43_                  
+  OP_A_reg_44_                  
+  OP_A_reg_45_                  
+  OP_A_reg_46_                  
+  OP_A_reg_47_                  
+  OP_A_reg_48_                  
+  OP_A_reg_49_                  
+  OP_A_reg_50_                  
+  OP_A_reg_51_                  
+  OP_A_reg_52_ (m)              
+  OP_A_reg_53_                  
+  OP_A_reg_54_                  
+  OP_A_reg_55_                  
+  OP_A_reg_56_                  
+  OP_A_reg_57_                  
+  OP_A_reg_58_                  
+  OP_A_reg_59_                  
+  OP_A_reg_60_                  
+  OP_A_reg_61_                  
+  OP_A_reg_62_                  
+  OP_A_reg_63_                  
+  OP_A_reg_64_                  
+  OP_A_reg_65_                  
+  OP_A_reg_66_                  
+  OP_A_reg_67_                  
+  OP_A_reg_68_                  
+  OP_A_reg_69_                  
+  OP_A_reg_70_                  
+  OP_A_reg_71_                  
+  OP_A_reg_72_                  
+  OP_A_reg_73_                  
+  OP_A_reg_74_                  
+  OP_A_reg_75_                  
+  OP_A_reg_76_                  
+  OP_A_reg_77_                  
+  OP_A_reg_78_                  
+  OP_A_reg_79_                  
+  OP_A_reg_80_                  
+  OP_A_reg_81_                  
+  OP_A_reg_82_                  
+  OP_A_reg_83_                  
+  OP_A_reg_84_                  
+  OP_A_reg_85_                  
+  OP_A_reg_86_                  
+  OP_A_reg_87_                  
+  OP_A_reg_88_                  
+  OP_A_reg_89_                  
+  OP_A_reg_90_                  
+  OP_A_reg_91_                  
+  OP_A_reg_92_                  
+  OP_A_reg_93_                  
+  OP_A_reg_94_                  
+  OP_A_reg_95_                  
+  OP_A_reg_96_                  
+  OP_A_reg_97_                  
+  OP_A_reg_98_                  
+  OP_A_reg_99_                  
+  OP_A_reg_100_                 
+  OP_A_reg_101_                 
+  OP_A_reg_102_                 
+  OP_A_reg_103_ (m)             
+  OP_A_reg_104_                 
+  OP_A_reg_105_                 
+  OP_A_reg_106_                 
+  OP_A_reg_107_                 
+  OP_A_reg_108_                 
+  OP_A_reg_109_                 
+  OP_A_reg_110_                 
+  OP_A_reg_111_                 
+  OP_A_reg_112_                 
+  OP_A_reg_113_                 
+  OP_A_reg_114_                 
+  OP_A_reg_115_                 
+  OP_A_reg_116_                 
+  OP_A_reg_117_                 
+  OP_A_reg_118_                 
+  OP_A_reg_119_                 
+  OP_A_reg_120_                 
+  OP_A_reg_121_                 
+  OP_A_reg_122_                 
+  OP_A_reg_123_                 
+  OP_A_reg_124_                 
+  OP_A_reg_125_                 
+  OP_A_reg_126_                 
+  OP_A_reg_127_                 
+  OP_B_reg_0_                   
+  OP_B_reg_1_                   
+  OP_B_reg_2_                   
+  OP_B_reg_3_                   
+  OP_B_reg_4_                   
+  OP_B_reg_5_                   
+  OP_B_reg_6_                   
+  OP_B_reg_7_                   
+  OP_B_reg_8_                   
+  OP_B_reg_9_                   
+  OP_B_reg_10_                  
+  OP_B_reg_11_                  
+  OP_B_reg_12_                  
+  OP_B_reg_13_                  
+  OP_B_reg_14_                  
+  OP_B_reg_15_                  
+  OP_B_reg_16_                  
+  OP_B_reg_17_                  
+  OP_B_reg_18_                  
+  OP_B_reg_19_                  
+  OP_B_reg_20_                  
+  OP_B_reg_21_                  
+  OP_B_reg_22_                  
+  OP_B_reg_23_                  
+  OP_B_reg_24_                  
+  OP_B_reg_25_                  
+  OP_B_reg_26_ (m)              
+  OP_B_reg_27_                  
+  OP_B_reg_28_                  
+  OP_B_reg_29_                  
+  OP_B_reg_30_                  
+  OP_B_reg_31_                  
+  OP_B_reg_32_                  
+  OP_B_reg_33_                  
+  OP_B_reg_34_                  
+  OP_B_reg_35_                  
+  OP_B_reg_36_                  
+  OP_B_reg_37_                  
+  OP_B_reg_38_                  
+  OP_B_reg_39_                  
+  OP_B_reg_40_                  
+  OP_B_reg_41_                  
+  OP_B_reg_42_ (m)              
+
+  Scan signals:
+    test_scan_in: SI1 (no hookup pin)
+    test_scan_out: SO1 (no hookup pin)
+
+
+Scan chain '3' (SI2 --> SO2) contains 341 cells
+  Active in modes: Internal_scan :
+
+  OP_B_reg_43_                  (CLK, 45.0, rising) 
+  OP_B_reg_44_                  
+  OP_B_reg_45_                  
+  OP_B_reg_46_                  
+  OP_B_reg_47_                  
+  OP_B_reg_48_                  
+  OP_B_reg_49_                  
+  OP_B_reg_50_                  
+  OP_B_reg_51_                  
+  OP_B_reg_52_                  
+  OP_B_reg_53_                  
+  OP_B_reg_54_                  
+  OP_B_reg_55_                  
+  OP_B_reg_56_                  
+  OP_B_reg_57_                  
+  OP_B_reg_58_                  
+  OP_B_reg_59_                  
+  OP_B_reg_60_                  
+  OP_B_reg_61_                  
+  OP_B_reg_62_                  
+  OP_B_reg_63_                  
+  OP_B_reg_64_                  
+  OP_B_reg_65_                  
+  OP_B_reg_66_                  
+  OP_B_reg_67_                  
+  OP_B_reg_68_                  
+  OP_B_reg_69_                  
+  OP_B_reg_70_                  
+  OP_B_reg_71_                  
+  OP_B_reg_72_                  
+  OP_B_reg_73_                  
+  OP_B_reg_74_                  
+  OP_B_reg_75_                  
+  OP_B_reg_76_                  
+  OP_B_reg_77_ (m)              
+  OP_B_reg_78_                  
+  OP_B_reg_79_                  
+  OP_B_reg_80_                  
+  OP_B_reg_81_                  
+  OP_B_reg_82_                  
+  OP_B_reg_83_                  
+  OP_B_reg_84_                  
+  OP_B_reg_85_                  
+  OP_B_reg_86_                  
+  OP_B_reg_87_                  
+  OP_B_reg_88_                  
+  OP_B_reg_89_                  
+  OP_B_reg_90_                  
+  OP_B_reg_91_                  
+  OP_B_reg_92_                  
+  OP_B_reg_93_                  
+  OP_B_reg_94_                  
+  OP_B_reg_95_                  
+  OP_B_reg_96_                  
+  OP_B_reg_97_                  
+  OP_B_reg_98_                  
+  OP_B_reg_99_                  
+  OP_B_reg_100_                 
+  OP_B_reg_101_                 
+  OP_B_reg_102_                 
+  OP_B_reg_103_                 
+  OP_B_reg_104_                 
+  OP_B_reg_105_                 
+  OP_B_reg_106_                 
+  OP_B_reg_107_                 
+  OP_B_reg_108_                 
+  OP_B_reg_109_                 
+  OP_B_reg_110_                 
+  OP_B_reg_111_                 
+  OP_B_reg_112_                 
+  OP_B_reg_113_                 
+  OP_B_reg_114_                 
+  OP_B_reg_115_                 
+  OP_B_reg_116_                 
+  OP_B_reg_117_                 
+  OP_B_reg_118_                 
+  OP_B_reg_119_                 
+  OP_B_reg_120_                 
+  OP_B_reg_121_                 
+  OP_B_reg_122_                 
+  OP_B_reg_123_                 
+  OP_B_reg_124_                 
+  OP_B_reg_125_                 
+  OP_B_reg_126_                 
+  OP_B_reg_127_                 
+  OP_C_reg_0_ (m)               
+  OP_C_reg_1_                   
+  OP_C_reg_2_                   
+  OP_C_reg_3_                   
+  OP_C_reg_4_                   
+  OP_C_reg_5_                   
+  OP_C_reg_6_                   
+  OP_C_reg_7_                   
+  OP_C_reg_8_                   
+  OP_C_reg_9_                   
+  OP_C_reg_10_                  
+  OP_C_reg_11_                  
+  OP_C_reg_12_                  
+  OP_C_reg_13_                  
+  OP_C_reg_14_                  
+  OP_C_reg_15_                  
+  OP_C_reg_16_                  
+  OP_C_reg_17_                  
+  OP_C_reg_18_                  
+  OP_C_reg_19_                  
+  OP_C_reg_20_                  
+  OP_C_reg_21_                  
+  OP_C_reg_22_                  
+  OP_C_reg_23_                  
+  OP_C_reg_24_                  
+  OP_C_reg_25_                  
+  OP_C_reg_26_                  
+  OP_C_reg_27_                  
+  OP_C_reg_28_                  
+  OP_C_reg_29_                  
+  OP_C_reg_30_                  
+  OP_C_reg_31_                  
+  OP_C_reg_32_                  
+  OP_C_reg_33_                  
+  OP_C_reg_34_                  
+  OP_C_reg_35_                  
+  OP_C_reg_36_                  
+  OP_C_reg_37_                  
+  OP_C_reg_38_                  
+  OP_C_reg_39_                  
+  OP_C_reg_40_                  
+  OP_C_reg_41_                  
+  OP_C_reg_42_                  
+  OP_C_reg_43_                  
+  OP_C_reg_44_                  
+  OP_C_reg_45_                  
+  OP_C_reg_46_                  
+  OP_C_reg_47_                  
+  OP_C_reg_48_                  
+  OP_C_reg_49_                  
+  OP_C_reg_50_                  
+  OP_C_reg_51_ (m)              
+  OP_C_reg_52_                  
+  OP_C_reg_53_                  
+  OP_C_reg_54_                  
+  OP_C_reg_55_                  
+  OP_C_reg_56_                  
+  OP_C_reg_57_                  
+  OP_C_reg_58_                  
+  OP_C_reg_59_                  
+  OP_C_reg_60_                  
+  OP_C_reg_61_                  
+  OP_C_reg_62_                  
+  OP_C_reg_63_                  
+  OP_C_reg_64_                  
+  OP_C_reg_65_                  
+  OP_C_reg_66_                  
+  OP_C_reg_67_                  
+  OP_C_reg_68_                  
+  OP_C_reg_69_                  
+  OP_C_reg_70_                  
+  OP_C_reg_71_                  
+  OP_C_reg_72_                  
+  OP_C_reg_73_                  
+  OP_C_reg_74_                  
+  OP_C_reg_75_                  
+  OP_C_reg_76_                  
+  OP_C_reg_77_                  
+  OP_C_reg_78_                  
+  OP_C_reg_79_                  
+  OP_C_reg_80_                  
+  OP_C_reg_81_                  
+  OP_C_reg_82_                  
+  OP_C_reg_83_                  
+  OP_C_reg_84_                  
+  OP_C_reg_85_                  
+  OP_C_reg_86_                  
+  OP_C_reg_87_                  
+  OP_C_reg_88_                  
+  OP_C_reg_89_                  
+  OP_C_reg_90_                  
+  OP_C_reg_91_                  
+  OP_C_reg_92_                  
+  OP_C_reg_93_                  
+  OP_C_reg_94_                  
+  OP_C_reg_95_                  
+  OP_C_reg_96_                  
+  OP_C_reg_97_                  
+  OP_C_reg_98_                  
+  OP_C_reg_99_                  
+  OP_C_reg_100_                 
+  OP_C_reg_101_                 
+  OP_C_reg_102_ (m)             
+  OP_C_reg_103_                 
+  OP_C_reg_104_                 
+  OP_C_reg_105_                 
+  OP_C_reg_106_                 
+  OP_C_reg_107_                 
+  OP_C_reg_108_                 
+  OP_C_reg_109_                 
+  OP_C_reg_110_                 
+  OP_C_reg_111_                 
+  OP_C_reg_112_                 
+  OP_C_reg_113_                 
+  OP_C_reg_114_                 
+  OP_C_reg_115_                 
+  OP_C_reg_116_                 
+  OP_C_reg_117_                 
+  OP_C_reg_118_                 
+  OP_C_reg_119_                 
+  OP_C_reg_120_                 
+  OP_C_reg_121_                 
+  OP_C_reg_122_                 
+  OP_C_reg_123_                 
+  OP_C_reg_124_                 
+  OP_C_reg_125_                 
+  OP_C_reg_126_                 
+  OP_C_reg_127_                 
+  OP_D_reg_0_                   
+  OP_D_reg_1_                   
+  OP_D_reg_2_                   
+  OP_D_reg_3_                   
+  OP_D_reg_4_                   
+  OP_D_reg_5_                   
+  OP_D_reg_6_                   
+  OP_D_reg_7_                   
+  OP_D_reg_8_                   
+  OP_D_reg_9_                   
+  OP_D_reg_10_                  
+  OP_D_reg_11_                  
+  OP_D_reg_12_                  
+  OP_D_reg_13_                  
+  OP_D_reg_14_                  
+  OP_D_reg_15_                  
+  OP_D_reg_16_                  
+  OP_D_reg_17_                  
+  OP_D_reg_18_                  
+  OP_D_reg_19_                  
+  OP_D_reg_20_                  
+  OP_D_reg_21_                  
+  OP_D_reg_22_                  
+  OP_D_reg_23_                  
+  OP_D_reg_24_                  
+  OP_D_reg_25_ (m)              
+  OP_D_reg_26_                  
+  OP_D_reg_27_                  
+  OP_D_reg_28_                  
+  OP_D_reg_29_                  
+  OP_D_reg_30_                  
+  OP_D_reg_31_                  
+  OP_D_reg_32_                  
+  OP_D_reg_33_                  
+  OP_D_reg_34_                  
+  OP_D_reg_35_                  
+  OP_D_reg_36_                  
+  OP_D_reg_37_                  
+  OP_D_reg_38_                  
+  OP_D_reg_39_                  
+  OP_D_reg_40_                  
+  OP_D_reg_41_                  
+  OP_D_reg_42_                  
+  OP_D_reg_43_                  
+  OP_D_reg_44_                  
+  OP_D_reg_45_                  
+  OP_D_reg_46_                  
+  OP_D_reg_47_                  
+  OP_D_reg_48_                  
+  OP_D_reg_49_                  
+  OP_D_reg_50_                  
+  OP_D_reg_51_                  
+  OP_D_reg_52_                  
+  OP_D_reg_53_                  
+  OP_D_reg_54_                  
+  OP_D_reg_55_                  
+  OP_D_reg_56_                  
+  OP_D_reg_57_                  
+  OP_D_reg_58_                  
+  OP_D_reg_59_                  
+  OP_D_reg_60_                  
+  OP_D_reg_61_                  
+  OP_D_reg_62_                  
+  OP_D_reg_63_                  
+  OP_D_reg_64_                  
+  OP_D_reg_65_                  
+  OP_D_reg_66_                  
+  OP_D_reg_67_                  
+  OP_D_reg_68_                  
+  OP_D_reg_69_                  
+  OP_D_reg_70_                  
+  OP_D_reg_71_                  
+  OP_D_reg_72_                  
+  OP_D_reg_73_                  
+  OP_D_reg_74_                  
+  OP_D_reg_75_                  
+  OP_D_reg_76_ (m)              
+  OP_D_reg_77_                  
+  OP_D_reg_78_                  
+  OP_D_reg_79_                  
+  OP_D_reg_80_                  
+  OP_D_reg_81_                  
+  OP_D_reg_82_                  
+  OP_D_reg_83_                  
+  OP_D_reg_84_                  
+  OP_D_reg_85_                  
+  OP_D_reg_86_                  
+  OP_D_reg_87_                  
+  OP_D_reg_88_                  
+  OP_D_reg_89_                  
+  OP_D_reg_90_                  
+  OP_D_reg_91_                  
+  OP_D_reg_92_                  
+  OP_D_reg_93_                  
+  OP_D_reg_94_                  
+  OP_D_reg_95_                  
+  OP_D_reg_96_                  
+  OP_D_reg_97_                  
+  OP_D_reg_98_                  
+  OP_D_reg_99_                  
+  OP_D_reg_100_                 
+  OP_D_reg_101_                 
+  OP_D_reg_102_                 
+  OP_D_reg_103_                 
+  OP_D_reg_104_                 
+  OP_D_reg_105_                 
+  OP_D_reg_106_                 
+  OP_D_reg_107_                 
+  OP_D_reg_108_                 
+  OP_D_reg_109_                 
+  OP_D_reg_110_                 
+  OP_D_reg_111_                 
+  OP_D_reg_112_                 
+  OP_D_reg_113_                 
+  OP_D_reg_114_                 
+  OP_D_reg_115_                 
+  OP_D_reg_116_                 
+  OP_D_reg_117_                 
+  OP_D_reg_118_                 
+  OP_D_reg_119_                 
+  OP_D_reg_120_                 
+  OP_D_reg_121_                 
+  OP_D_reg_122_                 
+  OP_D_reg_123_                 
+  OP_D_reg_124_                 
+  OP_D_reg_125_                 
+  OP_D_reg_126_                 
+  OP_D_reg_127_ (m)             
+
+  Scan signals:
+    test_scan_in: SI2 (no hookup pin)
+    test_scan_out: SO2 (no hookup pin)
+
+
+****************************************
+
+No user-defined segments
+
+
+No multibit segments
+
+
+****************************************
+
+No cells have scan true
+
+No cells have scan false
+
+
+No tristate nets.
+
+No bidirectionals.
+
+
+
+****************************************
+
+Current mode: ScanCompression_mode
+****************************************
+
+Number of chains: 20
+Scan methodology: full_scan
+Scan style: multiplexed_flip_flop
+Clock domain: no_mix
+Scan enable: ScanEnable (no hookup pin)
+
+  (l) shows cell scan-out drives a lockup latch
+  (s) shows cell is a scan segment
+  (m) shows cell scan-out drives a multi-mode multiplexer
+  (t) shows cell has a true scan attribute
+  (w) shows cell scan-out drives a wire
+
+
+Scan chain '1' contains 52 cells
+  Active in modes: ScanCompression_mode :
+
+  DATA_A_reg_0_                 (CLK, 45.0, rising) 
+  DATA_A_reg_1_                 
+  DATA_A_reg_2_                 
+  DATA_A_reg_3_                 
+  DATA_A_reg_4_                 
+  DATA_A_reg_5_                 
+  DATA_A_reg_6_                 
+  DATA_A_reg_7_                 
+  DATA_A_reg_8_                 
+  DATA_A_reg_9_                 
+  DATA_A_reg_10_                
+  DATA_A_reg_11_                
+  DATA_A_reg_12_                
+  DATA_A_reg_13_                
+  DATA_A_reg_14_                
+  DATA_A_reg_15_                
+  DATA_A_reg_16_                
+  DATA_A_reg_17_                
+  DATA_A_reg_18_                
+  DATA_A_reg_19_                
+  DATA_A_reg_20_                
+  DATA_A_reg_21_                
+  DATA_A_reg_22_                
+  DATA_A_reg_23_                
+  DATA_A_reg_24_                
+  DATA_A_reg_25_                
+  DATA_A_reg_26_                
+  DATA_A_reg_27_                
+  DATA_A_reg_28_                
+  DATA_A_reg_29_                
+  DATA_A_reg_30_                
+  DATA_A_reg_31_                
+  DATA_A_reg_32_                
+  DATA_A_reg_33_                
+  DATA_A_reg_34_                
+  DATA_A_reg_35_                
+  DATA_A_reg_36_                
+  DATA_A_reg_37_                
+  DATA_A_reg_38_                
+  DATA_A_reg_39_                
+  DATA_A_reg_40_                
+  DATA_A_reg_41_                
+  DATA_A_reg_42_                
+  DATA_A_reg_43_                
+  DATA_A_reg_44_                
+  DATA_A_reg_45_                
+  DATA_A_reg_46_                
+  DATA_A_reg_47_                
+  DATA_A_reg_48_                
+  DATA_A_reg_49_                
+  DATA_A_reg_50_                
+  DATA_A_reg_51_ (m)            
+
+  Scan signals:
+    test_scan_in: core_U_decompressor_ScanCompression_mode_IP_dout[0] (hookup pin: core_U_decompressor_ScanCompression_mode/dout[0], sense: non_inverted)
+    test_scan_out: core_U_compressor_ScanCompression_mode_IP_din[0] (hookup pin: core_U_compressor_ScanCompression_mode/din[0], sense: non_inverted)
+
+
+Scan chain '2' contains 52 cells
+  Active in modes: ScanCompression_mode :
+
+  DATA_A_reg_52_                (CLK, 45.0, rising) 
+  DATA_A_reg_53_                
+  DATA_A_reg_54_                
+  DATA_A_reg_55_                
+  DATA_A_reg_56_                
+  DATA_A_reg_57_                
+  DATA_A_reg_58_                
+  DATA_A_reg_59_                
+  DATA_A_reg_60_                
+  DATA_A_reg_61_                
+  DATA_A_reg_62_                
+  DATA_A_reg_63_                
+  DATA_A_reg_64_                
+  DATA_A_reg_65_                
+  DATA_A_reg_66_                
+  DATA_A_reg_67_                
+  DATA_A_reg_68_                
+  DATA_A_reg_69_                
+  DATA_A_reg_70_                
+  DATA_A_reg_71_                
+  DATA_A_reg_72_                
+  DATA_A_reg_73_                
+  DATA_A_reg_74_                
+  DATA_A_reg_75_                
+  DATA_A_reg_76_                
+  DATA_A_reg_77_                
+  DATA_A_reg_78_                
+  DATA_A_reg_79_                
+  DATA_A_reg_80_                
+  DATA_A_reg_81_                
+  DATA_A_reg_82_                
+  DATA_A_reg_83_                
+  DATA_A_reg_84_                
+  DATA_A_reg_85_                
+  DATA_A_reg_86_                
+  DATA_A_reg_87_                
+  DATA_A_reg_88_                
+  DATA_A_reg_89_                
+  DATA_A_reg_90_                
+  DATA_A_reg_91_                
+  DATA_A_reg_92_                
+  DATA_A_reg_93_                
+  DATA_A_reg_94_                
+  DATA_A_reg_95_                
+  DATA_A_reg_96_                
+  DATA_A_reg_97_                
+  DATA_A_reg_98_                
+  DATA_A_reg_99_                
+  DATA_A_reg_100_               
+  DATA_A_reg_101_               
+  DATA_A_reg_102_               
+  DATA_A_reg_103_ (m)           
+
+  Scan signals:
+    test_scan_in: core_U_decompressor_ScanCompression_mode_IP_dout[1] (hookup pin: core_U_decompressor_ScanCompression_mode/dout[1], sense: non_inverted)
+    test_scan_out: core_U_compressor_ScanCompression_mode_IP_din[1] (hookup pin: core_U_compressor_ScanCompression_mode/din[1], sense: non_inverted)
+
+
+Scan chain '3' contains 52 cells
+  Active in modes: ScanCompression_mode :
+
+  DATA_A_reg_104_               (CLK, 45.0, rising) 
+  DATA_A_reg_105_               
+  DATA_A_reg_106_               
+  DATA_A_reg_107_               
+  DATA_A_reg_108_               
+  DATA_A_reg_109_               
+  DATA_A_reg_110_               
+  DATA_A_reg_111_               
+  DATA_A_reg_112_               
+  DATA_A_reg_113_               
+  DATA_A_reg_114_               
+  DATA_A_reg_115_               
+  DATA_A_reg_116_               
+  DATA_A_reg_117_               
+  DATA_A_reg_118_               
+  DATA_A_reg_119_               
+  DATA_A_reg_120_               
+  DATA_A_reg_121_               
+  DATA_A_reg_122_               
+  DATA_A_reg_123_               
+  DATA_A_reg_124_               
+  DATA_A_reg_125_               
+  DATA_A_reg_126_               
+  DATA_A_reg_127_               
+  DATA_B_reg_0_                 
+  DATA_B_reg_1_                 
+  DATA_B_reg_2_                 
+  DATA_B_reg_3_                 
+  DATA_B_reg_4_                 
+  DATA_B_reg_5_                 
+  DATA_B_reg_6_                 
+  DATA_B_reg_7_                 
+  DATA_B_reg_8_                 
+  DATA_B_reg_9_                 
+  DATA_B_reg_10_                
+  DATA_B_reg_11_                
+  DATA_B_reg_12_                
+  DATA_B_reg_13_                
+  DATA_B_reg_14_                
+  DATA_B_reg_15_                
+  DATA_B_reg_16_                
+  DATA_B_reg_17_                
+  DATA_B_reg_18_                
+  DATA_B_reg_19_                
+  DATA_B_reg_20_                
+  DATA_B_reg_21_                
+  DATA_B_reg_22_                
+  DATA_B_reg_23_                
+  DATA_B_reg_24_                
+  DATA_B_reg_25_                
+  DATA_B_reg_26_                
+  DATA_B_reg_27_ (m)            
+
+  Scan signals:
+    test_scan_in: core_U_decompressor_ScanCompression_mode_IP_dout[2] (hookup pin: core_U_decompressor_ScanCompression_mode/dout[2], sense: non_inverted)
+    test_scan_out: core_U_compressor_ScanCompression_mode_IP_din[2] (hookup pin: core_U_compressor_ScanCompression_mode/din[2], sense: non_inverted)
+
+
+Scan chain '4' contains 52 cells
+  Active in modes: ScanCompression_mode :
+
+  DATA_B_reg_28_                (CLK, 45.0, rising) 
+  DATA_B_reg_29_                
+  DATA_B_reg_30_                
+  DATA_B_reg_31_                
+  DATA_B_reg_32_                
+  DATA_B_reg_33_                
+  DATA_B_reg_34_                
+  DATA_B_reg_35_                
+  DATA_B_reg_36_                
+  DATA_B_reg_37_                
+  DATA_B_reg_38_                
+  DATA_B_reg_39_                
+  DATA_B_reg_40_                
+  DATA_B_reg_41_                
+  DATA_B_reg_42_                
+  DATA_B_reg_43_                
+  DATA_B_reg_44_                
+  DATA_B_reg_45_                
+  DATA_B_reg_46_                
+  DATA_B_reg_47_                
+  DATA_B_reg_48_                
+  DATA_B_reg_49_                
+  DATA_B_reg_50_                
+  DATA_B_reg_51_                
+  DATA_B_reg_52_                
+  DATA_B_reg_53_                
+  DATA_B_reg_54_                
+  DATA_B_reg_55_                
+  DATA_B_reg_56_                
+  DATA_B_reg_57_                
+  DATA_B_reg_58_                
+  DATA_B_reg_59_                
+  DATA_B_reg_60_                
+  DATA_B_reg_61_                
+  DATA_B_reg_62_                
+  DATA_B_reg_63_                
+  DATA_B_reg_64_                
+  DATA_B_reg_65_                
+  DATA_B_reg_66_                
+  DATA_B_reg_67_                
+  DATA_B_reg_68_                
+  DATA_B_reg_69_                
+  DATA_B_reg_70_                
+  DATA_B_reg_71_                
+  DATA_B_reg_72_                
+  DATA_B_reg_73_                
+  DATA_B_reg_74_                
+  DATA_B_reg_75_                
+  DATA_B_reg_76_                
+  DATA_B_reg_77_                
+  DATA_B_reg_78_                
+  DATA_B_reg_79_ (m)            
+
+  Scan signals:
+    test_scan_in: core_U_decompressor_ScanCompression_mode_IP_dout[3] (hookup pin: core_U_decompressor_ScanCompression_mode/dout[3], sense: non_inverted)
+    test_scan_out: core_U_compressor_ScanCompression_mode_IP_din[3] (hookup pin: core_U_compressor_ScanCompression_mode/din[3], sense: non_inverted)
+
+
+Scan chain '5' contains 51 cells
+  Active in modes: ScanCompression_mode :
+
+  DATA_B_reg_80_                (CLK, 45.0, rising) 
+  DATA_B_reg_81_                
+  DATA_B_reg_82_                
+  DATA_B_reg_83_                
+  DATA_B_reg_84_                
+  DATA_B_reg_85_                
+  DATA_B_reg_86_                
+  DATA_B_reg_87_                
+  DATA_B_reg_88_                
+  DATA_B_reg_89_                
+  DATA_B_reg_90_                
+  DATA_B_reg_91_                
+  DATA_B_reg_92_                
+  DATA_B_reg_93_                
+  DATA_B_reg_94_                
+  DATA_B_reg_95_                
+  DATA_B_reg_96_                
+  DATA_B_reg_97_                
+  DATA_B_reg_98_                
+  DATA_B_reg_99_                
+  DATA_B_reg_100_               
+  DATA_B_reg_101_               
+  DATA_B_reg_102_               
+  DATA_B_reg_103_               
+  DATA_B_reg_104_               
+  DATA_B_reg_105_               
+  DATA_B_reg_106_               
+  DATA_B_reg_107_               
+  DATA_B_reg_108_               
+  DATA_B_reg_109_               
+  DATA_B_reg_110_               
+  DATA_B_reg_111_               
+  DATA_B_reg_112_               
+  DATA_B_reg_113_               
+  DATA_B_reg_114_               
+  DATA_B_reg_115_               
+  DATA_B_reg_116_               
+  DATA_B_reg_117_               
+  DATA_B_reg_118_               
+  DATA_B_reg_119_               
+  DATA_B_reg_120_               
+  DATA_B_reg_121_               
+  DATA_B_reg_122_               
+  DATA_B_reg_123_               
+  DATA_B_reg_124_               
+  DATA_B_reg_125_               
+  DATA_B_reg_126_               
+  DATA_B_reg_127_               
+  O1_reg_0_                     
+  O1_reg_1_                     
+  O1_reg_2_ (m)                 
+
+  Scan signals:
+    test_scan_in: core_U_decompressor_ScanCompression_mode_IP_dout[4] (hookup pin: core_U_decompressor_ScanCompression_mode/dout[4], sense: non_inverted)
+    test_scan_out: core_U_compressor_ScanCompression_mode_IP_din[4] (hookup pin: core_U_compressor_ScanCompression_mode/din[4], sense: non_inverted)
+
+
+Scan chain '6' contains 51 cells
+  Active in modes: ScanCompression_mode :
+
+  O1_reg_3_                     (CLK, 45.0, rising) 
+  O1_reg_4_                     
+  O1_reg_5_                     
+  O1_reg_6_                     
+  O1_reg_7_                     
+  O1_reg_8_                     
+  O1_reg_9_                     
+  O1_reg_10_                    
+  O1_reg_11_                    
+  O1_reg_12_                    
+  O1_reg_13_                    
+  O1_reg_14_                    
+  O1_reg_15_                    
+  O1_reg_16_                    
+  O1_reg_17_                    
+  O1_reg_18_                    
+  O1_reg_19_                    
+  O1_reg_20_                    
+  O1_reg_21_                    
+  O1_reg_22_                    
+  O1_reg_23_                    
+  O1_reg_24_                    
+  O1_reg_25_                    
+  O1_reg_26_                    
+  O1_reg_27_                    
+  O1_reg_28_                    
+  O1_reg_29_                    
+  O1_reg_30_                    
+  O1_reg_31_                    
+  O1_reg_32_                    
+  O1_reg_33_                    
+  O1_reg_34_                    
+  O1_reg_35_                    
+  O1_reg_36_                    
+  O1_reg_37_                    
+  O1_reg_38_                    
+  O1_reg_39_                    
+  O1_reg_40_                    
+  O1_reg_41_                    
+  O1_reg_42_                    
+  O1_reg_43_                    
+  O1_reg_44_                    
+  O1_reg_45_                    
+  O1_reg_46_                    
+  O1_reg_47_                    
+  O1_reg_48_                    
+  O1_reg_49_                    
+  O1_reg_50_                    
+  O1_reg_51_                    
+  O1_reg_52_                    
+  O1_reg_53_ (m)                
+
+  Scan signals:
+    test_scan_in: core_U_decompressor_ScanCompression_mode_IP_dout[5] (hookup pin: core_U_decompressor_ScanCompression_mode/dout[5], sense: non_inverted)
+    test_scan_out: core_U_compressor_ScanCompression_mode_IP_din[5] (hookup pin: core_U_compressor_ScanCompression_mode/din[5], sense: non_inverted)
+
+
+Scan chain '7' contains 51 cells
+  Active in modes: ScanCompression_mode :
+
+  O1_reg_54_                    (CLK, 45.0, rising) 
+  O1_reg_55_                    
+  O1_reg_56_                    
+  O1_reg_57_                    
+  O1_reg_58_                    
+  O1_reg_59_                    
+  O1_reg_60_                    
+  O1_reg_61_                    
+  O1_reg_62_                    
+  O1_reg_63_                    
+  O1_reg_64_                    
+  O1_reg_65_                    
+  O1_reg_66_                    
+  O1_reg_67_                    
+  O1_reg_68_                    
+  O1_reg_69_                    
+  O1_reg_70_                    
+  O1_reg_71_                    
+  O1_reg_72_                    
+  O1_reg_73_                    
+  O1_reg_74_                    
+  O1_reg_75_                    
+  O1_reg_76_                    
+  O1_reg_77_                    
+  O1_reg_78_                    
+  O1_reg_79_                    
+  O1_reg_80_                    
+  O1_reg_81_                    
+  O1_reg_82_                    
+  O1_reg_83_                    
+  O1_reg_84_                    
+  O1_reg_85_ (m)                
+  O1_reg_86_                    
+  O1_reg_87_                    
+  O1_reg_88_                    
+  O1_reg_89_                    
+  O1_reg_90_                    
+  O1_reg_91_                    
+  O1_reg_92_                    
+  O1_reg_93_                    
+  O1_reg_94_                    
+  O1_reg_95_                    
+  O1_reg_96_                    
+  O1_reg_97_                    
+  O1_reg_98_                    
+  O1_reg_99_                    
+  O1_reg_100_                   
+  O1_reg_101_                   
+  O1_reg_102_                   
+  O1_reg_103_                   
+  O1_reg_104_ (m)               
+
+  Scan signals:
+    test_scan_in: core_U_decompressor_ScanCompression_mode_IP_dout[6] (hookup pin: core_U_decompressor_ScanCompression_mode/dout[6], sense: non_inverted)
+    test_scan_out: core_U_compressor_ScanCompression_mode_IP_din[6] (hookup pin: core_U_compressor_ScanCompression_mode/din[6], sense: non_inverted)
+
+
+Scan chain '8' contains 51 cells
+  Active in modes: ScanCompression_mode :
+
+  O1_reg_105_                   (CLK, 45.0, rising) 
+  O1_reg_106_                   
+  O1_reg_107_                   
+  O1_reg_108_                   
+  O1_reg_109_                   
+  O1_reg_110_                   
+  O1_reg_111_                   
+  O1_reg_112_                   
+  O1_reg_113_                   
+  O1_reg_114_                   
+  O1_reg_115_                   
+  O1_reg_116_                   
+  O1_reg_117_                   
+  O1_reg_118_                   
+  O1_reg_119_                   
+  O1_reg_120_                   
+  O1_reg_121_                   
+  O1_reg_122_                   
+  O1_reg_123_                   
+  O1_reg_124_                   
+  O1_reg_125_                   
+  O1_reg_126_                   
+  O1_reg_127_                   
+  O2_reg_0_                     
+  O2_reg_1_                     
+  O2_reg_2_                     
+  O2_reg_3_                     
+  O2_reg_4_                     
+  O2_reg_5_                     
+  O2_reg_6_                     
+  O2_reg_7_                     
+  O2_reg_8_                     
+  O2_reg_9_                     
+  O2_reg_10_                    
+  O2_reg_11_                    
+  O2_reg_12_                    
+  O2_reg_13_                    
+  O2_reg_14_                    
+  O2_reg_15_                    
+  O2_reg_16_                    
+  O2_reg_17_                    
+  O2_reg_18_                    
+  O2_reg_19_                    
+  O2_reg_20_                    
+  O2_reg_21_                    
+  O2_reg_22_                    
+  O2_reg_23_                    
+  O2_reg_24_                    
+  O2_reg_25_                    
+  O2_reg_26_                    
+  O2_reg_27_ (m)                
+
+  Scan signals:
+    test_scan_in: core_U_decompressor_ScanCompression_mode_IP_dout[7] (hookup pin: core_U_decompressor_ScanCompression_mode/dout[7], sense: non_inverted)
+    test_scan_out: core_U_compressor_ScanCompression_mode_IP_din[7] (hookup pin: core_U_compressor_ScanCompression_mode/din[7], sense: non_inverted)
+
+
+Scan chain '9' contains 51 cells
+  Active in modes: ScanCompression_mode :
+
+  O2_reg_28_                    (CLK, 45.0, rising) 
+  O2_reg_29_                    
+  O2_reg_30_                    
+  O2_reg_31_                    
+  O2_reg_32_                    
+  O2_reg_33_                    
+  O2_reg_34_                    
+  O2_reg_35_                    
+  O2_reg_36_                    
+  O2_reg_37_                    
+  O2_reg_38_                    
+  O2_reg_39_                    
+  O2_reg_40_                    
+  O2_reg_41_                    
+  O2_reg_42_                    
+  O2_reg_43_                    
+  O2_reg_44_                    
+  O2_reg_45_                    
+  O2_reg_46_                    
+  O2_reg_47_                    
+  O2_reg_48_                    
+  O2_reg_49_                    
+  O2_reg_50_                    
+  O2_reg_51_                    
+  O2_reg_52_                    
+  O2_reg_53_                    
+  O2_reg_54_                    
+  O2_reg_55_                    
+  O2_reg_56_                    
+  O2_reg_57_                    
+  O2_reg_58_                    
+  O2_reg_59_                    
+  O2_reg_60_                    
+  O2_reg_61_                    
+  O2_reg_62_                    
+  O2_reg_63_                    
+  O2_reg_64_                    
+  O2_reg_65_                    
+  O2_reg_66_                    
+  O2_reg_67_                    
+  O2_reg_68_                    
+  O2_reg_69_                    
+  O2_reg_70_                    
+  O2_reg_71_                    
+  O2_reg_72_                    
+  O2_reg_73_                    
+  O2_reg_74_                    
+  O2_reg_75_                    
+  O2_reg_76_                    
+  O2_reg_77_                    
+  O2_reg_78_ (m)                
+
+  Scan signals:
+    test_scan_in: core_U_decompressor_ScanCompression_mode_IP_dout[8] (hookup pin: core_U_decompressor_ScanCompression_mode/dout[8], sense: non_inverted)
+    test_scan_out: core_U_compressor_ScanCompression_mode_IP_din[8] (hookup pin: core_U_compressor_ScanCompression_mode/din[8], sense: non_inverted)
+
+
+Scan chain '10' contains 51 cells
+  Active in modes: ScanCompression_mode :
+
+  O2_reg_79_                    (CLK, 45.0, rising) 
+  O2_reg_80_                    
+  O2_reg_81_                    
+  O2_reg_82_                    
+  O2_reg_83_                    
+  O2_reg_84_                    
+  O2_reg_85_                    
+  O2_reg_86_                    
+  O2_reg_87_                    
+  O2_reg_88_                    
+  O2_reg_89_                    
+  O2_reg_90_                    
+  O2_reg_91_                    
+  O2_reg_92_                    
+  O2_reg_93_                    
+  O2_reg_94_                    
+  O2_reg_95_                    
+  O2_reg_96_                    
+  O2_reg_97_                    
+  O2_reg_98_                    
+  O2_reg_99_                    
+  O2_reg_100_                   
+  O2_reg_101_                   
+  O2_reg_102_                   
+  O2_reg_103_                   
+  O2_reg_104_                   
+  O2_reg_105_                   
+  O2_reg_106_                   
+  O2_reg_107_                   
+  O2_reg_108_                   
+  O2_reg_109_                   
+  O2_reg_110_                   
+  O2_reg_111_                   
+  O2_reg_112_                   
+  O2_reg_113_                   
+  O2_reg_114_                   
+  O2_reg_115_                   
+  O2_reg_116_                   
+  O2_reg_117_                   
+  O2_reg_118_                   
+  O2_reg_119_                   
+  O2_reg_120_                   
+  O2_reg_121_                   
+  O2_reg_122_                   
+  O2_reg_123_                   
+  O2_reg_124_                   
+  O2_reg_125_                   
+  O2_reg_126_                   
+  O2_reg_127_                   
+  OP_A_reg_0_                   
+  OP_A_reg_1_ (m)               
+
+  Scan signals:
+    test_scan_in: core_U_decompressor_ScanCompression_mode_IP_dout[9] (hookup pin: core_U_decompressor_ScanCompression_mode/dout[9], sense: non_inverted)
+    test_scan_out: core_U_compressor_ScanCompression_mode_IP_din[9] (hookup pin: core_U_compressor_ScanCompression_mode/din[9], sense: non_inverted)
+
+
+Scan chain '11' contains 51 cells
+  Active in modes: ScanCompression_mode :
+
+  OP_A_reg_2_                   (CLK, 45.0, rising) 
+  OP_A_reg_3_                   
+  OP_A_reg_4_                   
+  OP_A_reg_5_                   
+  OP_A_reg_6_                   
+  OP_A_reg_7_                   
+  OP_A_reg_8_                   
+  OP_A_reg_9_                   
+  OP_A_reg_10_                  
+  OP_A_reg_11_                  
+  OP_A_reg_12_                  
+  OP_A_reg_13_                  
+  OP_A_reg_14_                  
+  OP_A_reg_15_                  
+  OP_A_reg_16_                  
+  OP_A_reg_17_                  
+  OP_A_reg_18_                  
+  OP_A_reg_19_                  
+  OP_A_reg_20_                  
+  OP_A_reg_21_                  
+  OP_A_reg_22_                  
+  OP_A_reg_23_                  
+  OP_A_reg_24_                  
+  OP_A_reg_25_                  
+  OP_A_reg_26_                  
+  OP_A_reg_27_                  
+  OP_A_reg_28_                  
+  OP_A_reg_29_                  
+  OP_A_reg_30_                  
+  OP_A_reg_31_                  
+  OP_A_reg_32_                  
+  OP_A_reg_33_                  
+  OP_A_reg_34_                  
+  OP_A_reg_35_                  
+  OP_A_reg_36_                  
+  OP_A_reg_37_                  
+  OP_A_reg_38_                  
+  OP_A_reg_39_                  
+  OP_A_reg_40_                  
+  OP_A_reg_41_                  
+  OP_A_reg_42_                  
+  OP_A_reg_43_                  
+  OP_A_reg_44_                  
+  OP_A_reg_45_                  
+  OP_A_reg_46_                  
+  OP_A_reg_47_                  
+  OP_A_reg_48_                  
+  OP_A_reg_49_                  
+  OP_A_reg_50_                  
+  OP_A_reg_51_                  
+  OP_A_reg_52_ (m)              
+
+  Scan signals:
+    test_scan_in: core_U_decompressor_ScanCompression_mode_IP_dout[10] (hookup pin: core_U_decompressor_ScanCompression_mode/dout[10], sense: non_inverted)
+    test_scan_out: core_U_compressor_ScanCompression_mode_IP_din[10] (hookup pin: core_U_compressor_ScanCompression_mode/din[10], sense: non_inverted)
+
+
+Scan chain '12' contains 51 cells
+  Active in modes: ScanCompression_mode :
+
+  OP_A_reg_53_                  (CLK, 45.0, rising) 
+  OP_A_reg_54_                  
+  OP_A_reg_55_                  
+  OP_A_reg_56_                  
+  OP_A_reg_57_                  
+  OP_A_reg_58_                  
+  OP_A_reg_59_                  
+  OP_A_reg_60_                  
+  OP_A_reg_61_                  
+  OP_A_reg_62_                  
+  OP_A_reg_63_                  
+  OP_A_reg_64_                  
+  OP_A_reg_65_                  
+  OP_A_reg_66_                  
+  OP_A_reg_67_                  
+  OP_A_reg_68_                  
+  OP_A_reg_69_                  
+  OP_A_reg_70_                  
+  OP_A_reg_71_                  
+  OP_A_reg_72_                  
+  OP_A_reg_73_                  
+  OP_A_reg_74_                  
+  OP_A_reg_75_                  
+  OP_A_reg_76_                  
+  OP_A_reg_77_                  
+  OP_A_reg_78_                  
+  OP_A_reg_79_                  
+  OP_A_reg_80_                  
+  OP_A_reg_81_                  
+  OP_A_reg_82_                  
+  OP_A_reg_83_                  
+  OP_A_reg_84_                  
+  OP_A_reg_85_                  
+  OP_A_reg_86_                  
+  OP_A_reg_87_                  
+  OP_A_reg_88_                  
+  OP_A_reg_89_                  
+  OP_A_reg_90_                  
+  OP_A_reg_91_                  
+  OP_A_reg_92_                  
+  OP_A_reg_93_                  
+  OP_A_reg_94_                  
+  OP_A_reg_95_                  
+  OP_A_reg_96_                  
+  OP_A_reg_97_                  
+  OP_A_reg_98_                  
+  OP_A_reg_99_                  
+  OP_A_reg_100_                 
+  OP_A_reg_101_                 
+  OP_A_reg_102_                 
+  OP_A_reg_103_ (m)             
+
+  Scan signals:
+    test_scan_in: core_U_decompressor_ScanCompression_mode_IP_dout[11] (hookup pin: core_U_decompressor_ScanCompression_mode/dout[11], sense: non_inverted)
+    test_scan_out: core_U_compressor_ScanCompression_mode_IP_din[11] (hookup pin: core_U_compressor_ScanCompression_mode/din[11], sense: non_inverted)
+
+
+Scan chain '13' contains 51 cells
+  Active in modes: ScanCompression_mode :
+
+  OP_A_reg_104_                 (CLK, 45.0, rising) 
+  OP_A_reg_105_                 
+  OP_A_reg_106_                 
+  OP_A_reg_107_                 
+  OP_A_reg_108_                 
+  OP_A_reg_109_                 
+  OP_A_reg_110_                 
+  OP_A_reg_111_                 
+  OP_A_reg_112_                 
+  OP_A_reg_113_                 
+  OP_A_reg_114_                 
+  OP_A_reg_115_                 
+  OP_A_reg_116_                 
+  OP_A_reg_117_                 
+  OP_A_reg_118_                 
+  OP_A_reg_119_                 
+  OP_A_reg_120_                 
+  OP_A_reg_121_                 
+  OP_A_reg_122_                 
+  OP_A_reg_123_                 
+  OP_A_reg_124_                 
+  OP_A_reg_125_                 
+  OP_A_reg_126_                 
+  OP_A_reg_127_                 
+  OP_B_reg_0_                   
+  OP_B_reg_1_                   
+  OP_B_reg_2_                   
+  OP_B_reg_3_                   
+  OP_B_reg_4_                   
+  OP_B_reg_5_                   
+  OP_B_reg_6_                   
+  OP_B_reg_7_                   
+  OP_B_reg_8_                   
+  OP_B_reg_9_                   
+  OP_B_reg_10_                  
+  OP_B_reg_11_                  
+  OP_B_reg_12_                  
+  OP_B_reg_13_                  
+  OP_B_reg_14_                  
+  OP_B_reg_15_                  
+  OP_B_reg_16_                  
+  OP_B_reg_17_                  
+  OP_B_reg_18_                  
+  OP_B_reg_19_                  
+  OP_B_reg_20_                  
+  OP_B_reg_21_                  
+  OP_B_reg_22_                  
+  OP_B_reg_23_                  
+  OP_B_reg_24_                  
+  OP_B_reg_25_                  
+  OP_B_reg_26_ (m)              
+
+  Scan signals:
+    test_scan_in: core_U_decompressor_ScanCompression_mode_IP_dout[12] (hookup pin: core_U_decompressor_ScanCompression_mode/dout[12], sense: non_inverted)
+    test_scan_out: core_U_compressor_ScanCompression_mode_IP_din[12] (hookup pin: core_U_compressor_ScanCompression_mode/din[12], sense: non_inverted)
+
+
+Scan chain '14' contains 51 cells
+  Active in modes: ScanCompression_mode :
+
+  OP_B_reg_27_                  (CLK, 45.0, rising) 
+  OP_B_reg_28_                  
+  OP_B_reg_29_                  
+  OP_B_reg_30_                  
+  OP_B_reg_31_                  
+  OP_B_reg_32_                  
+  OP_B_reg_33_                  
+  OP_B_reg_34_                  
+  OP_B_reg_35_                  
+  OP_B_reg_36_                  
+  OP_B_reg_37_                  
+  OP_B_reg_38_                  
+  OP_B_reg_39_                  
+  OP_B_reg_40_                  
+  OP_B_reg_41_                  
+  OP_B_reg_42_ (m)              
+  OP_B_reg_43_                  
+  OP_B_reg_44_                  
+  OP_B_reg_45_                  
+  OP_B_reg_46_                  
+  OP_B_reg_47_                  
+  OP_B_reg_48_                  
+  OP_B_reg_49_                  
+  OP_B_reg_50_                  
+  OP_B_reg_51_                  
+  OP_B_reg_52_                  
+  OP_B_reg_53_                  
+  OP_B_reg_54_                  
+  OP_B_reg_55_                  
+  OP_B_reg_56_                  
+  OP_B_reg_57_                  
+  OP_B_reg_58_                  
+  OP_B_reg_59_                  
+  OP_B_reg_60_                  
+  OP_B_reg_61_                  
+  OP_B_reg_62_                  
+  OP_B_reg_63_                  
+  OP_B_reg_64_                  
+  OP_B_reg_65_                  
+  OP_B_reg_66_                  
+  OP_B_reg_67_                  
+  OP_B_reg_68_                  
+  OP_B_reg_69_                  
+  OP_B_reg_70_                  
+  OP_B_reg_71_                  
+  OP_B_reg_72_                  
+  OP_B_reg_73_                  
+  OP_B_reg_74_                  
+  OP_B_reg_75_                  
+  OP_B_reg_76_                  
+  OP_B_reg_77_ (m)              
+
+  Scan signals:
+    test_scan_in: core_U_decompressor_ScanCompression_mode_IP_dout[13] (hookup pin: core_U_decompressor_ScanCompression_mode/dout[13], sense: non_inverted)
+    test_scan_out: core_U_compressor_ScanCompression_mode_IP_din[13] (hookup pin: core_U_compressor_ScanCompression_mode/din[13], sense: non_inverted)
+
+
+Scan chain '15' contains 51 cells
+  Active in modes: ScanCompression_mode :
+
+  OP_B_reg_78_                  (CLK, 45.0, rising) 
+  OP_B_reg_79_                  
+  OP_B_reg_80_                  
+  OP_B_reg_81_                  
+  OP_B_reg_82_                  
+  OP_B_reg_83_                  
+  OP_B_reg_84_                  
+  OP_B_reg_85_                  
+  OP_B_reg_86_                  
+  OP_B_reg_87_                  
+  OP_B_reg_88_                  
+  OP_B_reg_89_                  
+  OP_B_reg_90_                  
+  OP_B_reg_91_                  
+  OP_B_reg_92_                  
+  OP_B_reg_93_                  
+  OP_B_reg_94_                  
+  OP_B_reg_95_                  
+  OP_B_reg_96_                  
+  OP_B_reg_97_                  
+  OP_B_reg_98_                  
+  OP_B_reg_99_                  
+  OP_B_reg_100_                 
+  OP_B_reg_101_                 
+  OP_B_reg_102_                 
+  OP_B_reg_103_                 
+  OP_B_reg_104_                 
+  OP_B_reg_105_                 
+  OP_B_reg_106_                 
+  OP_B_reg_107_                 
+  OP_B_reg_108_                 
+  OP_B_reg_109_                 
+  OP_B_reg_110_                 
+  OP_B_reg_111_                 
+  OP_B_reg_112_                 
+  OP_B_reg_113_                 
+  OP_B_reg_114_                 
+  OP_B_reg_115_                 
+  OP_B_reg_116_                 
+  OP_B_reg_117_                 
+  OP_B_reg_118_                 
+  OP_B_reg_119_                 
+  OP_B_reg_120_                 
+  OP_B_reg_121_                 
+  OP_B_reg_122_                 
+  OP_B_reg_123_                 
+  OP_B_reg_124_                 
+  OP_B_reg_125_                 
+  OP_B_reg_126_                 
+  OP_B_reg_127_                 
+  OP_C_reg_0_ (m)               
+
+  Scan signals:
+    test_scan_in: core_U_decompressor_ScanCompression_mode_IP_dout[14] (hookup pin: core_U_decompressor_ScanCompression_mode/dout[14], sense: non_inverted)
+    test_scan_out: core_U_compressor_ScanCompression_mode_IP_din[14] (hookup pin: core_U_compressor_ScanCompression_mode/din[14], sense: non_inverted)
+
+
+Scan chain '16' contains 51 cells
+  Active in modes: ScanCompression_mode :
+
+  OP_C_reg_1_                   (CLK, 45.0, rising) 
+  OP_C_reg_2_                   
+  OP_C_reg_3_                   
+  OP_C_reg_4_                   
+  OP_C_reg_5_                   
+  OP_C_reg_6_                   
+  OP_C_reg_7_                   
+  OP_C_reg_8_                   
+  OP_C_reg_9_                   
+  OP_C_reg_10_                  
+  OP_C_reg_11_                  
+  OP_C_reg_12_                  
+  OP_C_reg_13_                  
+  OP_C_reg_14_                  
+  OP_C_reg_15_                  
+  OP_C_reg_16_                  
+  OP_C_reg_17_                  
+  OP_C_reg_18_                  
+  OP_C_reg_19_                  
+  OP_C_reg_20_                  
+  OP_C_reg_21_                  
+  OP_C_reg_22_                  
+  OP_C_reg_23_                  
+  OP_C_reg_24_                  
+  OP_C_reg_25_                  
+  OP_C_reg_26_                  
+  OP_C_reg_27_                  
+  OP_C_reg_28_                  
+  OP_C_reg_29_                  
+  OP_C_reg_30_                  
+  OP_C_reg_31_                  
+  OP_C_reg_32_                  
+  OP_C_reg_33_                  
+  OP_C_reg_34_                  
+  OP_C_reg_35_                  
+  OP_C_reg_36_                  
+  OP_C_reg_37_                  
+  OP_C_reg_38_                  
+  OP_C_reg_39_                  
+  OP_C_reg_40_                  
+  OP_C_reg_41_                  
+  OP_C_reg_42_                  
+  OP_C_reg_43_                  
+  OP_C_reg_44_                  
+  OP_C_reg_45_                  
+  OP_C_reg_46_                  
+  OP_C_reg_47_                  
+  OP_C_reg_48_                  
+  OP_C_reg_49_                  
+  OP_C_reg_50_                  
+  OP_C_reg_51_ (m)              
+
+  Scan signals:
+    test_scan_in: core_U_decompressor_ScanCompression_mode_IP_dout[15] (hookup pin: core_U_decompressor_ScanCompression_mode/dout[15], sense: non_inverted)
+    test_scan_out: core_U_compressor_ScanCompression_mode_IP_din[15] (hookup pin: core_U_compressor_ScanCompression_mode/din[15], sense: non_inverted)
+
+
+Scan chain '17' contains 51 cells
+  Active in modes: ScanCompression_mode :
+
+  OP_C_reg_52_                  (CLK, 45.0, rising) 
+  OP_C_reg_53_                  
+  OP_C_reg_54_                  
+  OP_C_reg_55_                  
+  OP_C_reg_56_                  
+  OP_C_reg_57_                  
+  OP_C_reg_58_                  
+  OP_C_reg_59_                  
+  OP_C_reg_60_                  
+  OP_C_reg_61_                  
+  OP_C_reg_62_                  
+  OP_C_reg_63_                  
+  OP_C_reg_64_                  
+  OP_C_reg_65_                  
+  OP_C_reg_66_                  
+  OP_C_reg_67_                  
+  OP_C_reg_68_                  
+  OP_C_reg_69_                  
+  OP_C_reg_70_                  
+  OP_C_reg_71_                  
+  OP_C_reg_72_                  
+  OP_C_reg_73_                  
+  OP_C_reg_74_                  
+  OP_C_reg_75_                  
+  OP_C_reg_76_                  
+  OP_C_reg_77_                  
+  OP_C_reg_78_                  
+  OP_C_reg_79_                  
+  OP_C_reg_80_                  
+  OP_C_reg_81_                  
+  OP_C_reg_82_                  
+  OP_C_reg_83_                  
+  OP_C_reg_84_                  
+  OP_C_reg_85_                  
+  OP_C_reg_86_                  
+  OP_C_reg_87_                  
+  OP_C_reg_88_                  
+  OP_C_reg_89_                  
+  OP_C_reg_90_                  
+  OP_C_reg_91_                  
+  OP_C_reg_92_                  
+  OP_C_reg_93_                  
+  OP_C_reg_94_                  
+  OP_C_reg_95_                  
+  OP_C_reg_96_                  
+  OP_C_reg_97_                  
+  OP_C_reg_98_                  
+  OP_C_reg_99_                  
+  OP_C_reg_100_                 
+  OP_C_reg_101_                 
+  OP_C_reg_102_ (m)             
+
+  Scan signals:
+    test_scan_in: core_U_decompressor_ScanCompression_mode_IP_dout[16] (hookup pin: core_U_decompressor_ScanCompression_mode/dout[16], sense: non_inverted)
+    test_scan_out: core_U_compressor_ScanCompression_mode_IP_din[16] (hookup pin: core_U_compressor_ScanCompression_mode/din[16], sense: non_inverted)
+
+
+Scan chain '18' contains 51 cells
+  Active in modes: ScanCompression_mode :
+
+  OP_C_reg_103_                 (CLK, 45.0, rising) 
+  OP_C_reg_104_                 
+  OP_C_reg_105_                 
+  OP_C_reg_106_                 
+  OP_C_reg_107_                 
+  OP_C_reg_108_                 
+  OP_C_reg_109_                 
+  OP_C_reg_110_                 
+  OP_C_reg_111_                 
+  OP_C_reg_112_                 
+  OP_C_reg_113_                 
+  OP_C_reg_114_                 
+  OP_C_reg_115_                 
+  OP_C_reg_116_                 
+  OP_C_reg_117_                 
+  OP_C_reg_118_                 
+  OP_C_reg_119_                 
+  OP_C_reg_120_                 
+  OP_C_reg_121_                 
+  OP_C_reg_122_                 
+  OP_C_reg_123_                 
+  OP_C_reg_124_                 
+  OP_C_reg_125_                 
+  OP_C_reg_126_                 
+  OP_C_reg_127_                 
+  OP_D_reg_0_                   
+  OP_D_reg_1_                   
+  OP_D_reg_2_                   
+  OP_D_reg_3_                   
+  OP_D_reg_4_                   
+  OP_D_reg_5_                   
+  OP_D_reg_6_                   
+  OP_D_reg_7_                   
+  OP_D_reg_8_                   
+  OP_D_reg_9_                   
+  OP_D_reg_10_                  
+  OP_D_reg_11_                  
+  OP_D_reg_12_                  
+  OP_D_reg_13_                  
+  OP_D_reg_14_                  
+  OP_D_reg_15_                  
+  OP_D_reg_16_                  
+  OP_D_reg_17_                  
+  OP_D_reg_18_                  
+  OP_D_reg_19_                  
+  OP_D_reg_20_                  
+  OP_D_reg_21_                  
+  OP_D_reg_22_                  
+  OP_D_reg_23_                  
+  OP_D_reg_24_                  
+  OP_D_reg_25_ (m)              
+
+  Scan signals:
+    test_scan_in: core_U_decompressor_ScanCompression_mode_IP_dout[17] (hookup pin: core_U_decompressor_ScanCompression_mode/dout[17], sense: non_inverted)
+    test_scan_out: core_U_compressor_ScanCompression_mode_IP_din[17] (hookup pin: core_U_compressor_ScanCompression_mode/din[17], sense: non_inverted)
+
+
+Scan chain '19' contains 51 cells
+  Active in modes: ScanCompression_mode :
+
+  OP_D_reg_26_                  (CLK, 45.0, rising) 
+  OP_D_reg_27_                  
+  OP_D_reg_28_                  
+  OP_D_reg_29_                  
+  OP_D_reg_30_                  
+  OP_D_reg_31_                  
+  OP_D_reg_32_                  
+  OP_D_reg_33_                  
+  OP_D_reg_34_                  
+  OP_D_reg_35_                  
+  OP_D_reg_36_                  
+  OP_D_reg_37_                  
+  OP_D_reg_38_                  
+  OP_D_reg_39_                  
+  OP_D_reg_40_                  
+  OP_D_reg_41_                  
+  OP_D_reg_42_                  
+  OP_D_reg_43_                  
+  OP_D_reg_44_                  
+  OP_D_reg_45_                  
+  OP_D_reg_46_                  
+  OP_D_reg_47_                  
+  OP_D_reg_48_                  
+  OP_D_reg_49_                  
+  OP_D_reg_50_                  
+  OP_D_reg_51_                  
+  OP_D_reg_52_                  
+  OP_D_reg_53_                  
+  OP_D_reg_54_                  
+  OP_D_reg_55_                  
+  OP_D_reg_56_                  
+  OP_D_reg_57_                  
+  OP_D_reg_58_                  
+  OP_D_reg_59_                  
+  OP_D_reg_60_                  
+  OP_D_reg_61_                  
+  OP_D_reg_62_                  
+  OP_D_reg_63_                  
+  OP_D_reg_64_                  
+  OP_D_reg_65_                  
+  OP_D_reg_66_                  
+  OP_D_reg_67_                  
+  OP_D_reg_68_                  
+  OP_D_reg_69_                  
+  OP_D_reg_70_                  
+  OP_D_reg_71_                  
+  OP_D_reg_72_                  
+  OP_D_reg_73_                  
+  OP_D_reg_74_                  
+  OP_D_reg_75_                  
+  OP_D_reg_76_ (m)              
+
+  Scan signals:
+    test_scan_in: core_U_decompressor_ScanCompression_mode_IP_dout[18] (hookup pin: core_U_decompressor_ScanCompression_mode/dout[18], sense: non_inverted)
+    test_scan_out: core_U_compressor_ScanCompression_mode_IP_din[18] (hookup pin: core_U_compressor_ScanCompression_mode/din[18], sense: non_inverted)
+
+
+Scan chain '20' contains 51 cells
+  Active in modes: ScanCompression_mode :
+
+  OP_D_reg_77_                  (CLK, 45.0, rising) 
+  OP_D_reg_78_                  
+  OP_D_reg_79_                  
+  OP_D_reg_80_                  
+  OP_D_reg_81_                  
+  OP_D_reg_82_                  
+  OP_D_reg_83_                  
+  OP_D_reg_84_                  
+  OP_D_reg_85_                  
+  OP_D_reg_86_                  
+  OP_D_reg_87_                  
+  OP_D_reg_88_                  
+  OP_D_reg_89_                  
+  OP_D_reg_90_                  
+  OP_D_reg_91_                  
+  OP_D_reg_92_                  
+  OP_D_reg_93_                  
+  OP_D_reg_94_                  
+  OP_D_reg_95_                  
+  OP_D_reg_96_                  
+  OP_D_reg_97_                  
+  OP_D_reg_98_                  
+  OP_D_reg_99_                  
+  OP_D_reg_100_                 
+  OP_D_reg_101_                 
+  OP_D_reg_102_                 
+  OP_D_reg_103_                 
+  OP_D_reg_104_                 
+  OP_D_reg_105_                 
+  OP_D_reg_106_                 
+  OP_D_reg_107_                 
+  OP_D_reg_108_                 
+  OP_D_reg_109_                 
+  OP_D_reg_110_                 
+  OP_D_reg_111_                 
+  OP_D_reg_112_                 
+  OP_D_reg_113_                 
+  OP_D_reg_114_                 
+  OP_D_reg_115_                 
+  OP_D_reg_116_                 
+  OP_D_reg_117_                 
+  OP_D_reg_118_                 
+  OP_D_reg_119_                 
+  OP_D_reg_120_                 
+  OP_D_reg_121_                 
+  OP_D_reg_122_                 
+  OP_D_reg_123_                 
+  OP_D_reg_124_                 
+  OP_D_reg_125_                 
+  OP_D_reg_126_                 
+  OP_D_reg_127_ (m)             
+
+  Scan signals:
+    test_scan_in: core_U_decompressor_ScanCompression_mode_IP_dout[19] (hookup pin: core_U_decompressor_ScanCompression_mode/dout[19], sense: non_inverted)
+    test_scan_out: core_U_compressor_ScanCompression_mode_IP_din[19] (hookup pin: core_U_compressor_ScanCompression_mode/din[19], sense: non_inverted)
+
+
+
+
+ScanDataIn Ports:
+SI0 (no hookup pin)
+SI1 (no hookup pin)
+SI2 (no hookup pin)
+
+
+ScanDataOut Ports:
+SO0 (no hookup pin)
+SO1 (no hookup pin)
+SO2 (no hookup pin)
+****************************************
+
+No user-defined segments
+
+
+No multibit segments
+
+
+****************************************
+
+No cells have scan true
+
+No cells have scan false
+
+
+No tristate nets.
+
+No bidirectionals.
+
+
+************ Test Point Plan Report ************
+Total number of test points  : 0
+Number of Autofix test points: 0
+Number of Wrapper test points: 0
+Number of test modes         : 0
+Number of test point enables : 0
+Number of data sources       : 0
+Number of data sinks         : 0
+**************************************************
+
+
+================================
+Test Mode Controller Information
+================================
+
+Test Mode Controller Ports
+--------------------------
+test_mode: test_modea
+
+Test Mode Controller Index (MSB --> LSB)
+----------------------------------------
+test_modea
+
+Control signal value - Test Mode
+--------------------------------
+0 Internal_scan - InternalTest
+
+1 ScanCompression_mode - InternalTest
+
+1

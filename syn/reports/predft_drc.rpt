@@ -1,0 +1,40 @@
+In mode: all_dft...
+Information: Checking out the license 'DesignWare'. (SEC-104)
+Information: Changed wire load model for 'core_core_DW01_add_1_0' from '(none)' to '8000'. (OPT-170)
+Information: Changed wire load model for 'core_core_DW01_sub_3_0' from '(none)' to '8000'. (OPT-170)
+Information: Changed wire load model for 'core_core_DW01_sub_2_0' from '(none)' to '8000'. (OPT-170)
+Information: Changed wire load model for 'core_core_DW_mult_uns_1_0' from 'ForQA' to '70000'. (OPT-170)
+Information: Changed wire load model for 'core' from 'ForQA' to '140000'. (OPT-170)
+Warning: Design 'core' contains 2 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+
+Information: Starting test design rule checking. (TEST-222)
+Warning: No internal pins were found in the model.
+  Loading test protocol
+  ...basic checks...
+  ...basic sequential cell checks...
+  	...checking for scan equivalents...
+  ...checking vector rules...
+  ...checking pre-dft rules...
+
+-----------------------------------------------------------------
+  DRC Report
+
+  Total violations: 0
+
+-----------------------------------------------------------------
+
+
+Test Design rule checking did not find violations
+
+-----------------------------------------------------------------
+  Sequential Cell Report
+
+  0 out of 1024 sequential cells have violations
+
+-----------------------------------------------------------------
+
+SEQUENTIAL CELLS WITHOUT VIOLATIONS
+      *1024 cells are valid scan cells
+
+Information: Test design rule checking completed. (TEST-123)
+1

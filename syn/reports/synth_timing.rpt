@@ -1,0 +1,1154 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 10
+Design : core
+Version: R-2020.09-SP5
+Date   : Wed Dec  4 15:33:17 2024
+****************************************
+
+ # A fanout number of 1000 was used for high fanout net computations.
+
+Operating Conditions: tt1p05v125c   Library: saed32rvt_tt1p05v125c
+Wire Load Model Mode: enclosed
+
+  Startpoint: OP_A_reg[77]
+              (rising edge-triggered flip-flop clocked by clock1)
+  Endpoint: DATA_A_reg[127]
+            (rising edge-triggered flip-flop clocked by clock1)
+  Path Group: clock1
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  core               140000                saed32rvt_tt1p05v125c
+  core_core_DW_mult_uns_1_0
+                     70000                 saed32rvt_tt1p05v125c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clock1 (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  OP_A_reg[77]/CLK (SDFFX1_RVT)                           0.00 #     0.00 r
+  OP_A_reg[77]/Q (SDFFX1_RVT)                             0.10       0.10 f
+  mult_23_S2/a[77] (core_core_DW_mult_uns_1_0)            0.00       0.10 f
+  mult_23_S2/U27134/Y (NBUFFX2_RVT)                       0.22       0.31 f
+  mult_23_S2/U17672/Y (XNOR2X1_RVT)                       0.36       0.67 r
+  mult_23_S2/U14542/Y (OR2X2_RVT)                         0.18       0.85 r
+  mult_23_S2/U24335/Y (NBUFFX2_RVT)                       0.19       1.03 r
+  mult_23_S2/U24142/Y (OA21X1_RVT)                        0.34       1.38 r
+  mult_23_S2/U16621/Y (XOR2X1_RVT)                        0.25       1.63 f
+  mult_23_S2/U19467/C1 (HADDX1_RVT)                       0.22       1.85 f
+  mult_23_S2/U4547/C1 (HADDX1_RVT)                        0.22       2.07 f
+  mult_23_S2/U18021/C1 (HADDX1_RVT)                       0.22       2.29 f
+  mult_23_S2/U18330/Y (NAND2X0_RVT)                       0.14       2.43 r
+  mult_23_S2/U16460/Y (NAND3X2_RVT)                       0.15       2.58 f
+  mult_23_S2/U19773/Y (XOR3X2_RVT)                        0.26       2.83 f
+  mult_23_S2/U19780/Y (NAND2X0_RVT)                       0.14       2.97 r
+  mult_23_S2/U19782/Y (NAND3X0_RVT)                       0.15       3.12 f
+  mult_23_S2/U4438/S (FADDX1_RVT)                         0.36       3.48 r
+  mult_23_S2/U4434/CO (FADDX1_RVT)                        0.33       3.82 r
+  mult_23_S2/U18334/Y (NAND2X0_RVT)                       0.13       3.95 f
+  mult_23_S2/U18336/Y (NAND3X0_RVT)                       0.14       4.09 r
+  mult_23_S2/U18340/Y (NAND2X0_RVT)                       0.13       4.22 f
+  mult_23_S2/U18342/Y (NAND3X2_RVT)                       0.15       4.38 r
+  mult_23_S2/U4337/S (FADDX1_RVT)                         0.45       4.82 f
+  mult_23_S2/U18318/Y (NAND2X0_RVT)                       0.14       4.96 r
+  mult_23_S2/U18320/Y (NAND3X2_RVT)                       0.15       5.11 f
+  mult_23_S2/U18324/Y (NAND2X0_RVT)                       0.13       5.24 r
+  mult_23_S2/U18326/Y (NAND3X0_RVT)                       0.15       5.40 f
+  mult_23_S2/U19317/Y (NAND2X0_RVT)                       0.15       5.54 r
+  mult_23_S2/U17537/Y (NAND3X0_RVT)                       0.15       5.70 f
+  mult_23_S2/U4244/CO (FADDX1_RVT)                        0.42       6.12 f
+  mult_23_S2/U20209/Y (OR2X1_RVT)                         0.20       6.32 f
+  mult_23_S2/U2034/Y (AOI21X1_RVT)                        0.18       6.50 r
+  mult_23_S2/U20142/Y (OAI21X1_RVT)                       0.18       6.67 f
+  mult_23_S2/U2012/Y (AOI21X1_RVT)                        0.14       6.81 r
+  mult_23_S2/U16403/Y (OA21X1_RVT)                        0.12       6.93 r
+  mult_23_S2/U16401/Y (OA21X1_RVT)                        0.13       7.06 r
+  mult_23_S2/U18597/Y (OAI221X1_RVT)                      0.18       7.24 f
+  mult_23_S2/U1947/CO (FADDX1_RVT)                        0.32       7.55 f
+  mult_23_S2/U19960/Y (NAND2X0_RVT)                       0.14       7.69 r
+  mult_23_S2/U16899/Y (NAND3X2_RVT)                       0.15       7.84 f
+  mult_23_S2/U19965/Y (NAND2X0_RVT)                       0.13       7.97 r
+  mult_23_S2/U19967/Y (NAND3X0_RVT)                       0.14       8.12 f
+  mult_23_S2/U19670/Y (NAND2X0_RVT)                       0.14       8.26 r
+  mult_23_S2/U16893/Y (NAND3X2_RVT)                       0.15       8.41 f
+  mult_23_S2/U28835/Y (NAND2X0_RVT)                       0.13       8.54 r
+  mult_23_S2/U18951/Y (NAND3X2_RVT)                       0.15       8.69 f
+  mult_23_S2/U28838/Y (NAND2X0_RVT)                       0.13       8.82 r
+  mult_23_S2/U16896/Y (NAND3X2_RVT)                       0.15       8.97 f
+  mult_23_S2/U28842/Y (NAND2X0_RVT)                       0.13       9.10 r
+  mult_23_S2/U16894/Y (NAND3X2_RVT)                       0.15       9.25 f
+  mult_23_S2/U28845/Y (NAND2X0_RVT)                       0.13       9.38 r
+  mult_23_S2/U28847/Y (NAND3X0_RVT)                       0.14       9.52 f
+  mult_23_S2/U28829/Y (NAND2X0_RVT)                       0.14       9.67 r
+  mult_23_S2/U16885/Y (NAND3X0_RVT)                       0.15       9.81 f
+  mult_23_S2/U28832/Y (NAND2X0_RVT)                       0.14       9.96 r
+  mult_23_S2/U16890/Y (NAND3X2_RVT)                       0.15      10.10 f
+  mult_23_S2/U1937/CO (FADDX1_RVT)                        0.32      10.42 f
+  mult_23_S2/U19942/Y (NAND2X0_RVT)                       0.14      10.56 r
+  mult_23_S2/U19944/Y (NAND3X2_RVT)                       0.15      10.70 f
+  mult_23_S2/U19948/Y (NAND2X0_RVT)                       0.13      10.84 r
+  mult_23_S2/U17324/Y (NAND3X0_RVT)                       0.14      10.98 f
+  mult_23_S2/U19952/Y (NAND2X0_RVT)                       0.14      11.12 r
+  mult_23_S2/U16898/Y (NAND3X2_RVT)                       0.15      11.27 f
+  mult_23_S2/U19957/Y (NAND2X0_RVT)                       0.14      11.42 r
+  mult_23_S2/U16383/Y (NAND3X0_RVT)                       0.16      11.58 f
+  mult_23_S2/U19661/Y (NAND2X0_RVT)                       0.12      11.70 r
+  mult_23_S2/U17325/Y (NAND3X0_RVT)                       0.14      11.84 f
+  mult_23_S2/U19666/Y (NAND2X0_RVT)                       0.14      11.98 r
+  mult_23_S2/U16892/Y (NAND3X2_RVT)                       0.15      12.13 f
+  mult_23_S2/U1930/CO (FADDX1_RVT)                        0.32      12.45 f
+  mult_23_S2/U1929/CO (FADDX1_RVT)                        0.32      12.77 f
+  mult_23_S2/U19652/Y (NAND2X0_RVT)                       0.14      12.90 r
+  mult_23_S2/U17326/Y (NAND3X0_RVT)                       0.14      13.05 f
+  mult_23_S2/U19657/Y (NAND2X0_RVT)                       0.14      13.19 r
+  mult_23_S2/U18950/Y (NAND3X2_RVT)                       0.15      13.34 f
+  mult_23_S2/U1926/CO (FADDX1_RVT)                        0.32      13.65 f
+  mult_23_S2/U28807/Y (NAND2X0_RVT)                       0.14      13.79 r
+  mult_23_S2/U28804/Y (NAND3X0_RVT)                       0.14      13.93 f
+  mult_23_S2/U28810/Y (NAND2X0_RVT)                       0.14      14.08 r
+  mult_23_S2/U16884/Y (NAND3X0_RVT)                       0.15      14.22 f
+  mult_23_S2/U1923/CO (FADDX1_RVT)                        0.33      14.55 f
+  mult_23_S2/U1922/CO (FADDX1_RVT)                        0.32      14.87 f
+  mult_23_S2/U1921/CO (FADDX1_RVT)                        0.32      15.19 f
+  mult_23_S2/U1920/CO (FADDX1_RVT)                        0.32      15.50 f
+  mult_23_S2/U28859/Y (XOR2X1_RVT)                        0.24      15.75 r
+  mult_23_S2/product[127] (core_core_DW_mult_uns_1_0)     0.00      15.75 r
+  DATA_A_reg[127]/D (SDFFX1_RVT)                          0.10      15.85 r
+  data arrival time                                                 15.85
+
+  clock clock1 (rise edge)                                4.00       4.00
+  clock network delay (ideal)                             0.00       4.00
+  DATA_A_reg[127]/CLK (SDFFX1_RVT)                        0.00       4.00 r
+  library setup time                                     -0.07       3.93
+  data required time                                                 3.93
+  --------------------------------------------------------------------------
+  data required time                                                 3.93
+  data arrival time                                                -15.85
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                 -11.92
+
+
+  Startpoint: OP_A_reg[77]
+              (rising edge-triggered flip-flop clocked by clock1)
+  Endpoint: DATA_A_reg[126]
+            (rising edge-triggered flip-flop clocked by clock1)
+  Path Group: clock1
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  core               140000                saed32rvt_tt1p05v125c
+  core_core_DW_mult_uns_1_0
+                     70000                 saed32rvt_tt1p05v125c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clock1 (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  OP_A_reg[77]/CLK (SDFFX1_RVT)                           0.00 #     0.00 r
+  OP_A_reg[77]/Q (SDFFX1_RVT)                             0.10       0.10 f
+  mult_23_S2/a[77] (core_core_DW_mult_uns_1_0)            0.00       0.10 f
+  mult_23_S2/U27134/Y (NBUFFX2_RVT)                       0.22       0.31 f
+  mult_23_S2/U17672/Y (XNOR2X1_RVT)                       0.36       0.67 r
+  mult_23_S2/U14542/Y (OR2X2_RVT)                         0.18       0.85 r
+  mult_23_S2/U24335/Y (NBUFFX2_RVT)                       0.19       1.03 r
+  mult_23_S2/U24142/Y (OA21X1_RVT)                        0.34       1.38 r
+  mult_23_S2/U16621/Y (XOR2X1_RVT)                        0.25       1.63 f
+  mult_23_S2/U19467/C1 (HADDX1_RVT)                       0.22       1.85 f
+  mult_23_S2/U4547/C1 (HADDX1_RVT)                        0.22       2.07 f
+  mult_23_S2/U18021/C1 (HADDX1_RVT)                       0.22       2.29 f
+  mult_23_S2/U18330/Y (NAND2X0_RVT)                       0.14       2.43 r
+  mult_23_S2/U16460/Y (NAND3X2_RVT)                       0.15       2.58 f
+  mult_23_S2/U19773/Y (XOR3X2_RVT)                        0.26       2.83 f
+  mult_23_S2/U19780/Y (NAND2X0_RVT)                       0.14       2.97 r
+  mult_23_S2/U19782/Y (NAND3X0_RVT)                       0.15       3.12 f
+  mult_23_S2/U4438/S (FADDX1_RVT)                         0.36       3.48 r
+  mult_23_S2/U4434/CO (FADDX1_RVT)                        0.33       3.82 r
+  mult_23_S2/U18334/Y (NAND2X0_RVT)                       0.13       3.95 f
+  mult_23_S2/U18336/Y (NAND3X0_RVT)                       0.14       4.09 r
+  mult_23_S2/U18340/Y (NAND2X0_RVT)                       0.13       4.22 f
+  mult_23_S2/U18342/Y (NAND3X2_RVT)                       0.15       4.38 r
+  mult_23_S2/U4337/S (FADDX1_RVT)                         0.45       4.82 f
+  mult_23_S2/U18318/Y (NAND2X0_RVT)                       0.14       4.96 r
+  mult_23_S2/U18320/Y (NAND3X2_RVT)                       0.15       5.11 f
+  mult_23_S2/U18324/Y (NAND2X0_RVT)                       0.13       5.24 r
+  mult_23_S2/U18326/Y (NAND3X0_RVT)                       0.15       5.40 f
+  mult_23_S2/U19317/Y (NAND2X0_RVT)                       0.15       5.54 r
+  mult_23_S2/U17537/Y (NAND3X0_RVT)                       0.15       5.70 f
+  mult_23_S2/U4244/CO (FADDX1_RVT)                        0.42       6.12 f
+  mult_23_S2/U20209/Y (OR2X1_RVT)                         0.20       6.32 f
+  mult_23_S2/U2034/Y (AOI21X1_RVT)                        0.18       6.50 r
+  mult_23_S2/U20142/Y (OAI21X1_RVT)                       0.18       6.67 f
+  mult_23_S2/U2012/Y (AOI21X1_RVT)                        0.14       6.81 r
+  mult_23_S2/U16403/Y (OA21X1_RVT)                        0.12       6.93 r
+  mult_23_S2/U16401/Y (OA21X1_RVT)                        0.13       7.06 r
+  mult_23_S2/U18597/Y (OAI221X1_RVT)                      0.18       7.24 f
+  mult_23_S2/U1947/CO (FADDX1_RVT)                        0.32       7.55 f
+  mult_23_S2/U19960/Y (NAND2X0_RVT)                       0.14       7.69 r
+  mult_23_S2/U16899/Y (NAND3X2_RVT)                       0.15       7.84 f
+  mult_23_S2/U19965/Y (NAND2X0_RVT)                       0.13       7.97 r
+  mult_23_S2/U19967/Y (NAND3X0_RVT)                       0.14       8.12 f
+  mult_23_S2/U19670/Y (NAND2X0_RVT)                       0.14       8.26 r
+  mult_23_S2/U16893/Y (NAND3X2_RVT)                       0.15       8.41 f
+  mult_23_S2/U28835/Y (NAND2X0_RVT)                       0.13       8.54 r
+  mult_23_S2/U18951/Y (NAND3X2_RVT)                       0.15       8.69 f
+  mult_23_S2/U28838/Y (NAND2X0_RVT)                       0.13       8.82 r
+  mult_23_S2/U16896/Y (NAND3X2_RVT)                       0.15       8.97 f
+  mult_23_S2/U28842/Y (NAND2X0_RVT)                       0.13       9.10 r
+  mult_23_S2/U16894/Y (NAND3X2_RVT)                       0.15       9.25 f
+  mult_23_S2/U28845/Y (NAND2X0_RVT)                       0.13       9.38 r
+  mult_23_S2/U28847/Y (NAND3X0_RVT)                       0.14       9.52 f
+  mult_23_S2/U28829/Y (NAND2X0_RVT)                       0.14       9.67 r
+  mult_23_S2/U16885/Y (NAND3X0_RVT)                       0.15       9.81 f
+  mult_23_S2/U28832/Y (NAND2X0_RVT)                       0.14       9.96 r
+  mult_23_S2/U16890/Y (NAND3X2_RVT)                       0.15      10.10 f
+  mult_23_S2/U1937/CO (FADDX1_RVT)                        0.32      10.42 f
+  mult_23_S2/U19942/Y (NAND2X0_RVT)                       0.14      10.56 r
+  mult_23_S2/U19944/Y (NAND3X2_RVT)                       0.15      10.70 f
+  mult_23_S2/U19948/Y (NAND2X0_RVT)                       0.13      10.84 r
+  mult_23_S2/U17324/Y (NAND3X0_RVT)                       0.14      10.98 f
+  mult_23_S2/U19952/Y (NAND2X0_RVT)                       0.14      11.12 r
+  mult_23_S2/U16898/Y (NAND3X2_RVT)                       0.15      11.27 f
+  mult_23_S2/U19957/Y (NAND2X0_RVT)                       0.14      11.42 r
+  mult_23_S2/U16383/Y (NAND3X0_RVT)                       0.16      11.58 f
+  mult_23_S2/U19661/Y (NAND2X0_RVT)                       0.12      11.70 r
+  mult_23_S2/U17325/Y (NAND3X0_RVT)                       0.14      11.84 f
+  mult_23_S2/U19666/Y (NAND2X0_RVT)                       0.14      11.98 r
+  mult_23_S2/U16892/Y (NAND3X2_RVT)                       0.15      12.13 f
+  mult_23_S2/U1930/CO (FADDX1_RVT)                        0.32      12.45 f
+  mult_23_S2/U1929/CO (FADDX1_RVT)                        0.32      12.77 f
+  mult_23_S2/U19652/Y (NAND2X0_RVT)                       0.14      12.90 r
+  mult_23_S2/U17326/Y (NAND3X0_RVT)                       0.14      13.05 f
+  mult_23_S2/U19657/Y (NAND2X0_RVT)                       0.14      13.19 r
+  mult_23_S2/U18950/Y (NAND3X2_RVT)                       0.15      13.34 f
+  mult_23_S2/U1926/CO (FADDX1_RVT)                        0.32      13.65 f
+  mult_23_S2/U28807/Y (NAND2X0_RVT)                       0.14      13.79 r
+  mult_23_S2/U28804/Y (NAND3X0_RVT)                       0.14      13.93 f
+  mult_23_S2/U28810/Y (NAND2X0_RVT)                       0.14      14.08 r
+  mult_23_S2/U16884/Y (NAND3X0_RVT)                       0.15      14.22 f
+  mult_23_S2/U1923/CO (FADDX1_RVT)                        0.33      14.55 f
+  mult_23_S2/U1922/CO (FADDX1_RVT)                        0.32      14.87 f
+  mult_23_S2/U1921/CO (FADDX1_RVT)                        0.32      15.19 f
+  mult_23_S2/U1920/S (FADDX1_RVT)                         0.35      15.54 r
+  mult_23_S2/product[126] (core_core_DW_mult_uns_1_0)     0.00      15.54 r
+  DATA_A_reg[126]/D (SDFFX1_RVT)                          0.10      15.65 r
+  data arrival time                                                 15.65
+
+  clock clock1 (rise edge)                                4.00       4.00
+  clock network delay (ideal)                             0.00       4.00
+  DATA_A_reg[126]/CLK (SDFFX1_RVT)                        0.00       4.00 r
+  library setup time                                     -0.07       3.93
+  data required time                                                 3.93
+  --------------------------------------------------------------------------
+  data required time                                                 3.93
+  data arrival time                                                -15.65
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                 -11.72
+
+
+  Startpoint: OP_A_reg[77]
+              (rising edge-triggered flip-flop clocked by clock1)
+  Endpoint: DATA_A_reg[125]
+            (rising edge-triggered flip-flop clocked by clock1)
+  Path Group: clock1
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  core               140000                saed32rvt_tt1p05v125c
+  core_core_DW_mult_uns_1_0
+                     70000                 saed32rvt_tt1p05v125c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clock1 (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  OP_A_reg[77]/CLK (SDFFX1_RVT)                           0.00 #     0.00 r
+  OP_A_reg[77]/Q (SDFFX1_RVT)                             0.10       0.10 f
+  mult_23_S2/a[77] (core_core_DW_mult_uns_1_0)            0.00       0.10 f
+  mult_23_S2/U27134/Y (NBUFFX2_RVT)                       0.22       0.31 f
+  mult_23_S2/U17672/Y (XNOR2X1_RVT)                       0.36       0.67 r
+  mult_23_S2/U14542/Y (OR2X2_RVT)                         0.18       0.85 r
+  mult_23_S2/U24335/Y (NBUFFX2_RVT)                       0.19       1.03 r
+  mult_23_S2/U24142/Y (OA21X1_RVT)                        0.34       1.38 r
+  mult_23_S2/U16621/Y (XOR2X1_RVT)                        0.25       1.63 f
+  mult_23_S2/U19467/C1 (HADDX1_RVT)                       0.22       1.85 f
+  mult_23_S2/U4547/C1 (HADDX1_RVT)                        0.22       2.07 f
+  mult_23_S2/U18021/C1 (HADDX1_RVT)                       0.22       2.29 f
+  mult_23_S2/U18330/Y (NAND2X0_RVT)                       0.14       2.43 r
+  mult_23_S2/U16460/Y (NAND3X2_RVT)                       0.15       2.58 f
+  mult_23_S2/U19773/Y (XOR3X2_RVT)                        0.26       2.83 f
+  mult_23_S2/U19780/Y (NAND2X0_RVT)                       0.14       2.97 r
+  mult_23_S2/U19782/Y (NAND3X0_RVT)                       0.15       3.12 f
+  mult_23_S2/U4438/S (FADDX1_RVT)                         0.36       3.48 r
+  mult_23_S2/U4434/CO (FADDX1_RVT)                        0.33       3.82 r
+  mult_23_S2/U18334/Y (NAND2X0_RVT)                       0.13       3.95 f
+  mult_23_S2/U18336/Y (NAND3X0_RVT)                       0.14       4.09 r
+  mult_23_S2/U18340/Y (NAND2X0_RVT)                       0.13       4.22 f
+  mult_23_S2/U18342/Y (NAND3X2_RVT)                       0.15       4.38 r
+  mult_23_S2/U4337/S (FADDX1_RVT)                         0.45       4.82 f
+  mult_23_S2/U18318/Y (NAND2X0_RVT)                       0.14       4.96 r
+  mult_23_S2/U18320/Y (NAND3X2_RVT)                       0.15       5.11 f
+  mult_23_S2/U18324/Y (NAND2X0_RVT)                       0.13       5.24 r
+  mult_23_S2/U18326/Y (NAND3X0_RVT)                       0.15       5.40 f
+  mult_23_S2/U19317/Y (NAND2X0_RVT)                       0.15       5.54 r
+  mult_23_S2/U17537/Y (NAND3X0_RVT)                       0.15       5.70 f
+  mult_23_S2/U4244/CO (FADDX1_RVT)                        0.42       6.12 f
+  mult_23_S2/U20209/Y (OR2X1_RVT)                         0.20       6.32 f
+  mult_23_S2/U2034/Y (AOI21X1_RVT)                        0.18       6.50 r
+  mult_23_S2/U20142/Y (OAI21X1_RVT)                       0.18       6.67 f
+  mult_23_S2/U2012/Y (AOI21X1_RVT)                        0.14       6.81 r
+  mult_23_S2/U16403/Y (OA21X1_RVT)                        0.12       6.93 r
+  mult_23_S2/U16401/Y (OA21X1_RVT)                        0.13       7.06 r
+  mult_23_S2/U18597/Y (OAI221X1_RVT)                      0.18       7.24 f
+  mult_23_S2/U1947/CO (FADDX1_RVT)                        0.32       7.55 f
+  mult_23_S2/U19960/Y (NAND2X0_RVT)                       0.14       7.69 r
+  mult_23_S2/U16899/Y (NAND3X2_RVT)                       0.15       7.84 f
+  mult_23_S2/U19965/Y (NAND2X0_RVT)                       0.13       7.97 r
+  mult_23_S2/U19967/Y (NAND3X0_RVT)                       0.14       8.12 f
+  mult_23_S2/U19670/Y (NAND2X0_RVT)                       0.14       8.26 r
+  mult_23_S2/U16893/Y (NAND3X2_RVT)                       0.15       8.41 f
+  mult_23_S2/U28835/Y (NAND2X0_RVT)                       0.13       8.54 r
+  mult_23_S2/U18951/Y (NAND3X2_RVT)                       0.15       8.69 f
+  mult_23_S2/U28838/Y (NAND2X0_RVT)                       0.13       8.82 r
+  mult_23_S2/U16896/Y (NAND3X2_RVT)                       0.15       8.97 f
+  mult_23_S2/U28842/Y (NAND2X0_RVT)                       0.13       9.10 r
+  mult_23_S2/U16894/Y (NAND3X2_RVT)                       0.15       9.25 f
+  mult_23_S2/U28845/Y (NAND2X0_RVT)                       0.13       9.38 r
+  mult_23_S2/U28847/Y (NAND3X0_RVT)                       0.14       9.52 f
+  mult_23_S2/U28829/Y (NAND2X0_RVT)                       0.14       9.67 r
+  mult_23_S2/U16885/Y (NAND3X0_RVT)                       0.15       9.81 f
+  mult_23_S2/U28832/Y (NAND2X0_RVT)                       0.14       9.96 r
+  mult_23_S2/U16890/Y (NAND3X2_RVT)                       0.15      10.10 f
+  mult_23_S2/U1937/CO (FADDX1_RVT)                        0.32      10.42 f
+  mult_23_S2/U19942/Y (NAND2X0_RVT)                       0.14      10.56 r
+  mult_23_S2/U19944/Y (NAND3X2_RVT)                       0.15      10.70 f
+  mult_23_S2/U19948/Y (NAND2X0_RVT)                       0.13      10.84 r
+  mult_23_S2/U17324/Y (NAND3X0_RVT)                       0.14      10.98 f
+  mult_23_S2/U19952/Y (NAND2X0_RVT)                       0.14      11.12 r
+  mult_23_S2/U16898/Y (NAND3X2_RVT)                       0.15      11.27 f
+  mult_23_S2/U19957/Y (NAND2X0_RVT)                       0.14      11.42 r
+  mult_23_S2/U16383/Y (NAND3X0_RVT)                       0.16      11.58 f
+  mult_23_S2/U19661/Y (NAND2X0_RVT)                       0.12      11.70 r
+  mult_23_S2/U17325/Y (NAND3X0_RVT)                       0.14      11.84 f
+  mult_23_S2/U19666/Y (NAND2X0_RVT)                       0.14      11.98 r
+  mult_23_S2/U16892/Y (NAND3X2_RVT)                       0.15      12.13 f
+  mult_23_S2/U1930/CO (FADDX1_RVT)                        0.32      12.45 f
+  mult_23_S2/U1929/CO (FADDX1_RVT)                        0.32      12.77 f
+  mult_23_S2/U19652/Y (NAND2X0_RVT)                       0.14      12.90 r
+  mult_23_S2/U17326/Y (NAND3X0_RVT)                       0.14      13.05 f
+  mult_23_S2/U19657/Y (NAND2X0_RVT)                       0.14      13.19 r
+  mult_23_S2/U18950/Y (NAND3X2_RVT)                       0.15      13.34 f
+  mult_23_S2/U1926/CO (FADDX1_RVT)                        0.32      13.65 f
+  mult_23_S2/U28807/Y (NAND2X0_RVT)                       0.14      13.79 r
+  mult_23_S2/U28804/Y (NAND3X0_RVT)                       0.14      13.93 f
+  mult_23_S2/U28810/Y (NAND2X0_RVT)                       0.14      14.08 r
+  mult_23_S2/U16884/Y (NAND3X0_RVT)                       0.15      14.22 f
+  mult_23_S2/U1923/CO (FADDX1_RVT)                        0.33      14.55 f
+  mult_23_S2/U1922/CO (FADDX1_RVT)                        0.32      14.87 f
+  mult_23_S2/U1921/S (FADDX1_RVT)                         0.35      15.22 r
+  mult_23_S2/product[125] (core_core_DW_mult_uns_1_0)     0.00      15.22 r
+  DATA_A_reg[125]/D (SDFFX1_RVT)                          0.10      15.33 r
+  data arrival time                                                 15.33
+
+  clock clock1 (rise edge)                                4.00       4.00
+  clock network delay (ideal)                             0.00       4.00
+  DATA_A_reg[125]/CLK (SDFFX1_RVT)                        0.00       4.00 r
+  library setup time                                     -0.07       3.93
+  data required time                                                 3.93
+  --------------------------------------------------------------------------
+  data required time                                                 3.93
+  data arrival time                                                -15.33
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                 -11.40
+
+
+  Startpoint: OP_A_reg[77]
+              (rising edge-triggered flip-flop clocked by clock1)
+  Endpoint: DATA_A_reg[124]
+            (rising edge-triggered flip-flop clocked by clock1)
+  Path Group: clock1
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  core               140000                saed32rvt_tt1p05v125c
+  core_core_DW_mult_uns_1_0
+                     70000                 saed32rvt_tt1p05v125c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clock1 (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  OP_A_reg[77]/CLK (SDFFX1_RVT)                           0.00 #     0.00 r
+  OP_A_reg[77]/Q (SDFFX1_RVT)                             0.10       0.10 f
+  mult_23_S2/a[77] (core_core_DW_mult_uns_1_0)            0.00       0.10 f
+  mult_23_S2/U27134/Y (NBUFFX2_RVT)                       0.22       0.31 f
+  mult_23_S2/U17672/Y (XNOR2X1_RVT)                       0.36       0.67 r
+  mult_23_S2/U14542/Y (OR2X2_RVT)                         0.18       0.85 r
+  mult_23_S2/U24335/Y (NBUFFX2_RVT)                       0.19       1.03 r
+  mult_23_S2/U24142/Y (OA21X1_RVT)                        0.34       1.38 r
+  mult_23_S2/U16621/Y (XOR2X1_RVT)                        0.25       1.63 f
+  mult_23_S2/U19467/C1 (HADDX1_RVT)                       0.22       1.85 f
+  mult_23_S2/U4547/C1 (HADDX1_RVT)                        0.22       2.07 f
+  mult_23_S2/U18021/C1 (HADDX1_RVT)                       0.22       2.29 f
+  mult_23_S2/U18330/Y (NAND2X0_RVT)                       0.14       2.43 r
+  mult_23_S2/U16460/Y (NAND3X2_RVT)                       0.15       2.58 f
+  mult_23_S2/U19773/Y (XOR3X2_RVT)                        0.26       2.83 f
+  mult_23_S2/U19780/Y (NAND2X0_RVT)                       0.14       2.97 r
+  mult_23_S2/U19782/Y (NAND3X0_RVT)                       0.15       3.12 f
+  mult_23_S2/U4438/S (FADDX1_RVT)                         0.36       3.48 r
+  mult_23_S2/U4434/CO (FADDX1_RVT)                        0.33       3.82 r
+  mult_23_S2/U18334/Y (NAND2X0_RVT)                       0.13       3.95 f
+  mult_23_S2/U18336/Y (NAND3X0_RVT)                       0.14       4.09 r
+  mult_23_S2/U18340/Y (NAND2X0_RVT)                       0.13       4.22 f
+  mult_23_S2/U18342/Y (NAND3X2_RVT)                       0.15       4.38 r
+  mult_23_S2/U4337/S (FADDX1_RVT)                         0.45       4.82 f
+  mult_23_S2/U18318/Y (NAND2X0_RVT)                       0.14       4.96 r
+  mult_23_S2/U18320/Y (NAND3X2_RVT)                       0.15       5.11 f
+  mult_23_S2/U18324/Y (NAND2X0_RVT)                       0.13       5.24 r
+  mult_23_S2/U18326/Y (NAND3X0_RVT)                       0.15       5.40 f
+  mult_23_S2/U19317/Y (NAND2X0_RVT)                       0.15       5.54 r
+  mult_23_S2/U17537/Y (NAND3X0_RVT)                       0.15       5.70 f
+  mult_23_S2/U4244/CO (FADDX1_RVT)                        0.42       6.12 f
+  mult_23_S2/U20209/Y (OR2X1_RVT)                         0.20       6.32 f
+  mult_23_S2/U2034/Y (AOI21X1_RVT)                        0.18       6.50 r
+  mult_23_S2/U20142/Y (OAI21X1_RVT)                       0.18       6.67 f
+  mult_23_S2/U2012/Y (AOI21X1_RVT)                        0.14       6.81 r
+  mult_23_S2/U16403/Y (OA21X1_RVT)                        0.12       6.93 r
+  mult_23_S2/U16401/Y (OA21X1_RVT)                        0.13       7.06 r
+  mult_23_S2/U18597/Y (OAI221X1_RVT)                      0.18       7.24 f
+  mult_23_S2/U1947/CO (FADDX1_RVT)                        0.32       7.55 f
+  mult_23_S2/U19960/Y (NAND2X0_RVT)                       0.14       7.69 r
+  mult_23_S2/U16899/Y (NAND3X2_RVT)                       0.15       7.84 f
+  mult_23_S2/U19965/Y (NAND2X0_RVT)                       0.13       7.97 r
+  mult_23_S2/U19967/Y (NAND3X0_RVT)                       0.14       8.12 f
+  mult_23_S2/U19670/Y (NAND2X0_RVT)                       0.14       8.26 r
+  mult_23_S2/U16893/Y (NAND3X2_RVT)                       0.15       8.41 f
+  mult_23_S2/U28835/Y (NAND2X0_RVT)                       0.13       8.54 r
+  mult_23_S2/U18951/Y (NAND3X2_RVT)                       0.15       8.69 f
+  mult_23_S2/U28838/Y (NAND2X0_RVT)                       0.13       8.82 r
+  mult_23_S2/U16896/Y (NAND3X2_RVT)                       0.15       8.97 f
+  mult_23_S2/U28842/Y (NAND2X0_RVT)                       0.13       9.10 r
+  mult_23_S2/U16894/Y (NAND3X2_RVT)                       0.15       9.25 f
+  mult_23_S2/U28845/Y (NAND2X0_RVT)                       0.13       9.38 r
+  mult_23_S2/U28847/Y (NAND3X0_RVT)                       0.14       9.52 f
+  mult_23_S2/U28829/Y (NAND2X0_RVT)                       0.14       9.67 r
+  mult_23_S2/U16885/Y (NAND3X0_RVT)                       0.15       9.81 f
+  mult_23_S2/U28832/Y (NAND2X0_RVT)                       0.14       9.96 r
+  mult_23_S2/U16890/Y (NAND3X2_RVT)                       0.15      10.10 f
+  mult_23_S2/U1937/CO (FADDX1_RVT)                        0.32      10.42 f
+  mult_23_S2/U19942/Y (NAND2X0_RVT)                       0.14      10.56 r
+  mult_23_S2/U19944/Y (NAND3X2_RVT)                       0.15      10.70 f
+  mult_23_S2/U19948/Y (NAND2X0_RVT)                       0.13      10.84 r
+  mult_23_S2/U17324/Y (NAND3X0_RVT)                       0.14      10.98 f
+  mult_23_S2/U19952/Y (NAND2X0_RVT)                       0.14      11.12 r
+  mult_23_S2/U16898/Y (NAND3X2_RVT)                       0.15      11.27 f
+  mult_23_S2/U19957/Y (NAND2X0_RVT)                       0.14      11.42 r
+  mult_23_S2/U16383/Y (NAND3X0_RVT)                       0.16      11.58 f
+  mult_23_S2/U19661/Y (NAND2X0_RVT)                       0.12      11.70 r
+  mult_23_S2/U17325/Y (NAND3X0_RVT)                       0.14      11.84 f
+  mult_23_S2/U19666/Y (NAND2X0_RVT)                       0.14      11.98 r
+  mult_23_S2/U16892/Y (NAND3X2_RVT)                       0.15      12.13 f
+  mult_23_S2/U1930/CO (FADDX1_RVT)                        0.32      12.45 f
+  mult_23_S2/U1929/CO (FADDX1_RVT)                        0.32      12.77 f
+  mult_23_S2/U19652/Y (NAND2X0_RVT)                       0.14      12.90 r
+  mult_23_S2/U17326/Y (NAND3X0_RVT)                       0.14      13.05 f
+  mult_23_S2/U19657/Y (NAND2X0_RVT)                       0.14      13.19 r
+  mult_23_S2/U18950/Y (NAND3X2_RVT)                       0.15      13.34 f
+  mult_23_S2/U1926/CO (FADDX1_RVT)                        0.32      13.65 f
+  mult_23_S2/U28807/Y (NAND2X0_RVT)                       0.14      13.79 r
+  mult_23_S2/U28804/Y (NAND3X0_RVT)                       0.14      13.93 f
+  mult_23_S2/U28810/Y (NAND2X0_RVT)                       0.14      14.08 r
+  mult_23_S2/U16884/Y (NAND3X0_RVT)                       0.15      14.22 f
+  mult_23_S2/U1923/CO (FADDX1_RVT)                        0.33      14.55 f
+  mult_23_S2/U1922/S (FADDX1_RVT)                         0.35      14.90 r
+  mult_23_S2/product[124] (core_core_DW_mult_uns_1_0)     0.00      14.90 r
+  DATA_A_reg[124]/D (SDFFX1_RVT)                          0.10      15.01 r
+  data arrival time                                                 15.01
+
+  clock clock1 (rise edge)                                4.00       4.00
+  clock network delay (ideal)                             0.00       4.00
+  DATA_A_reg[124]/CLK (SDFFX1_RVT)                        0.00       4.00 r
+  library setup time                                     -0.07       3.93
+  data required time                                                 3.93
+  --------------------------------------------------------------------------
+  data required time                                                 3.93
+  data arrival time                                                -15.01
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                 -11.08
+
+
+  Startpoint: OP_A_reg[77]
+              (rising edge-triggered flip-flop clocked by clock1)
+  Endpoint: DATA_A_reg[122]
+            (rising edge-triggered flip-flop clocked by clock1)
+  Path Group: clock1
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  core               140000                saed32rvt_tt1p05v125c
+  core_core_DW_mult_uns_1_0
+                     70000                 saed32rvt_tt1p05v125c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clock1 (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  OP_A_reg[77]/CLK (SDFFX1_RVT)                           0.00 #     0.00 r
+  OP_A_reg[77]/Q (SDFFX1_RVT)                             0.10       0.10 f
+  mult_23_S2/a[77] (core_core_DW_mult_uns_1_0)            0.00       0.10 f
+  mult_23_S2/U27134/Y (NBUFFX2_RVT)                       0.22       0.31 f
+  mult_23_S2/U17672/Y (XNOR2X1_RVT)                       0.36       0.67 r
+  mult_23_S2/U14542/Y (OR2X2_RVT)                         0.18       0.85 r
+  mult_23_S2/U24335/Y (NBUFFX2_RVT)                       0.19       1.03 r
+  mult_23_S2/U24142/Y (OA21X1_RVT)                        0.34       1.38 r
+  mult_23_S2/U16621/Y (XOR2X1_RVT)                        0.25       1.63 f
+  mult_23_S2/U19467/C1 (HADDX1_RVT)                       0.22       1.85 f
+  mult_23_S2/U4547/C1 (HADDX1_RVT)                        0.22       2.07 f
+  mult_23_S2/U18021/C1 (HADDX1_RVT)                       0.22       2.29 f
+  mult_23_S2/U18330/Y (NAND2X0_RVT)                       0.14       2.43 r
+  mult_23_S2/U16460/Y (NAND3X2_RVT)                       0.15       2.58 f
+  mult_23_S2/U19773/Y (XOR3X2_RVT)                        0.26       2.83 f
+  mult_23_S2/U19780/Y (NAND2X0_RVT)                       0.14       2.97 r
+  mult_23_S2/U19782/Y (NAND3X0_RVT)                       0.15       3.12 f
+  mult_23_S2/U4438/S (FADDX1_RVT)                         0.36       3.48 r
+  mult_23_S2/U4434/CO (FADDX1_RVT)                        0.33       3.82 r
+  mult_23_S2/U18334/Y (NAND2X0_RVT)                       0.13       3.95 f
+  mult_23_S2/U18336/Y (NAND3X0_RVT)                       0.14       4.09 r
+  mult_23_S2/U18340/Y (NAND2X0_RVT)                       0.13       4.22 f
+  mult_23_S2/U18342/Y (NAND3X2_RVT)                       0.15       4.38 r
+  mult_23_S2/U4337/S (FADDX1_RVT)                         0.45       4.82 f
+  mult_23_S2/U18318/Y (NAND2X0_RVT)                       0.14       4.96 r
+  mult_23_S2/U18320/Y (NAND3X2_RVT)                       0.15       5.11 f
+  mult_23_S2/U18324/Y (NAND2X0_RVT)                       0.13       5.24 r
+  mult_23_S2/U18326/Y (NAND3X0_RVT)                       0.15       5.40 f
+  mult_23_S2/U19317/Y (NAND2X0_RVT)                       0.15       5.54 r
+  mult_23_S2/U17537/Y (NAND3X0_RVT)                       0.15       5.70 f
+  mult_23_S2/U4244/CO (FADDX1_RVT)                        0.42       6.12 f
+  mult_23_S2/U20209/Y (OR2X1_RVT)                         0.20       6.32 f
+  mult_23_S2/U2034/Y (AOI21X1_RVT)                        0.18       6.50 r
+  mult_23_S2/U20142/Y (OAI21X1_RVT)                       0.18       6.67 f
+  mult_23_S2/U2012/Y (AOI21X1_RVT)                        0.14       6.81 r
+  mult_23_S2/U16403/Y (OA21X1_RVT)                        0.12       6.93 r
+  mult_23_S2/U16401/Y (OA21X1_RVT)                        0.13       7.06 r
+  mult_23_S2/U18597/Y (OAI221X1_RVT)                      0.18       7.24 f
+  mult_23_S2/U1947/CO (FADDX1_RVT)                        0.32       7.55 f
+  mult_23_S2/U19960/Y (NAND2X0_RVT)                       0.14       7.69 r
+  mult_23_S2/U16899/Y (NAND3X2_RVT)                       0.15       7.84 f
+  mult_23_S2/U19965/Y (NAND2X0_RVT)                       0.13       7.97 r
+  mult_23_S2/U19967/Y (NAND3X0_RVT)                       0.14       8.12 f
+  mult_23_S2/U19670/Y (NAND2X0_RVT)                       0.14       8.26 r
+  mult_23_S2/U16893/Y (NAND3X2_RVT)                       0.15       8.41 f
+  mult_23_S2/U28835/Y (NAND2X0_RVT)                       0.13       8.54 r
+  mult_23_S2/U18951/Y (NAND3X2_RVT)                       0.15       8.69 f
+  mult_23_S2/U28838/Y (NAND2X0_RVT)                       0.13       8.82 r
+  mult_23_S2/U16896/Y (NAND3X2_RVT)                       0.15       8.97 f
+  mult_23_S2/U28842/Y (NAND2X0_RVT)                       0.13       9.10 r
+  mult_23_S2/U16894/Y (NAND3X2_RVT)                       0.15       9.25 f
+  mult_23_S2/U28845/Y (NAND2X0_RVT)                       0.13       9.38 r
+  mult_23_S2/U28847/Y (NAND3X0_RVT)                       0.14       9.52 f
+  mult_23_S2/U28829/Y (NAND2X0_RVT)                       0.14       9.67 r
+  mult_23_S2/U16885/Y (NAND3X0_RVT)                       0.15       9.81 f
+  mult_23_S2/U28832/Y (NAND2X0_RVT)                       0.14       9.96 r
+  mult_23_S2/U16890/Y (NAND3X2_RVT)                       0.15      10.10 f
+  mult_23_S2/U1937/CO (FADDX1_RVT)                        0.32      10.42 f
+  mult_23_S2/U19942/Y (NAND2X0_RVT)                       0.14      10.56 r
+  mult_23_S2/U19944/Y (NAND3X2_RVT)                       0.15      10.70 f
+  mult_23_S2/U19948/Y (NAND2X0_RVT)                       0.13      10.84 r
+  mult_23_S2/U17324/Y (NAND3X0_RVT)                       0.14      10.98 f
+  mult_23_S2/U19952/Y (NAND2X0_RVT)                       0.14      11.12 r
+  mult_23_S2/U16898/Y (NAND3X2_RVT)                       0.15      11.27 f
+  mult_23_S2/U19957/Y (NAND2X0_RVT)                       0.14      11.42 r
+  mult_23_S2/U16383/Y (NAND3X0_RVT)                       0.16      11.58 f
+  mult_23_S2/U19661/Y (NAND2X0_RVT)                       0.12      11.70 r
+  mult_23_S2/U17325/Y (NAND3X0_RVT)                       0.14      11.84 f
+  mult_23_S2/U19666/Y (NAND2X0_RVT)                       0.14      11.98 r
+  mult_23_S2/U16892/Y (NAND3X2_RVT)                       0.15      12.13 f
+  mult_23_S2/U1930/CO (FADDX1_RVT)                        0.32      12.45 f
+  mult_23_S2/U1929/CO (FADDX1_RVT)                        0.32      12.77 f
+  mult_23_S2/U19652/Y (NAND2X0_RVT)                       0.14      12.90 r
+  mult_23_S2/U17326/Y (NAND3X0_RVT)                       0.14      13.05 f
+  mult_23_S2/U19657/Y (NAND2X0_RVT)                       0.14      13.19 r
+  mult_23_S2/U18950/Y (NAND3X2_RVT)                       0.15      13.34 f
+  mult_23_S2/U1926/CO (FADDX1_RVT)                        0.32      13.65 f
+  mult_23_S2/U28807/Y (NAND2X0_RVT)                       0.14      13.79 r
+  mult_23_S2/U28804/Y (NAND3X0_RVT)                       0.14      13.93 f
+  mult_23_S2/U18610/Y (DELLN3X2_RVT)                      0.41      14.34 f
+  mult_23_S2/U17457/Y (XNOR2X1_RVT)                       0.26      14.60 r
+  mult_23_S2/product[122] (core_core_DW_mult_uns_1_0)     0.00      14.60 r
+  DATA_A_reg[122]/D (SDFFX1_RVT)                          0.10      14.71 r
+  data arrival time                                                 14.71
+
+  clock clock1 (rise edge)                                4.00       4.00
+  clock network delay (ideal)                             0.00       4.00
+  DATA_A_reg[122]/CLK (SDFFX1_RVT)                        0.00       4.00 r
+  library setup time                                     -0.07       3.93
+  data required time                                                 3.93
+  --------------------------------------------------------------------------
+  data required time                                                 3.93
+  data arrival time                                                -14.71
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                 -10.78
+
+
+  Startpoint: OP_A_reg[77]
+              (rising edge-triggered flip-flop clocked by clock1)
+  Endpoint: DATA_A_reg[123]
+            (rising edge-triggered flip-flop clocked by clock1)
+  Path Group: clock1
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  core               140000                saed32rvt_tt1p05v125c
+  core_core_DW_mult_uns_1_0
+                     70000                 saed32rvt_tt1p05v125c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clock1 (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  OP_A_reg[77]/CLK (SDFFX1_RVT)                           0.00 #     0.00 r
+  OP_A_reg[77]/Q (SDFFX1_RVT)                             0.10       0.10 f
+  mult_23_S2/a[77] (core_core_DW_mult_uns_1_0)            0.00       0.10 f
+  mult_23_S2/U27134/Y (NBUFFX2_RVT)                       0.22       0.31 f
+  mult_23_S2/U17672/Y (XNOR2X1_RVT)                       0.36       0.67 r
+  mult_23_S2/U14542/Y (OR2X2_RVT)                         0.18       0.85 r
+  mult_23_S2/U24335/Y (NBUFFX2_RVT)                       0.19       1.03 r
+  mult_23_S2/U24142/Y (OA21X1_RVT)                        0.34       1.38 r
+  mult_23_S2/U16621/Y (XOR2X1_RVT)                        0.25       1.63 f
+  mult_23_S2/U19467/C1 (HADDX1_RVT)                       0.22       1.85 f
+  mult_23_S2/U4547/C1 (HADDX1_RVT)                        0.22       2.07 f
+  mult_23_S2/U18021/C1 (HADDX1_RVT)                       0.22       2.29 f
+  mult_23_S2/U18330/Y (NAND2X0_RVT)                       0.14       2.43 r
+  mult_23_S2/U16460/Y (NAND3X2_RVT)                       0.15       2.58 f
+  mult_23_S2/U19773/Y (XOR3X2_RVT)                        0.26       2.83 f
+  mult_23_S2/U19780/Y (NAND2X0_RVT)                       0.14       2.97 r
+  mult_23_S2/U19782/Y (NAND3X0_RVT)                       0.15       3.12 f
+  mult_23_S2/U4438/S (FADDX1_RVT)                         0.36       3.48 r
+  mult_23_S2/U4434/CO (FADDX1_RVT)                        0.33       3.82 r
+  mult_23_S2/U18334/Y (NAND2X0_RVT)                       0.13       3.95 f
+  mult_23_S2/U18336/Y (NAND3X0_RVT)                       0.14       4.09 r
+  mult_23_S2/U18340/Y (NAND2X0_RVT)                       0.13       4.22 f
+  mult_23_S2/U18342/Y (NAND3X2_RVT)                       0.15       4.38 r
+  mult_23_S2/U4337/S (FADDX1_RVT)                         0.45       4.82 f
+  mult_23_S2/U18318/Y (NAND2X0_RVT)                       0.14       4.96 r
+  mult_23_S2/U18320/Y (NAND3X2_RVT)                       0.15       5.11 f
+  mult_23_S2/U18324/Y (NAND2X0_RVT)                       0.13       5.24 r
+  mult_23_S2/U18326/Y (NAND3X0_RVT)                       0.15       5.40 f
+  mult_23_S2/U19317/Y (NAND2X0_RVT)                       0.15       5.54 r
+  mult_23_S2/U17537/Y (NAND3X0_RVT)                       0.15       5.70 f
+  mult_23_S2/U4244/CO (FADDX1_RVT)                        0.42       6.12 f
+  mult_23_S2/U20209/Y (OR2X1_RVT)                         0.20       6.32 f
+  mult_23_S2/U2034/Y (AOI21X1_RVT)                        0.18       6.50 r
+  mult_23_S2/U20142/Y (OAI21X1_RVT)                       0.18       6.67 f
+  mult_23_S2/U2012/Y (AOI21X1_RVT)                        0.14       6.81 r
+  mult_23_S2/U16403/Y (OA21X1_RVT)                        0.12       6.93 r
+  mult_23_S2/U16401/Y (OA21X1_RVT)                        0.13       7.06 r
+  mult_23_S2/U18597/Y (OAI221X1_RVT)                      0.18       7.24 f
+  mult_23_S2/U1947/CO (FADDX1_RVT)                        0.32       7.55 f
+  mult_23_S2/U19960/Y (NAND2X0_RVT)                       0.14       7.69 r
+  mult_23_S2/U16899/Y (NAND3X2_RVT)                       0.15       7.84 f
+  mult_23_S2/U19965/Y (NAND2X0_RVT)                       0.13       7.97 r
+  mult_23_S2/U19967/Y (NAND3X0_RVT)                       0.14       8.12 f
+  mult_23_S2/U19670/Y (NAND2X0_RVT)                       0.14       8.26 r
+  mult_23_S2/U16893/Y (NAND3X2_RVT)                       0.15       8.41 f
+  mult_23_S2/U28835/Y (NAND2X0_RVT)                       0.13       8.54 r
+  mult_23_S2/U18951/Y (NAND3X2_RVT)                       0.15       8.69 f
+  mult_23_S2/U28838/Y (NAND2X0_RVT)                       0.13       8.82 r
+  mult_23_S2/U16896/Y (NAND3X2_RVT)                       0.15       8.97 f
+  mult_23_S2/U28842/Y (NAND2X0_RVT)                       0.13       9.10 r
+  mult_23_S2/U16894/Y (NAND3X2_RVT)                       0.15       9.25 f
+  mult_23_S2/U28845/Y (NAND2X0_RVT)                       0.13       9.38 r
+  mult_23_S2/U28847/Y (NAND3X0_RVT)                       0.14       9.52 f
+  mult_23_S2/U28829/Y (NAND2X0_RVT)                       0.14       9.67 r
+  mult_23_S2/U16885/Y (NAND3X0_RVT)                       0.15       9.81 f
+  mult_23_S2/U28832/Y (NAND2X0_RVT)                       0.14       9.96 r
+  mult_23_S2/U16890/Y (NAND3X2_RVT)                       0.15      10.10 f
+  mult_23_S2/U1937/CO (FADDX1_RVT)                        0.32      10.42 f
+  mult_23_S2/U19942/Y (NAND2X0_RVT)                       0.14      10.56 r
+  mult_23_S2/U19944/Y (NAND3X2_RVT)                       0.15      10.70 f
+  mult_23_S2/U19948/Y (NAND2X0_RVT)                       0.13      10.84 r
+  mult_23_S2/U17324/Y (NAND3X0_RVT)                       0.14      10.98 f
+  mult_23_S2/U19952/Y (NAND2X0_RVT)                       0.14      11.12 r
+  mult_23_S2/U16898/Y (NAND3X2_RVT)                       0.15      11.27 f
+  mult_23_S2/U19957/Y (NAND2X0_RVT)                       0.14      11.42 r
+  mult_23_S2/U16383/Y (NAND3X0_RVT)                       0.16      11.58 f
+  mult_23_S2/U19661/Y (NAND2X0_RVT)                       0.12      11.70 r
+  mult_23_S2/U17325/Y (NAND3X0_RVT)                       0.14      11.84 f
+  mult_23_S2/U19666/Y (NAND2X0_RVT)                       0.14      11.98 r
+  mult_23_S2/U16892/Y (NAND3X2_RVT)                       0.15      12.13 f
+  mult_23_S2/U1930/CO (FADDX1_RVT)                        0.32      12.45 f
+  mult_23_S2/U1929/CO (FADDX1_RVT)                        0.32      12.77 f
+  mult_23_S2/U19652/Y (NAND2X0_RVT)                       0.14      12.90 r
+  mult_23_S2/U17326/Y (NAND3X0_RVT)                       0.14      13.05 f
+  mult_23_S2/U19657/Y (NAND2X0_RVT)                       0.14      13.19 r
+  mult_23_S2/U18950/Y (NAND3X2_RVT)                       0.15      13.34 f
+  mult_23_S2/U1926/CO (FADDX1_RVT)                        0.32      13.65 f
+  mult_23_S2/U28807/Y (NAND2X0_RVT)                       0.14      13.79 r
+  mult_23_S2/U28804/Y (NAND3X0_RVT)                       0.14      13.93 f
+  mult_23_S2/U28810/Y (NAND2X0_RVT)                       0.14      14.08 r
+  mult_23_S2/U16884/Y (NAND3X0_RVT)                       0.15      14.22 f
+  mult_23_S2/U1923/S (FADDX1_RVT)                         0.36      14.58 r
+  mult_23_S2/product[123] (core_core_DW_mult_uns_1_0)     0.00      14.58 r
+  DATA_A_reg[123]/D (SDFFX1_RVT)                          0.10      14.69 r
+  data arrival time                                                 14.69
+
+  clock clock1 (rise edge)                                4.00       4.00
+  clock network delay (ideal)                             0.00       4.00
+  DATA_A_reg[123]/CLK (SDFFX1_RVT)                        0.00       4.00 r
+  library setup time                                     -0.07       3.93
+  data required time                                                 3.93
+  --------------------------------------------------------------------------
+  data required time                                                 3.93
+  data arrival time                                                -14.69
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                 -10.76
+
+
+  Startpoint: OP_A_reg[77]
+              (rising edge-triggered flip-flop clocked by clock1)
+  Endpoint: DATA_A_reg[121]
+            (rising edge-triggered flip-flop clocked by clock1)
+  Path Group: clock1
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  core               140000                saed32rvt_tt1p05v125c
+  core_core_DW_mult_uns_1_0
+                     70000                 saed32rvt_tt1p05v125c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clock1 (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  OP_A_reg[77]/CLK (SDFFX1_RVT)                           0.00 #     0.00 r
+  OP_A_reg[77]/Q (SDFFX1_RVT)                             0.10       0.10 f
+  mult_23_S2/a[77] (core_core_DW_mult_uns_1_0)            0.00       0.10 f
+  mult_23_S2/U27134/Y (NBUFFX2_RVT)                       0.22       0.31 f
+  mult_23_S2/U17672/Y (XNOR2X1_RVT)                       0.36       0.67 r
+  mult_23_S2/U14542/Y (OR2X2_RVT)                         0.18       0.85 r
+  mult_23_S2/U24335/Y (NBUFFX2_RVT)                       0.19       1.03 r
+  mult_23_S2/U24142/Y (OA21X1_RVT)                        0.34       1.38 r
+  mult_23_S2/U16621/Y (XOR2X1_RVT)                        0.25       1.63 f
+  mult_23_S2/U19467/C1 (HADDX1_RVT)                       0.22       1.85 f
+  mult_23_S2/U4547/C1 (HADDX1_RVT)                        0.22       2.07 f
+  mult_23_S2/U18021/C1 (HADDX1_RVT)                       0.22       2.29 f
+  mult_23_S2/U18330/Y (NAND2X0_RVT)                       0.14       2.43 r
+  mult_23_S2/U16460/Y (NAND3X2_RVT)                       0.15       2.58 f
+  mult_23_S2/U19773/Y (XOR3X2_RVT)                        0.26       2.83 f
+  mult_23_S2/U19780/Y (NAND2X0_RVT)                       0.14       2.97 r
+  mult_23_S2/U19782/Y (NAND3X0_RVT)                       0.15       3.12 f
+  mult_23_S2/U4438/S (FADDX1_RVT)                         0.36       3.48 r
+  mult_23_S2/U4434/CO (FADDX1_RVT)                        0.33       3.82 r
+  mult_23_S2/U18334/Y (NAND2X0_RVT)                       0.13       3.95 f
+  mult_23_S2/U18336/Y (NAND3X0_RVT)                       0.14       4.09 r
+  mult_23_S2/U18340/Y (NAND2X0_RVT)                       0.13       4.22 f
+  mult_23_S2/U18342/Y (NAND3X2_RVT)                       0.15       4.38 r
+  mult_23_S2/U4337/S (FADDX1_RVT)                         0.45       4.82 f
+  mult_23_S2/U18318/Y (NAND2X0_RVT)                       0.14       4.96 r
+  mult_23_S2/U18320/Y (NAND3X2_RVT)                       0.15       5.11 f
+  mult_23_S2/U18324/Y (NAND2X0_RVT)                       0.13       5.24 r
+  mult_23_S2/U18326/Y (NAND3X0_RVT)                       0.15       5.40 f
+  mult_23_S2/U19317/Y (NAND2X0_RVT)                       0.15       5.54 r
+  mult_23_S2/U17537/Y (NAND3X0_RVT)                       0.15       5.70 f
+  mult_23_S2/U4244/CO (FADDX1_RVT)                        0.42       6.12 f
+  mult_23_S2/U20209/Y (OR2X1_RVT)                         0.20       6.32 f
+  mult_23_S2/U2034/Y (AOI21X1_RVT)                        0.18       6.50 r
+  mult_23_S2/U20142/Y (OAI21X1_RVT)                       0.18       6.67 f
+  mult_23_S2/U2012/Y (AOI21X1_RVT)                        0.14       6.81 r
+  mult_23_S2/U16403/Y (OA21X1_RVT)                        0.12       6.93 r
+  mult_23_S2/U16401/Y (OA21X1_RVT)                        0.13       7.06 r
+  mult_23_S2/U18597/Y (OAI221X1_RVT)                      0.18       7.24 f
+  mult_23_S2/U1947/CO (FADDX1_RVT)                        0.32       7.55 f
+  mult_23_S2/U19960/Y (NAND2X0_RVT)                       0.14       7.69 r
+  mult_23_S2/U16899/Y (NAND3X2_RVT)                       0.15       7.84 f
+  mult_23_S2/U19965/Y (NAND2X0_RVT)                       0.13       7.97 r
+  mult_23_S2/U19967/Y (NAND3X0_RVT)                       0.14       8.12 f
+  mult_23_S2/U19670/Y (NAND2X0_RVT)                       0.14       8.26 r
+  mult_23_S2/U16893/Y (NAND3X2_RVT)                       0.15       8.41 f
+  mult_23_S2/U28835/Y (NAND2X0_RVT)                       0.13       8.54 r
+  mult_23_S2/U18951/Y (NAND3X2_RVT)                       0.15       8.69 f
+  mult_23_S2/U28838/Y (NAND2X0_RVT)                       0.13       8.82 r
+  mult_23_S2/U16896/Y (NAND3X2_RVT)                       0.15       8.97 f
+  mult_23_S2/U28842/Y (NAND2X0_RVT)                       0.13       9.10 r
+  mult_23_S2/U16894/Y (NAND3X2_RVT)                       0.15       9.25 f
+  mult_23_S2/U28845/Y (NAND2X0_RVT)                       0.13       9.38 r
+  mult_23_S2/U28847/Y (NAND3X0_RVT)                       0.14       9.52 f
+  mult_23_S2/U28829/Y (NAND2X0_RVT)                       0.14       9.67 r
+  mult_23_S2/U16885/Y (NAND3X0_RVT)                       0.15       9.81 f
+  mult_23_S2/U28832/Y (NAND2X0_RVT)                       0.14       9.96 r
+  mult_23_S2/U16890/Y (NAND3X2_RVT)                       0.15      10.10 f
+  mult_23_S2/U1937/CO (FADDX1_RVT)                        0.32      10.42 f
+  mult_23_S2/U19942/Y (NAND2X0_RVT)                       0.14      10.56 r
+  mult_23_S2/U19944/Y (NAND3X2_RVT)                       0.15      10.70 f
+  mult_23_S2/U19948/Y (NAND2X0_RVT)                       0.13      10.84 r
+  mult_23_S2/U17324/Y (NAND3X0_RVT)                       0.14      10.98 f
+  mult_23_S2/U19952/Y (NAND2X0_RVT)                       0.14      11.12 r
+  mult_23_S2/U16898/Y (NAND3X2_RVT)                       0.15      11.27 f
+  mult_23_S2/U19957/Y (NAND2X0_RVT)                       0.14      11.42 r
+  mult_23_S2/U16383/Y (NAND3X0_RVT)                       0.16      11.58 f
+  mult_23_S2/U19661/Y (NAND2X0_RVT)                       0.12      11.70 r
+  mult_23_S2/U17325/Y (NAND3X0_RVT)                       0.14      11.84 f
+  mult_23_S2/U19666/Y (NAND2X0_RVT)                       0.14      11.98 r
+  mult_23_S2/U16892/Y (NAND3X2_RVT)                       0.15      12.13 f
+  mult_23_S2/U1930/CO (FADDX1_RVT)                        0.32      12.45 f
+  mult_23_S2/U1929/CO (FADDX1_RVT)                        0.32      12.77 f
+  mult_23_S2/U19652/Y (NAND2X0_RVT)                       0.14      12.90 r
+  mult_23_S2/U17326/Y (NAND3X0_RVT)                       0.14      13.05 f
+  mult_23_S2/U19657/Y (NAND2X0_RVT)                       0.14      13.19 r
+  mult_23_S2/U18950/Y (NAND3X2_RVT)                       0.15      13.34 f
+  mult_23_S2/U1926/CO (FADDX1_RVT)                        0.32      13.65 f
+  mult_23_S2/U18604/Y (DELLN3X2_RVT)                      0.40      14.05 f
+  mult_23_S2/U19250/Y (XOR3X2_RVT)                        0.21      14.26 r
+  mult_23_S2/product[121] (core_core_DW_mult_uns_1_0)     0.00      14.26 r
+  DATA_A_reg[121]/D (SDFFX1_RVT)                          0.10      14.37 r
+  data arrival time                                                 14.37
+
+  clock clock1 (rise edge)                                4.00       4.00
+  clock network delay (ideal)                             0.00       4.00
+  DATA_A_reg[121]/CLK (SDFFX1_RVT)                        0.00       4.00 r
+  library setup time                                     -0.07       3.93
+  data required time                                                 3.93
+  --------------------------------------------------------------------------
+  data required time                                                 3.93
+  data arrival time                                                -14.37
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                 -10.44
+
+
+  Startpoint: OP_A_reg[77]
+              (rising edge-triggered flip-flop clocked by clock1)
+  Endpoint: DATA_A_reg[119]
+            (rising edge-triggered flip-flop clocked by clock1)
+  Path Group: clock1
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  core               140000                saed32rvt_tt1p05v125c
+  core_core_DW_mult_uns_1_0
+                     70000                 saed32rvt_tt1p05v125c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clock1 (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  OP_A_reg[77]/CLK (SDFFX1_RVT)                           0.00 #     0.00 r
+  OP_A_reg[77]/Q (SDFFX1_RVT)                             0.10       0.10 f
+  mult_23_S2/a[77] (core_core_DW_mult_uns_1_0)            0.00       0.10 f
+  mult_23_S2/U27134/Y (NBUFFX2_RVT)                       0.22       0.31 f
+  mult_23_S2/U17672/Y (XNOR2X1_RVT)                       0.36       0.67 r
+  mult_23_S2/U14542/Y (OR2X2_RVT)                         0.18       0.85 r
+  mult_23_S2/U24335/Y (NBUFFX2_RVT)                       0.19       1.03 r
+  mult_23_S2/U24142/Y (OA21X1_RVT)                        0.34       1.38 r
+  mult_23_S2/U16621/Y (XOR2X1_RVT)                        0.25       1.63 f
+  mult_23_S2/U19467/C1 (HADDX1_RVT)                       0.22       1.85 f
+  mult_23_S2/U4547/C1 (HADDX1_RVT)                        0.22       2.07 f
+  mult_23_S2/U18021/C1 (HADDX1_RVT)                       0.22       2.29 f
+  mult_23_S2/U18330/Y (NAND2X0_RVT)                       0.14       2.43 r
+  mult_23_S2/U16460/Y (NAND3X2_RVT)                       0.15       2.58 f
+  mult_23_S2/U19773/Y (XOR3X2_RVT)                        0.26       2.83 f
+  mult_23_S2/U19780/Y (NAND2X0_RVT)                       0.14       2.97 r
+  mult_23_S2/U19782/Y (NAND3X0_RVT)                       0.15       3.12 f
+  mult_23_S2/U4438/S (FADDX1_RVT)                         0.36       3.48 r
+  mult_23_S2/U4434/CO (FADDX1_RVT)                        0.33       3.82 r
+  mult_23_S2/U18334/Y (NAND2X0_RVT)                       0.13       3.95 f
+  mult_23_S2/U18336/Y (NAND3X0_RVT)                       0.14       4.09 r
+  mult_23_S2/U18340/Y (NAND2X0_RVT)                       0.13       4.22 f
+  mult_23_S2/U18342/Y (NAND3X2_RVT)                       0.15       4.38 r
+  mult_23_S2/U4337/S (FADDX1_RVT)                         0.45       4.82 f
+  mult_23_S2/U18318/Y (NAND2X0_RVT)                       0.14       4.96 r
+  mult_23_S2/U18320/Y (NAND3X2_RVT)                       0.15       5.11 f
+  mult_23_S2/U18324/Y (NAND2X0_RVT)                       0.13       5.24 r
+  mult_23_S2/U18326/Y (NAND3X0_RVT)                       0.15       5.40 f
+  mult_23_S2/U19317/Y (NAND2X0_RVT)                       0.15       5.54 r
+  mult_23_S2/U17537/Y (NAND3X0_RVT)                       0.15       5.70 f
+  mult_23_S2/U4244/CO (FADDX1_RVT)                        0.42       6.12 f
+  mult_23_S2/U20209/Y (OR2X1_RVT)                         0.20       6.32 f
+  mult_23_S2/U2034/Y (AOI21X1_RVT)                        0.18       6.50 r
+  mult_23_S2/U20142/Y (OAI21X1_RVT)                       0.18       6.67 f
+  mult_23_S2/U2012/Y (AOI21X1_RVT)                        0.14       6.81 r
+  mult_23_S2/U16403/Y (OA21X1_RVT)                        0.12       6.93 r
+  mult_23_S2/U16401/Y (OA21X1_RVT)                        0.13       7.06 r
+  mult_23_S2/U18597/Y (OAI221X1_RVT)                      0.18       7.24 f
+  mult_23_S2/U1947/CO (FADDX1_RVT)                        0.32       7.55 f
+  mult_23_S2/U19960/Y (NAND2X0_RVT)                       0.14       7.69 r
+  mult_23_S2/U16899/Y (NAND3X2_RVT)                       0.15       7.84 f
+  mult_23_S2/U19965/Y (NAND2X0_RVT)                       0.13       7.97 r
+  mult_23_S2/U19967/Y (NAND3X0_RVT)                       0.14       8.12 f
+  mult_23_S2/U19670/Y (NAND2X0_RVT)                       0.14       8.26 r
+  mult_23_S2/U16893/Y (NAND3X2_RVT)                       0.15       8.41 f
+  mult_23_S2/U28835/Y (NAND2X0_RVT)                       0.13       8.54 r
+  mult_23_S2/U18951/Y (NAND3X2_RVT)                       0.15       8.69 f
+  mult_23_S2/U28838/Y (NAND2X0_RVT)                       0.13       8.82 r
+  mult_23_S2/U16896/Y (NAND3X2_RVT)                       0.15       8.97 f
+  mult_23_S2/U28842/Y (NAND2X0_RVT)                       0.13       9.10 r
+  mult_23_S2/U16894/Y (NAND3X2_RVT)                       0.15       9.25 f
+  mult_23_S2/U28845/Y (NAND2X0_RVT)                       0.13       9.38 r
+  mult_23_S2/U28847/Y (NAND3X0_RVT)                       0.14       9.52 f
+  mult_23_S2/U28829/Y (NAND2X0_RVT)                       0.14       9.67 r
+  mult_23_S2/U16885/Y (NAND3X0_RVT)                       0.15       9.81 f
+  mult_23_S2/U28832/Y (NAND2X0_RVT)                       0.14       9.96 r
+  mult_23_S2/U16890/Y (NAND3X2_RVT)                       0.15      10.10 f
+  mult_23_S2/U1937/CO (FADDX1_RVT)                        0.32      10.42 f
+  mult_23_S2/U19942/Y (NAND2X0_RVT)                       0.14      10.56 r
+  mult_23_S2/U19944/Y (NAND3X2_RVT)                       0.15      10.70 f
+  mult_23_S2/U19948/Y (NAND2X0_RVT)                       0.13      10.84 r
+  mult_23_S2/U17324/Y (NAND3X0_RVT)                       0.14      10.98 f
+  mult_23_S2/U19952/Y (NAND2X0_RVT)                       0.14      11.12 r
+  mult_23_S2/U16898/Y (NAND3X2_RVT)                       0.15      11.27 f
+  mult_23_S2/U19957/Y (NAND2X0_RVT)                       0.14      11.42 r
+  mult_23_S2/U16383/Y (NAND3X0_RVT)                       0.16      11.58 f
+  mult_23_S2/U19661/Y (NAND2X0_RVT)                       0.12      11.70 r
+  mult_23_S2/U17325/Y (NAND3X0_RVT)                       0.14      11.84 f
+  mult_23_S2/U19666/Y (NAND2X0_RVT)                       0.14      11.98 r
+  mult_23_S2/U16892/Y (NAND3X2_RVT)                       0.15      12.13 f
+  mult_23_S2/U1930/CO (FADDX1_RVT)                        0.32      12.45 f
+  mult_23_S2/U1929/CO (FADDX1_RVT)                        0.32      12.77 f
+  mult_23_S2/U19652/Y (NAND2X0_RVT)                       0.14      12.90 r
+  mult_23_S2/U17326/Y (NAND3X0_RVT)                       0.14      13.05 f
+  mult_23_S2/U16407/Y (DELLN3X2_RVT)                      0.41      13.45 f
+  mult_23_S2/U19655/Y (XOR2X1_RVT)                        0.24      13.70 r
+  mult_23_S2/product[119] (core_core_DW_mult_uns_1_0)     0.00      13.70 r
+  DATA_A_reg[119]/D (SDFFX1_RVT)                          0.10      13.80 r
+  data arrival time                                                 13.80
+
+  clock clock1 (rise edge)                                4.00       4.00
+  clock network delay (ideal)                             0.00       4.00
+  DATA_A_reg[119]/CLK (SDFFX1_RVT)                        0.00       4.00 r
+  library setup time                                     -0.07       3.93
+  data required time                                                 3.93
+  --------------------------------------------------------------------------
+  data required time                                                 3.93
+  data arrival time                                                -13.80
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -9.87
+
+
+  Startpoint: OP_A_reg[77]
+              (rising edge-triggered flip-flop clocked by clock1)
+  Endpoint: DATA_A_reg[120]
+            (rising edge-triggered flip-flop clocked by clock1)
+  Path Group: clock1
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  core               140000                saed32rvt_tt1p05v125c
+  core_core_DW_mult_uns_1_0
+                     70000                 saed32rvt_tt1p05v125c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clock1 (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  OP_A_reg[77]/CLK (SDFFX1_RVT)                           0.00 #     0.00 r
+  OP_A_reg[77]/Q (SDFFX1_RVT)                             0.10       0.10 f
+  mult_23_S2/a[77] (core_core_DW_mult_uns_1_0)            0.00       0.10 f
+  mult_23_S2/U27134/Y (NBUFFX2_RVT)                       0.22       0.31 f
+  mult_23_S2/U17672/Y (XNOR2X1_RVT)                       0.36       0.67 r
+  mult_23_S2/U14542/Y (OR2X2_RVT)                         0.18       0.85 r
+  mult_23_S2/U24335/Y (NBUFFX2_RVT)                       0.19       1.03 r
+  mult_23_S2/U24142/Y (OA21X1_RVT)                        0.34       1.38 r
+  mult_23_S2/U16621/Y (XOR2X1_RVT)                        0.25       1.63 f
+  mult_23_S2/U19467/C1 (HADDX1_RVT)                       0.22       1.85 f
+  mult_23_S2/U4547/C1 (HADDX1_RVT)                        0.22       2.07 f
+  mult_23_S2/U18021/C1 (HADDX1_RVT)                       0.22       2.29 f
+  mult_23_S2/U18330/Y (NAND2X0_RVT)                       0.14       2.43 r
+  mult_23_S2/U16460/Y (NAND3X2_RVT)                       0.15       2.58 f
+  mult_23_S2/U19773/Y (XOR3X2_RVT)                        0.26       2.83 f
+  mult_23_S2/U19780/Y (NAND2X0_RVT)                       0.14       2.97 r
+  mult_23_S2/U19782/Y (NAND3X0_RVT)                       0.15       3.12 f
+  mult_23_S2/U4438/S (FADDX1_RVT)                         0.36       3.48 r
+  mult_23_S2/U4434/CO (FADDX1_RVT)                        0.33       3.82 r
+  mult_23_S2/U18334/Y (NAND2X0_RVT)                       0.13       3.95 f
+  mult_23_S2/U18336/Y (NAND3X0_RVT)                       0.14       4.09 r
+  mult_23_S2/U18340/Y (NAND2X0_RVT)                       0.13       4.22 f
+  mult_23_S2/U18342/Y (NAND3X2_RVT)                       0.15       4.38 r
+  mult_23_S2/U4337/S (FADDX1_RVT)                         0.45       4.82 f
+  mult_23_S2/U18318/Y (NAND2X0_RVT)                       0.14       4.96 r
+  mult_23_S2/U18320/Y (NAND3X2_RVT)                       0.15       5.11 f
+  mult_23_S2/U18324/Y (NAND2X0_RVT)                       0.13       5.24 r
+  mult_23_S2/U18326/Y (NAND3X0_RVT)                       0.15       5.40 f
+  mult_23_S2/U19317/Y (NAND2X0_RVT)                       0.15       5.54 r
+  mult_23_S2/U17537/Y (NAND3X0_RVT)                       0.15       5.70 f
+  mult_23_S2/U4244/CO (FADDX1_RVT)                        0.42       6.12 f
+  mult_23_S2/U20209/Y (OR2X1_RVT)                         0.20       6.32 f
+  mult_23_S2/U2034/Y (AOI21X1_RVT)                        0.18       6.50 r
+  mult_23_S2/U20142/Y (OAI21X1_RVT)                       0.18       6.67 f
+  mult_23_S2/U2012/Y (AOI21X1_RVT)                        0.14       6.81 r
+  mult_23_S2/U16403/Y (OA21X1_RVT)                        0.12       6.93 r
+  mult_23_S2/U16401/Y (OA21X1_RVT)                        0.13       7.06 r
+  mult_23_S2/U18597/Y (OAI221X1_RVT)                      0.18       7.24 f
+  mult_23_S2/U1947/CO (FADDX1_RVT)                        0.32       7.55 f
+  mult_23_S2/U19960/Y (NAND2X0_RVT)                       0.14       7.69 r
+  mult_23_S2/U16899/Y (NAND3X2_RVT)                       0.15       7.84 f
+  mult_23_S2/U19965/Y (NAND2X0_RVT)                       0.13       7.97 r
+  mult_23_S2/U19967/Y (NAND3X0_RVT)                       0.14       8.12 f
+  mult_23_S2/U19670/Y (NAND2X0_RVT)                       0.14       8.26 r
+  mult_23_S2/U16893/Y (NAND3X2_RVT)                       0.15       8.41 f
+  mult_23_S2/U28835/Y (NAND2X0_RVT)                       0.13       8.54 r
+  mult_23_S2/U18951/Y (NAND3X2_RVT)                       0.15       8.69 f
+  mult_23_S2/U28838/Y (NAND2X0_RVT)                       0.13       8.82 r
+  mult_23_S2/U16896/Y (NAND3X2_RVT)                       0.15       8.97 f
+  mult_23_S2/U28842/Y (NAND2X0_RVT)                       0.13       9.10 r
+  mult_23_S2/U16894/Y (NAND3X2_RVT)                       0.15       9.25 f
+  mult_23_S2/U28845/Y (NAND2X0_RVT)                       0.13       9.38 r
+  mult_23_S2/U28847/Y (NAND3X0_RVT)                       0.14       9.52 f
+  mult_23_S2/U28829/Y (NAND2X0_RVT)                       0.14       9.67 r
+  mult_23_S2/U16885/Y (NAND3X0_RVT)                       0.15       9.81 f
+  mult_23_S2/U28832/Y (NAND2X0_RVT)                       0.14       9.96 r
+  mult_23_S2/U16890/Y (NAND3X2_RVT)                       0.15      10.10 f
+  mult_23_S2/U1937/CO (FADDX1_RVT)                        0.32      10.42 f
+  mult_23_S2/U19942/Y (NAND2X0_RVT)                       0.14      10.56 r
+  mult_23_S2/U19944/Y (NAND3X2_RVT)                       0.15      10.70 f
+  mult_23_S2/U19948/Y (NAND2X0_RVT)                       0.13      10.84 r
+  mult_23_S2/U17324/Y (NAND3X0_RVT)                       0.14      10.98 f
+  mult_23_S2/U19952/Y (NAND2X0_RVT)                       0.14      11.12 r
+  mult_23_S2/U16898/Y (NAND3X2_RVT)                       0.15      11.27 f
+  mult_23_S2/U19957/Y (NAND2X0_RVT)                       0.14      11.42 r
+  mult_23_S2/U16383/Y (NAND3X0_RVT)                       0.16      11.58 f
+  mult_23_S2/U19661/Y (NAND2X0_RVT)                       0.12      11.70 r
+  mult_23_S2/U17325/Y (NAND3X0_RVT)                       0.14      11.84 f
+  mult_23_S2/U19666/Y (NAND2X0_RVT)                       0.14      11.98 r
+  mult_23_S2/U16892/Y (NAND3X2_RVT)                       0.15      12.13 f
+  mult_23_S2/U1930/CO (FADDX1_RVT)                        0.32      12.45 f
+  mult_23_S2/U1929/CO (FADDX1_RVT)                        0.32      12.77 f
+  mult_23_S2/U19652/Y (NAND2X0_RVT)                       0.14      12.90 r
+  mult_23_S2/U17326/Y (NAND3X0_RVT)                       0.14      13.05 f
+  mult_23_S2/U19657/Y (NAND2X0_RVT)                       0.14      13.19 r
+  mult_23_S2/U18950/Y (NAND3X2_RVT)                       0.15      13.34 f
+  mult_23_S2/U1926/S (FADDX1_RVT)                         0.35      13.69 r
+  mult_23_S2/product[120] (core_core_DW_mult_uns_1_0)     0.00      13.69 r
+  DATA_A_reg[120]/D (SDFFX1_RVT)                          0.10      13.79 r
+  data arrival time                                                 13.79
+
+  clock clock1 (rise edge)                                4.00       4.00
+  clock network delay (ideal)                             0.00       4.00
+  DATA_A_reg[120]/CLK (SDFFX1_RVT)                        0.00       4.00 r
+  library setup time                                     -0.07       3.93
+  data required time                                                 3.93
+  --------------------------------------------------------------------------
+  data required time                                                 3.93
+  data arrival time                                                -13.79
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -9.86
+
+
+  Startpoint: OP_A_reg[77]
+              (rising edge-triggered flip-flop clocked by clock1)
+  Endpoint: DATA_A_reg[118]
+            (rising edge-triggered flip-flop clocked by clock1)
+  Path Group: clock1
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  core               140000                saed32rvt_tt1p05v125c
+  core_core_DW_mult_uns_1_0
+                     70000                 saed32rvt_tt1p05v125c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clock1 (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  OP_A_reg[77]/CLK (SDFFX1_RVT)                           0.00 #     0.00 r
+  OP_A_reg[77]/Q (SDFFX1_RVT)                             0.10       0.10 f
+  mult_23_S2/a[77] (core_core_DW_mult_uns_1_0)            0.00       0.10 f
+  mult_23_S2/U27134/Y (NBUFFX2_RVT)                       0.22       0.31 f
+  mult_23_S2/U17672/Y (XNOR2X1_RVT)                       0.36       0.67 r
+  mult_23_S2/U14542/Y (OR2X2_RVT)                         0.18       0.85 r
+  mult_23_S2/U24335/Y (NBUFFX2_RVT)                       0.19       1.03 r
+  mult_23_S2/U24142/Y (OA21X1_RVT)                        0.34       1.38 r
+  mult_23_S2/U16621/Y (XOR2X1_RVT)                        0.25       1.63 f
+  mult_23_S2/U19467/C1 (HADDX1_RVT)                       0.22       1.85 f
+  mult_23_S2/U4547/C1 (HADDX1_RVT)                        0.22       2.07 f
+  mult_23_S2/U18021/C1 (HADDX1_RVT)                       0.22       2.29 f
+  mult_23_S2/U18330/Y (NAND2X0_RVT)                       0.14       2.43 r
+  mult_23_S2/U16460/Y (NAND3X2_RVT)                       0.15       2.58 f
+  mult_23_S2/U19773/Y (XOR3X2_RVT)                        0.26       2.83 f
+  mult_23_S2/U19780/Y (NAND2X0_RVT)                       0.14       2.97 r
+  mult_23_S2/U19782/Y (NAND3X0_RVT)                       0.15       3.12 f
+  mult_23_S2/U4438/S (FADDX1_RVT)                         0.36       3.48 r
+  mult_23_S2/U4434/CO (FADDX1_RVT)                        0.33       3.82 r
+  mult_23_S2/U18334/Y (NAND2X0_RVT)                       0.13       3.95 f
+  mult_23_S2/U18336/Y (NAND3X0_RVT)                       0.14       4.09 r
+  mult_23_S2/U18340/Y (NAND2X0_RVT)                       0.13       4.22 f
+  mult_23_S2/U18342/Y (NAND3X2_RVT)                       0.15       4.38 r
+  mult_23_S2/U4337/S (FADDX1_RVT)                         0.45       4.82 f
+  mult_23_S2/U18318/Y (NAND2X0_RVT)                       0.14       4.96 r
+  mult_23_S2/U18320/Y (NAND3X2_RVT)                       0.15       5.11 f
+  mult_23_S2/U18324/Y (NAND2X0_RVT)                       0.13       5.24 r
+  mult_23_S2/U18326/Y (NAND3X0_RVT)                       0.15       5.40 f
+  mult_23_S2/U19317/Y (NAND2X0_RVT)                       0.15       5.54 r
+  mult_23_S2/U17537/Y (NAND3X0_RVT)                       0.15       5.70 f
+  mult_23_S2/U4244/CO (FADDX1_RVT)                        0.42       6.12 f
+  mult_23_S2/U20209/Y (OR2X1_RVT)                         0.20       6.32 f
+  mult_23_S2/U2034/Y (AOI21X1_RVT)                        0.18       6.50 r
+  mult_23_S2/U20142/Y (OAI21X1_RVT)                       0.18       6.67 f
+  mult_23_S2/U2012/Y (AOI21X1_RVT)                        0.14       6.81 r
+  mult_23_S2/U16403/Y (OA21X1_RVT)                        0.12       6.93 r
+  mult_23_S2/U16401/Y (OA21X1_RVT)                        0.13       7.06 r
+  mult_23_S2/U18597/Y (OAI221X1_RVT)                      0.18       7.24 f
+  mult_23_S2/U1947/CO (FADDX1_RVT)                        0.32       7.55 f
+  mult_23_S2/U19960/Y (NAND2X0_RVT)                       0.14       7.69 r
+  mult_23_S2/U16899/Y (NAND3X2_RVT)                       0.15       7.84 f
+  mult_23_S2/U19965/Y (NAND2X0_RVT)                       0.13       7.97 r
+  mult_23_S2/U19967/Y (NAND3X0_RVT)                       0.14       8.12 f
+  mult_23_S2/U19670/Y (NAND2X0_RVT)                       0.14       8.26 r
+  mult_23_S2/U16893/Y (NAND3X2_RVT)                       0.15       8.41 f
+  mult_23_S2/U28835/Y (NAND2X0_RVT)                       0.13       8.54 r
+  mult_23_S2/U18951/Y (NAND3X2_RVT)                       0.15       8.69 f
+  mult_23_S2/U28838/Y (NAND2X0_RVT)                       0.13       8.82 r
+  mult_23_S2/U16896/Y (NAND3X2_RVT)                       0.15       8.97 f
+  mult_23_S2/U28842/Y (NAND2X0_RVT)                       0.13       9.10 r
+  mult_23_S2/U16894/Y (NAND3X2_RVT)                       0.15       9.25 f
+  mult_23_S2/U28845/Y (NAND2X0_RVT)                       0.13       9.38 r
+  mult_23_S2/U28847/Y (NAND3X0_RVT)                       0.14       9.52 f
+  mult_23_S2/U28829/Y (NAND2X0_RVT)                       0.14       9.67 r
+  mult_23_S2/U16885/Y (NAND3X0_RVT)                       0.15       9.81 f
+  mult_23_S2/U28832/Y (NAND2X0_RVT)                       0.14       9.96 r
+  mult_23_S2/U16890/Y (NAND3X2_RVT)                       0.15      10.10 f
+  mult_23_S2/U1937/CO (FADDX1_RVT)                        0.32      10.42 f
+  mult_23_S2/U19942/Y (NAND2X0_RVT)                       0.14      10.56 r
+  mult_23_S2/U19944/Y (NAND3X2_RVT)                       0.15      10.70 f
+  mult_23_S2/U19948/Y (NAND2X0_RVT)                       0.13      10.84 r
+  mult_23_S2/U17324/Y (NAND3X0_RVT)                       0.14      10.98 f
+  mult_23_S2/U19952/Y (NAND2X0_RVT)                       0.14      11.12 r
+  mult_23_S2/U16898/Y (NAND3X2_RVT)                       0.15      11.27 f
+  mult_23_S2/U19957/Y (NAND2X0_RVT)                       0.14      11.42 r
+  mult_23_S2/U16383/Y (NAND3X0_RVT)                       0.16      11.58 f
+  mult_23_S2/U19661/Y (NAND2X0_RVT)                       0.12      11.70 r
+  mult_23_S2/U17325/Y (NAND3X0_RVT)                       0.14      11.84 f
+  mult_23_S2/U19666/Y (NAND2X0_RVT)                       0.14      11.98 r
+  mult_23_S2/U16892/Y (NAND3X2_RVT)                       0.15      12.13 f
+  mult_23_S2/U1930/CO (FADDX1_RVT)                        0.32      12.45 f
+  mult_23_S2/U1929/CO (FADDX1_RVT)                        0.32      12.77 f
+  mult_23_S2/U18600/Y (DELLN3X2_RVT)                      0.40      13.16 f
+  mult_23_S2/U19651/Y (XOR3X2_RVT)                        0.21      13.38 r
+  mult_23_S2/product[118] (core_core_DW_mult_uns_1_0)     0.00      13.38 r
+  DATA_A_reg[118]/D (SDFFX1_RVT)                          0.10      13.48 r
+  data arrival time                                                 13.48
+
+  clock clock1 (rise edge)                                4.00       4.00
+  clock network delay (ideal)                             0.00       4.00
+  DATA_A_reg[118]/CLK (SDFFX1_RVT)                        0.00       4.00 r
+  library setup time                                     -0.07       3.93
+  data required time                                                 3.93
+  --------------------------------------------------------------------------
+  data required time                                                 3.93
+  data arrival time                                                -13.48
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -9.56
+
+
+1
